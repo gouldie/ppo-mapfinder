@@ -14,8 +14,8 @@ export default class App extends Component {
         this.toggleMode = this.toggleMode.bind(this)
     }
 
-    toggleMode() {
-        this.setState({ mode: this.state.mode === 0 ? 1 : 0 })
+    toggleMode(mode) {
+        this.setState({ mode })
     }
 
     render() {
@@ -23,17 +23,23 @@ export default class App extends Component {
             mode
         } = this.state
 
+        const selectedButtonStyle = {
+            backgroundColor: 'cornflowerblue',
+            color: 'white'
+        }
+
         return (
             <div id="container">
                 <h1>PPO Map Finder</h1>
                 <div className="flex justify-center" style={{ marginBottom: '20px' }}>
                     <button className="btn btn-sm btn-secondary"
-                            style={{ marginRight: '10px' }}
-                            onClick={this.toggleMode}>
+                            style={mode === 0 ? selectedButtonStyle : {}}
+                            onClick={() => this.toggleMode(0)}>
                         By Map
                     </button>
-                    <button className="btn btn-sm btn-secondary active"
-                            onClick={this.toggleMode}>
+                    <button className="btn btn-sm btn-secondary"
+                            style={mode === 1 ? selectedButtonStyle : {}}
+                            onClick={() => this.toggleMode(1)}>
                         By Pokemon
                     </button>
                 </div>

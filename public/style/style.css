@@ -19,6 +19,10 @@ body {
     min-height: 100%;
 }
 
+#container {
+    min-width: 930px;
+}
+
 #container h1 {
     text-align: center;
     font-size: 36px;
@@ -32,5 +36,6 @@ body {
 }
 
 .button-selected {
-
+    background-color: cornflowerblue !important;
+    color: white !important;
 }
