@@ -8,7 +8,9 @@ export default class App extends Component {
         super()
 
         this.state = {
-            mode: 0 // 0: by map, 1: by pokemon
+            mode: 0, // 0: by map, 1: by pokemon
+            map: 0,
+            pokemon: null
         }
 
         this.toggleMode = this.toggleMode.bind(this)
@@ -25,7 +27,8 @@ export default class App extends Component {
 
         const selectedButtonStyle = {
             backgroundColor: 'cornflowerblue',
-            color: 'white'
+            color: 'white',
+            border: '1px solid cornflowerblue'
         }
 
         return (
@@ -44,8 +47,8 @@ export default class App extends Component {
                     </button>
                 </div>
                 <div className="flex justify-center">
-                    <Map />
-                    <Info />
+                    <Map mode={mode} />
+                    <Info mode={mode} />
                 </div>
             </div>
         )
