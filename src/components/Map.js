@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Select from 'react-select'
+import Kanto from './Maps/Kanto'
 
 const maps = [
     { value: 'Kanto', label: 'Kanto', clearableValue: false },
@@ -22,7 +23,7 @@ export default class Map extends Component {
 
     render() {
         const {
-            selected, setSelectedMap, setSelectedArea
+            selected, setSelectedMap, setSelectedArea, selectedArea
         } = this.props
 
         return (
@@ -39,15 +40,8 @@ export default class Map extends Component {
                 <img src={`../../public/imgs/${mapRegionToImage[selected]}.png`} alt=""
                      style={{ width: '450px', height: '327px', padding: '5px', border: '1px solid gray' }}/>
 
-                <div style={{ position: 'absolute', width: '450px', height: '327px', top: '155px', padding: '5px' }}>
-                    <div style={{
-                        position: 'absolute',
-                        top: '51px',
-                        left: '38px',
-                        width: '25px',
-                        height: '25px',
-                        borderRadius: '50%'
-                    }} onClick={() => setSelectedArea('Indigo Plateau')}></div>
+                <div onClick={() => setSelectedArea(null)} style={{ position: 'absolute', width: '450px', height: '327px', top: '155px', padding: '5px' }}>
+                    <Kanto selectedArea={selectedArea} setSelectedArea={setSelectedArea} />
                 </div>
             </div>
         )

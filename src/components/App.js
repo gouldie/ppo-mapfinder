@@ -44,6 +44,8 @@ export default class App extends Component {
             border: '1px solid cornflowerblue'
         }
 
+        console.log(selectedArea)
+
         return (
             <div id="container">
                 <h1>PPO Map Finder</h1>
@@ -60,7 +62,8 @@ export default class App extends Component {
                     </button>
                 </div>
                 <div className="flex justify-center">
-                    <Map mode={mode} selected={selectedMap} setSelectedMap={this.setSelectedMap} setSelectedArea={this.setSelectedArea} />
+                    <Map mode={mode} selected={selectedMap} selectedArea={selectedArea}
+                         setSelectedMap={this.setSelectedMap} setSelectedArea={this.setSelectedArea} />
                     <Info mode={mode} selectedMap={selectedMap} selectedArea={selectedArea}/>
                 </div>
             </div>
