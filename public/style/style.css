@@ -43,3 +43,23 @@ button:focus {
     color: white !important;
 }
 
+/* PULSE ANIMATION */
+.pulse {
+    animation: pulse 3s infinite;
+    background-color: indianred;
+}
+.pulse:hover {
+    animation: none;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 0;
+    }
+}

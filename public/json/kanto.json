@@ -1,0 +1,20 @@
+{
+  "route-1": {
+    "name": "Route 1",
+    "roam": {
+      "common": ["Pidgey", "Rattata"]
+    }
+  },
+  "viridian-city": {
+    "name": "Viridian City",
+    "fish" : {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Poliwhirl"],
+      "veryrare": ["Gyarados", "Slowpoke", "Psyduck"]
+    },
+    "surf" : {
+      "common": ["Tentacool"]
+    }
+  }
+}
