@@ -1,4 +1,16 @@
 {
+  "pallet-town": {
+    "name": "Pallet Town",
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Horsea", "Shellder", "Kingler"],
+      "veryrare": ["Gyarados", "Slowpoke", "Staryu", "Psyduck"]
+    },
+    "surf" : {
+      "common": ["Tentacool"]
+    }
+  },
   "route-1": {
     "name": "Route 1",
     "roam": {

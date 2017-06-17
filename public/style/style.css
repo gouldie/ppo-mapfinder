@@ -15,8 +15,6 @@ body {
     background-size: cover !important;
     position: relative;
     margin: 0;
-    padding-bottom: 16rem;
-    min-height: 100%;
 }
 
 #container {
