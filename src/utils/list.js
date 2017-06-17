@@ -232,7 +232,10 @@ export const matchedAreas = (pokemon, regionJSON) => {
   }
 
   let matchJSON = {}
-  let matchFound = false
+
+  let matchRoam = false
+  let matchFish = false
+  let matchSurf = false
 
   regionJSON.map(region => {
     Object.keys(region).map((area, i) => {
@@ -240,18 +243,45 @@ export const matchedAreas = (pokemon, regionJSON) => {
         if (type === 'roam' || type === 'fish' || type === 'surf') {
           Object.keys(region[area][type]).map(rarity => {
             if (region[area][type][rarity].indexOf(pokemon) >= 0) {
-              matchFound = true
+              if (type === 'roam') matchRoam = true
+              if (type === 'fish') matchFish = true
+              if (type === 'surf') matchSurf = true
             }
           })
         }
       })
 
       // end of area
-      if (matchFound) {
-        matchJSON[area] = region[area]
+      if (matchRoam) {
+        if (Object.keys(matchJSON).indexOf(area) >= 0) {
+          matchJSON[area]["roam"] = region[area]["roam"]
+        } else {
+          matchJSON[area] = {"name": region[area]["name"]}
+          matchJSON[area]["roam"] = region[area]["roam"]
+        }
       }
 
-      matchFound = false
+      if (matchFish) {
+        if (Object.keys(matchJSON).indexOf(area) >= 0) {
+          matchJSON[area]["fish"] = region[area]["fish"]
+        } else {
+          matchJSON[area] = {"name": region[area]["name"]}
+          matchJSON[area]["fish"] = region[area]["fish"]
+        }
+      }
+
+      if (matchSurf) {
+        if (Object.keys(matchJSON).indexOf(area) >= 0) {
+          matchJSON[area]["surf"] = region[area]["surf"]
+        } else {
+          matchJSON[area] = {"name": region[area]["name"]}
+          matchJSON[area]["surf"] = region[area]["surf"]
+        }
+      }
+
+      matchRoam = false
+      matchFish = false
+      matchSurf = false
     })
   })
 
