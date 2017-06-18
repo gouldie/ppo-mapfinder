@@ -147,5 +147,149 @@
     "roam": {
       "common": ["Paras"]
     }
+  },
+  "diglett-cave": {
+    "name": "Diglett Cave",
+    "roam": {
+      "common": ["Diglett"],
+      "rare": ["Dugtrio"]
+    }
+  },
+  "route-4": {
+    "name": "Route 4",
+    "roam": {
+      "common": ["Rattata", "Spearow"],
+      "uncommon": ["Sandshrew", "Ekans"],
+      "rare": ["Mankey"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Horsea"],
+      "veryrare": ["Slowpoke", "Gyarados", "Psyduck"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "route-22": {
+    "name": "Route 22",
+    "roam": {
+      "common": ["Pidgey", "Rattata", "Spearow"],
+      "rare": ["Mankey"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Poliwag", "Goldeen"],
+      "rare": ["Horsea", "Poliwhirl"],
+      "veryrare": ["Slowpoke", "Gyarados", "Psyduck"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "veryrare": ["Psyduck", "Slowpoke"]
+    }
+  },
+  "route-23": {
+    "name": "Route 23",
+    "roam": {
+      "common": ["Spearow"],
+      "uncommon": ["Ekans", "Sandshrew"],
+      "rare": ["Mankey", "Sandslash", "Fearow"],
+      "veryrare": ["Arbok", "Primeape"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Poliwag", "Goldeen"],
+      "rare": ["Horsea", "Poliwhirl"],
+      "veryrare": ["Slowpoke", "Gyarados", "Psyduck"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "veryrare": ["Psyduck", "Slowpoke"]
+    }
+  },
+  "victory-road": {
+    "name": "Victory Road",
+    "roam": {
+      "common": ["Golbat", "Graveler"],
+      "rare": ["Sandslash"],
+      "veryrare": ["Arbok", "Marowak"],
+      "extremelyrare": ["Machop", "Onix", "Machoke"]
+    }
+  },
+  "cerulean-cave-1": {
+    "name": "Cerulean Cave F1",
+    "roam": {
+      "common": ["Golbat", "Parasect", "Electrode"],
+      "veryrare": ["Primeape", "Magneton", "Ditto"],
+      "extremelyrare": ["Machoke"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Poliwag", "Goldeen"],
+      "rare": ["Poliwhirl"],
+      "veryrare": ["Gyarados", "Psyduck"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "veryrare": ["Slowpoke", "Psyduck", "Golduck"]
+    }
+  },
+  "cerulean-cave-2": {
+    "name": "Cerulean Cave F2",
+    "roam": {
+      "common": ["Golbat", "Parasect", "Electrode"],
+      "veryrare": ["Magneton", "Ditto"],
+      "extremelyrare": ["Machoke", "Kadabra"]
+    }
+  },
+  "cerulean-cave-3": {
+    "name": "Cerulean Cave F3",
+    "roam": {
+      "common": ["Golbat", "Parasect", "Electrode"],
+      "veryrare": ["Magneton", "Ditto"],
+      "extremelyrare": ["Machoke", "Kadabra"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Poliwag", "Goldeen"],
+      "rare": ["Poliwhirl"],
+      "veryrare": ["Gyarados", "Psyduck"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "veryrare": ["Slowpoke", "Psyduck", "Golduck"]
+    }
+  },
+  "cerulean-cave-4": {
+    "name": "Cerulean Cave F4",
+    "roam": {
+      "common": ["Golbat", "Parasect", "Electrode"],
+      "veryrare": ["Magneton", "Ditto"],
+      "extremelyrare": ["Machoke", "Kadabra"]
+    }
+  },
+  "cerulean-cave-5": {
+    "name": "Cerulean Cave F5",
+    "roam": {
+      "common": ["Golbat", "Parasect", "Electrode"],
+      "veryrare": ["Magneton", "Ditto"],
+      "extremelyrare": ["Machoke", "Kadabra"]
+    }
+  },
+  "cerulean-cave-6": {
+    "name": "Cerulean Cave F6",
+    "roam": {
+      "common": ["Ekans"],
+      "rare": ["Dunsparce"],
+      "veryrare": ["Seviper", "Arbok"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "extremelyrare": ["Milotic"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
   }
 }
