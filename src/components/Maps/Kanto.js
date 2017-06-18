@@ -14,9 +14,6 @@ export default class Kanto extends Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    console.log('current', this.props.matchedAreas)
-    console.log('next', nextProps.matchedAreas)
-
     if (this.props.matchedAreas !== nextProps.matchedAreas) {
       this.setState({ key: Date.now() })
     }

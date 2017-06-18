@@ -1,0 +1,15 @@
+{
+  "new-bark-town": {
+    "name": "New Bark Town",
+    "fish": {
+      "common": ["Magikarp", "Tentacool"],
+      "rare": ["Shellder"],
+      "veryrare": ["Chinchou"],
+      "extremelyrare": ["Lanturn"]
+    },
+    "surf" : {
+      "common": ["Tentacool"],
+      "rare": ["Tentacool"]
+    }
+  }
+}

@@ -221,7 +221,7 @@ export const JSONtoPokemonList = (JSON) => {
 
 export const matchedAreas = (pokemon, regionJSON) => {
   // example output
-  const test = {
+  const out = {
     "route-1": {
       "roam": {
         "common": ['pikachu', 'pidgey']
@@ -284,4 +284,32 @@ export const matchedAreas = (pokemon, regionJSON) => {
   })
 
   return matchJSON
+}
+
+export const pokemonToRegionsFound = (pokemon, regionJSON) => {
+  let regionsFound = []
+  let matchFound = false
+
+  regionJSON.map((region, i) => {
+    Object.keys(region).map((area) => {
+      Object.keys(region[area]).map(type => {
+        if (type === 'roam' || type === 'fish' || type === 'surf') {
+          Object.keys(region[area][type]).map(rarity => {
+            if (region[area][type][rarity].indexOf(pokemon) >= 0) {
+              matchFound = true
+            }
+          })
+        }
+      })
+
+      if (matchFound) {
+        if (region['pallet-town']) regionsFound.indexOf('Kanto') < 0 && regionsFound.push('Kanto')
+        if (region['new-bark-town']) regionsFound.indexOf('Johto') < 0 &&regionsFound.push('Johto')
+      }
+
+      matchFound = false
+    })
+  })
+
+  return regionsFound
 }

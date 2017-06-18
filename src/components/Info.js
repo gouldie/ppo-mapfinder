@@ -1,11 +1,13 @@
 import React, {Component} from 'react'
 import kantoJSON from '../../public/json/kanto.json'
+import johtoJSON from '../../public/json/johto.json'
 import { listAreaDetails, JSONtoPokemonList, matchedAreas } from '../utils/list'
 import Select from 'react-select'
 
-const regionJSON = [kantoJSON]
+const regionJSON = [kantoJSON, johtoJSON]
 const mapRegionToJSON = {
-  'Kanto': kantoJSON
+  'Kanto': kantoJSON,
+  'Johto': johtoJSON
 }
 
 
@@ -30,7 +32,11 @@ export default class Info extends Component {
         <div style={{height: '327px', border: '1px solid gray', padding: '5px', backgroundColor: 'lavender', overflowY: 'auto'}}>
 
           {
-            details && listAreaDetails(details)
+            details ? listAreaDetails(details)
+              :
+              <p style={{textAlign: 'center', marginTop: '20px', fontSize: '26px'}}>
+                Select an area on the map : ^)
+              </p>
           }
         </div>
       </div>
@@ -60,9 +66,9 @@ export default class Info extends Component {
                 }
               </div>
               :
-              <div>
-                Please select a pokemon
-              </div>
+              <p style={{ textAlign: 'center', marginTop: '20px', fontSize: '26px' }}>
+                Select a pokemon : ^)
+              </p>
           }
         </div>
       </div>
