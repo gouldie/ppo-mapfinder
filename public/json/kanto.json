@@ -132,5 +132,20 @@
       "rare": ["Mankey"],
       "veryrare": ["Jigglypuff"]
     }
+  },
+  "mt-moon": {
+    "name": "Mt. Moon",
+    "roam": {
+      "common": ["Zubat", "Geodude"],
+      "uncommon": ["Paras", "Sandshrew"],
+      "veryrare": ["Clefairy"],
+      "extremelyrare": ["Onix", "Machop"]
+    }
+  },
+  "mt-moon-exit": {
+    "name": "Mt. Moon Exit Hallway",
+    "roam": {
+      "common": ["Paras"]
+    }
   }
 }
