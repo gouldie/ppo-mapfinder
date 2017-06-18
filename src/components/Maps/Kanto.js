@@ -24,6 +24,8 @@ export default class Kanto extends Component {
       selectedArea, setSelectedArea, matchedAreas, mode
     } = this.props
 
+		console.log(matchedAreas)
+
     return (
       <div key={this.state.key}>
         <ReactTooltip />
@@ -72,9 +74,11 @@ export default class Kanto extends Component {
 					height: '18px',
 					borderRadius: '50%',
 					backgroundColor: mode === 0 ? selectedArea.indexOf('viridian-forest-1') >= 0 ? 'indianred' : ''
-						: matchedAreas && matchedAreas.indexOf('viridian-forest-1') >= 0 ? 'indianred' : '' ,
+						: matchedAreas && matchedAreas.indexOf('viridian-forest-1') >= 0
+						|| matchedAreas.indexOf('viridian-forest-2') >= 0 ? 'indianred' : '' ,
 					animation: mode === 0 ? selectedArea.indexOf('viridian-forest-1') >= 0 ? 'pulse 2s infinite' : ''
-						: matchedAreas && matchedAreas.indexOf('viridian-forest-1') >= 0 ? 'pulse 2s infinite' : ''
+						: matchedAreas && matchedAreas.indexOf('viridian-forest-1') >= 0
+						|| matchedAreas.indexOf('viridian-forest-2') >= 0 ? 'pulse 2s infinite' : ''
 				}} onClick={(e) => {
 					if (mode === 1) return
 					if (e.stopPropagation) e.stopPropagation()
@@ -376,9 +380,19 @@ export default class Kanto extends Component {
           height: '18px',
           borderRadius: '50%',
           backgroundColor: mode === 0 ? selectedArea.indexOf('cerulean-cave-1') >= 0 ? 'indianred' : ''
-            : matchedAreas && matchedAreas.indexOf('cerulean-cave-1') >= 0 ? 'indianred' : '' ,
+            : matchedAreas && matchedAreas.indexOf('cerulean-cave-1') >= 0
+						|| matchedAreas.indexOf('cerulean-cave-2') >= 0
+            || matchedAreas.indexOf('cerulean-cave-3') >= 0
+            || matchedAreas.indexOf('cerulean-cave-4') >= 0
+            || matchedAreas.indexOf('cerulean-cave-5') >= 0
+            || matchedAreas.indexOf('cerulean-cave-6') >= 0 ? 'indianred' : '' ,
           animation: mode === 0 ? selectedArea.indexOf('cerulean-cave-1') >= 0 ? 'pulse 2s infinite' : ''
-            : matchedAreas && matchedAreas.indexOf('cerulean-cave-1') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('cerulean-cave-1') >= 0
+            || matchedAreas.indexOf('cerulean-cave-2') >= 0
+            || matchedAreas.indexOf('cerulean-cave-3') >= 0
+            || matchedAreas.indexOf('cerulean-cave-4') >= 0
+            || matchedAreas.indexOf('cerulean-cave-5') >= 0
+            || matchedAreas.indexOf('cerulean-cave-6') >= 0 ? 'pulse 2s infinite' : ''
         }} onClick={(e) => {
           if (mode === 1) return
           if (e.stopPropagation) e.stopPropagation()
@@ -843,9 +857,11 @@ export default class Kanto extends Component {
           height: '18px',
           borderRadius: '50%',
           backgroundColor: mode === 0 ? selectedArea.indexOf('pokemon-mansion-1') >= 0 ? 'indianred' : ''
-            : matchedAreas && matchedAreas.indexOf('pokemon-mansion-1') >= 0 ? 'indianred' : '' ,
+            : matchedAreas && matchedAreas.indexOf('pokemon-mansion-1') >= 0
+						|| matchedAreas && matchedAreas.indexOf('pokemon-mansion-2') >= 0 ? 'indianred' : '' ,
           animation: mode === 0 ? selectedArea.indexOf('pokemon-mansion-1') >= 0 ? 'pulse 2s infinite' : ''
-            : matchedAreas && matchedAreas.indexOf('pokemon-mansion-1') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('pokemon-mansion-1') >= 0
+            || matchedAreas && matchedAreas.indexOf('pokemon-mansion-2') >= 0 ? 'pulse 2s infinite' : ''
         }} onClick={(e) => {
           if (mode === 1) return
           if (e.stopPropagation) e.stopPropagation()
@@ -861,9 +877,13 @@ export default class Kanto extends Component {
           height: '18px',
           borderRadius: '50%',
           backgroundColor: mode === 0 ? selectedArea.indexOf('seafoam-islands-1') >= 0 ? 'indianred' : ''
-            : matchedAreas && matchedAreas.indexOf('seafoam-islands-1') >= 0 ? 'indianred' : '' ,
+            : matchedAreas && matchedAreas.indexOf('seafoam-islands-1') >= 0
+						|| matchedAreas && matchedAreas.indexOf('seafoam-islands-2') >= 0
+						|| matchedAreas && matchedAreas.indexOf('seafoam-islands-4') >= 0 ? 'indianred' : '' ,
           animation: mode === 0 ? selectedArea.indexOf('seafoam-islands-1') >= 0 ? 'pulse 2s infinite' : ''
-            : matchedAreas && matchedAreas.indexOf('seafoam-islands-1') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('seafoam-islands-1') >= 0
+            || matchedAreas && matchedAreas.indexOf('seafoam-islands-2') >= 0
+            || matchedAreas && matchedAreas.indexOf('seafoam-islands-4') >= 0 ? 'pulse 2s infinite' : ''
         }} onClick={(e) => {
           if (mode === 1) return
           if (e.stopPropagation) e.stopPropagation()
