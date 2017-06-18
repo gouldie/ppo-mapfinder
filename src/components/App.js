@@ -67,7 +67,7 @@ export default class App extends Component {
         </div>
         <div className="flex justify-center">
           <Map mode={mode} selected={selectedMap} selectedArea={selectedArea}
-               setSelectedMap={this.setSelectedMap} setSelectedArea={this.setSelectedArea}/>
+               setSelectedMap={this.setSelectedMap} setSelectedArea={this.setSelectedArea} selectedPokemon={selectedPokemon} />
           <Info mode={mode} selectedMap={selectedMap} selectedArea={selectedArea} selectedPokemon={selectedPokemon}
                 setSelectedPokemon={this.setSelectedPokemon} />
         </div>

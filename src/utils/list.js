@@ -222,11 +222,9 @@ export const JSONtoPokemonList = (JSON) => {
 export const matchedAreas = (pokemon, regionJSON) => {
   // example output
   const test = {
-    "Kanto": {
-      "route-1": {
-        "roam": {
-          "common": ['pikachu', 'pidgey']
-        }
+    "route-1": {
+      "roam": {
+        "common": ['pikachu', 'pidgey']
       }
     }
   }
