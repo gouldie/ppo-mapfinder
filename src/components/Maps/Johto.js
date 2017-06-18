@@ -37,8 +37,8 @@ export default class Johto extends Component {
             borderRadius: '50%',
             backgroundColor: mode === 0 ? selectedArea === 'new-bark-town' ? 'indianred' : ''
               : matchedAreas && matchedAreas.indexOf('new-bark-town') >= 0 ? 'indianred' : '' ,
-            animation: mode === 0 ? selectedArea === 'new-bark-town' ? 'pulse 3s infinite' : ''
-              : matchedAreas && matchedAreas.indexOf('new-bark-town') >= 0 ? 'pulse 3s infinite' : ''
+            animation: mode === 0 ? selectedArea === 'new-bark-town' ? 'pulse 2s infinite' : ''
+              : matchedAreas && matchedAreas.indexOf('new-bark-town') >= 0 ? 'pulse 2s infinite' : ''
           }} onClick={(e) => {
             if (mode === 1) return
             if (e.stopPropagation) e.stopPropagation()

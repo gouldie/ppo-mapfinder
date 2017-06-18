@@ -37,8 +37,8 @@ export default class Kanto extends Component {
           borderRadius: '50%',
           backgroundColor: mode === 0 ? selectedArea === 'pallet-town' ? 'indianred' : ''
             : matchedAreas && matchedAreas.indexOf('pallet-town') >= 0 ? 'indianred' : '' ,
-          animation: mode === 0 ? selectedArea === 'pallet-town' ? 'pulse 3s infinite' : ''
-            : matchedAreas && matchedAreas.indexOf('pallet-town') >= 0 ? 'pulse 3s infinite' : ''
+          animation: mode === 0 ? selectedArea === 'pallet-town' ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('pallet-town') >= 0 ? 'pulse 2s infinite' : ''
         }} onClick={(e) => {
           if (mode === 1) return
           if (e.stopPropagation) e.stopPropagation()
@@ -54,8 +54,8 @@ export default class Kanto extends Component {
           height: '34px',
           backgroundColor: mode === 0 ? selectedArea === 'route-1' ? 'indianred' : ''
             : matchedAreas && matchedAreas.indexOf('route-1') >= 0 ? 'indianred' : '' ,
-          animation: mode === 0 ? selectedArea === 'route-1' ? 'pulse 3s infinite' : ''
-            : matchedAreas && matchedAreas.indexOf('route-1') >= 0 ? 'pulse 3s infinite' : ''
+          animation: mode === 0 ? selectedArea === 'route-1' ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-1') >= 0 ? 'pulse 2s infinite' : ''
         }} onClick={(e) => {
           if (mode === 1) return
           if (e.stopPropagation) e.stopPropagation()
@@ -73,8 +73,8 @@ export default class Kanto extends Component {
           borderRadius: '50%',
           backgroundColor: mode === 0 ? selectedArea === 'viridian-city' ? 'indianred' : ''
             : matchedAreas && matchedAreas.indexOf('viridian-city') >= 0 ? 'indianred' : '' ,
-          animation: mode === 0 ? selectedArea === 'viridian-city' ? 'pulse 3s infinite' : ''
-            : matchedAreas && matchedAreas.indexOf('viridian-city') >= 0 ? 'pulse 3s infinite' : ''
+          animation: mode === 0 ? selectedArea === 'viridian-city' ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('viridian-city') >= 0 ? 'pulse 2s infinite' : ''
         }} onClick={(e) => {
           if (mode === 1) return
           if (e.stopPropagation) e.stopPropagation()
