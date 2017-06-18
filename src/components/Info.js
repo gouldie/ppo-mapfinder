@@ -21,7 +21,9 @@ export default class Info extends Component {
       selectedMap, selectedArea, selectedPokemon, setSelectedMap, setSelectedPokemon, mode
     } = this.props
 
-    const details = mapRegionToJSON[selectedMap][selectedArea]
+    const details = selectedArea && selectedArea.map(area => {
+    	return mapRegionToJSON[selectedMap][area]
+    })
 
     return mode === 0 ?
       (
@@ -32,7 +34,9 @@ export default class Info extends Component {
         <div style={{height: '327px', border: '1px solid gray', padding: '5px', backgroundColor: 'lavender', overflowY: 'auto'}}>
 
           {
-            details ? listAreaDetails(details)
+            details.length > 0 ? details.map((detail, i) => {
+            	return listAreaDetails(detail, i)
+            })
               :
               <p style={{textAlign: 'center', marginTop: '20px', fontSize: '26px'}}>
                 Select an area on the map : ^)

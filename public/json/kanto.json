@@ -112,8 +112,17 @@
       "common": ["Caterpie", "Weedle"],
       "uncommon": ["Metapod", "Kakuna"],
       "rare": ["Butterfree", "Beedrill"],
-      "veryrare": ["Pichu"],
+      "veryrare": ["Pikachu"],
       "extremelyrare": ["Bulbasaur"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Shellder", "Horsea"],
+      "veryrare": ["Gyarados", "Slowpoke", "Seadra", "Staryu", "Psyduck"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
     }
   },
   "route-3": {

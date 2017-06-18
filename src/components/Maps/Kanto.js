@@ -35,14 +35,14 @@ export default class Kanto extends Component {
           width: '28px',
           height: '29px',
           borderRadius: '50%',
-          backgroundColor: mode === 0 ? selectedArea === 'pallet-town' ? 'indianred' : ''
+          backgroundColor: mode === 0 ? selectedArea.indexOf('pallet-town') >= 0 ? 'indianred' : ''
             : matchedAreas && matchedAreas.indexOf('pallet-town') >= 0 ? 'indianred' : '' ,
-          animation: mode === 0 ? selectedArea === 'pallet-town' ? 'pulse 2s infinite' : ''
+          animation: mode === 0 ? selectedArea.indexOf('pallet-town') >= 0 ? 'pulse 2s infinite' : ''
             : matchedAreas && matchedAreas.indexOf('pallet-town') >= 0 ? 'pulse 2s infinite' : ''
         }} onClick={(e) => {
           if (mode === 1) return
           if (e.stopPropagation) e.stopPropagation()
-          setSelectedArea('pallet-town')
+          setSelectedArea(['pallet-town'])
         }}></div>
 
         <div className="route-1" data-tip="Route 1" style={{
@@ -52,14 +52,14 @@ export default class Kanto extends Component {
           left: '89px',
           width: '9px',
           height: '34px',
-          backgroundColor: mode === 0 ? selectedArea === 'route-1' ? 'indianred' : ''
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-1') >= 0 ? 'indianred' : ''
             : matchedAreas && matchedAreas.indexOf('route-1') >= 0 ? 'indianred' : '' ,
-          animation: mode === 0 ? selectedArea === 'route-1' ? 'pulse 2s infinite' : ''
+          animation: mode === 0 ? selectedArea.indexOf('route-1') >= 0 ? 'pulse 2s infinite' : ''
             : matchedAreas && matchedAreas.indexOf('route-1') >= 0 ? 'pulse 2s infinite' : ''
         }} onClick={(e) => {
           if (mode === 1) return
           if (e.stopPropagation) e.stopPropagation()
-          setSelectedArea('route-1')
+          setSelectedArea(['route-1'])
         }}>
         </div>
 
@@ -71,15 +71,33 @@ export default class Kanto extends Component {
           width: '28px',
           height: '29px',
           borderRadius: '50%',
-          backgroundColor: mode === 0 ? selectedArea === 'viridian-city' ? 'indianred' : ''
+          backgroundColor: mode === 0 ? selectedArea.indexOf('viridian-city') >= 0 ? 'indianred' : ''
             : matchedAreas && matchedAreas.indexOf('viridian-city') >= 0 ? 'indianred' : '' ,
-          animation: mode === 0 ? selectedArea === 'viridian-city' ? 'pulse 2s infinite' : ''
+          animation: mode === 0 ? selectedArea.indexOf('viridian-city') >= 0 ? 'pulse 2s infinite' : ''
             : matchedAreas && matchedAreas.indexOf('viridian-city') >= 0 ? 'pulse 2s infinite' : ''
         }} onClick={(e) => {
           if (mode === 1) return
           if (e.stopPropagation) e.stopPropagation()
-          setSelectedArea('viridian-city')
+          setSelectedArea(['viridian-city'])
         }}></div>
+
+				<div className='viridian-forest' data-tip="Viridian Forest" style={{
+					cursor: 'pointer',
+					position: 'absolute',
+					top: '118px',
+					left: '85px',
+					width: '18px',
+					height: '18px',
+					borderRadius: '50%',
+					backgroundColor: mode === 0 ? selectedArea.indexOf('viridian-forest-1') >= 0 ? 'indianred' : ''
+						: matchedAreas && matchedAreas.indexOf('viridian-forest-1') >= 0 ? 'indianred' : '' ,
+					animation: mode === 0 ? selectedArea.indexOf('viridian-forest-1') >= 0 ? 'pulse 2s infinite' : ''
+						: matchedAreas && matchedAreas.indexOf('viridian-forest-1') >= 0 ? 'pulse 2s infinite' : ''
+				}} onClick={(e) => {
+					if (mode === 1) return
+					if (e.stopPropagation) e.stopPropagation()
+					setSelectedArea(['viridian-forest-1', 'viridian-forest-2'])
+				}}></div>
 
       </div>
     )

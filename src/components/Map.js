@@ -44,7 +44,7 @@ export default class Map extends Component {
           <img src={`../../public/imgs/${mapRegionToImage[selectedMap]}.png`} alt=""
                style={{width: '450px', height: '327px', padding: '5px', border: '1px solid gray'}}/>
 
-          <div onClick={() => setSelectedArea(null)}
+          <div onClick={() => setSelectedArea([])}
                style={{position: 'absolute', width: '450px', height: '327px', top: '155px', padding: '5px'}}>
             {
               selectedMap === 'Kanto' ?
@@ -70,7 +70,7 @@ export default class Map extends Component {
         <img src={`../../public/imgs/${mapRegionToImage[selectedMap]}.png`} alt=""
              style={{width: '450px', height: '327px', padding: '5px', border: '1px solid gray'}}/>
 
-        <div onClick={() => setSelectedArea(null)}
+        <div onClick={() => setSelectedArea([])}
              style={{position: 'absolute', width: '450px', height: '327px', top: '155px', padding: '5px'}}>
           {
             selectedMap === 'Kanto' ?
