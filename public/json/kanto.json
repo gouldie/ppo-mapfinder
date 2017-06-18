@@ -11,15 +11,9 @@
       "common": ["Tentacool"]
     }
   },
-  "route-1": {
-    "name": "Route 1",
-    "roam": {
-      "common": ["Pidgey", "Rattata"]
-    }
-  },
   "viridian-city": {
     "name": "Viridian City",
-    "fish" : {
+    "fish": {
       "common": ["Magikarp"],
       "uncommon": ["Krabby"],
       "rare": ["Poliwhirl"],
@@ -27,6 +21,107 @@
     },
     "surf" : {
       "common": ["Tentacool"]
+    }
+  },
+  "cerulean-city": {
+    "name": "Cerulean City",
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Shellder", "Horsea", "Kingler"],
+      "veryrare": ["Staryu", "Gyarados", "Slowpoke", "Psyduck"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "vermillion-city": {
+    "name": "Vermillion City",
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Horsea", "Shellder"],
+      "veryrare": ["Gyarados", "Psyduck", "Slowpoke", "Staryu"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "celadon-city": {
+    "name": "Celadon City",
+    "fish": {
+      "common": ["Magikarp"],
+      "rare": ["Grimer"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "rare": ["Koffing"],
+      "veryrare": ["Slowpoke, Psyduck"]
+    }
+  },
+  "fuchsia-city": {
+    "name": "Fuchsia City",
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Poliwag", "Goldeen"],
+      "veryrare": ["Gyarados", "Slowpoke", "Seaking", "Psyduck"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "veryrare": ["Slowpoke, Psyduck"]
+    }
+  },
+  "cinnabar-island": {
+    "name": "Cinnabar Island",
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Shellder", "Horsea"],
+      "veryrare": ["Gyarados", "Slowpoke", "Seadra", "Staryu", "Psyduck"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "route-1": {
+    "name": "Route 1",
+    "roam": {
+      "common": ["Pidgey", "Rattata"]
+    }
+  },
+  "route-2": {
+    "name": "Route 2",
+    "roam": {
+      "common": ["Pidgey", "Rattata"],
+      "uncommon": ["Caterpie", "Weedle"]
+    }
+  },
+  "viridian-forest-1": {
+    "name": "Viridian Forest",
+    "roam": {
+      "common": ["Caterpie", "Weedle"],
+      "uncommon": ["Metapod", "Kakuna"],
+      "rare": ["Butterfree", "Beedrill"],
+      "veryrare": ["Pichu"],
+      "extremelyrare": ["Scyther", "Pinsir"]
+    }
+  },
+  "viridian-forest-2": {
+    "name": "Deep Viridian Forest",
+    "roam": {
+      "common": ["Caterpie", "Weedle"],
+      "uncommon": ["Metapod", "Kakuna"],
+      "rare": ["Butterfree", "Beedrill"],
+      "veryrare": ["Pichu"],
+      "extremelyrare": ["Bulbasaur"]
+    }
+  },
+  "route-3": {
+    "name": "Route 3",
+    "roam": {
+      "common": ["Pidgey", "Spearow", "Nidoran-M", "Nidoran-F"],
+      "rare": ["Mankey"],
+      "veryrare": ["Jigglypuff"]
     }
   }
 }
