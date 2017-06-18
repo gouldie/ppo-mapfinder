@@ -69,7 +69,7 @@ export default class App extends Component {
           <Map mode={mode} selectedMap={selectedMap} selectedArea={selectedArea}
                setSelectedMap={this.setSelectedMap} setSelectedArea={this.setSelectedArea} selectedPokemon={selectedPokemon} />
           <Info mode={mode} selectedMap={selectedMap} selectedArea={selectedArea} selectedPokemon={selectedPokemon}
-                setSelectedPokemon={this.setSelectedPokemon} />
+                setSelectedPokemon={this.setSelectedPokemon} setSelectedMap={this.setSelectedMap} />
         </div>
       </div>
     )

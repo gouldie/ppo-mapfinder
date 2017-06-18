@@ -4,7 +4,7 @@ import Kanto from './Maps/Kanto'
 import Johto from './Maps/Johto'
 import kantoJSON from '../../public/json/kanto.json'
 import johtoJSON from '../../public/json/johto.json'
-import { matchedAreas, pokemonToRegionsFound } from '../utils/list'
+import { matchedAreas } from '../utils/list'
 
 const regionJSON = [kantoJSON, johtoJSON]
 const maps = [

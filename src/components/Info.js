@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import kantoJSON from '../../public/json/kanto.json'
 import johtoJSON from '../../public/json/johto.json'
-import { listAreaDetails, JSONtoPokemonList, matchedAreas } from '../utils/list'
+import { listAreaDetails, JSONtoPokemonList, matchedAreas, pokemonToRegionsFound } from '../utils/list'
 import Select from 'react-select'
 
 const regionJSON = [kantoJSON, johtoJSON]
@@ -18,7 +18,7 @@ export default class Info extends Component {
 
   render() {
     const {
-      selectedMap, selectedArea, selectedPokemon, setSelectedPokemon, mode
+      selectedMap, selectedArea, selectedPokemon, setSelectedMap, setSelectedPokemon, mode
     } = this.props
 
     const details = mapRegionToJSON[selectedMap][selectedArea]
@@ -49,7 +49,10 @@ export default class Info extends Component {
             name="form-field-name"
             value={selectedPokemon}
             options={JSONtoPokemonList(regionJSON)}
-            onChange={setSelectedPokemon}
+            onChange={(e) => {
+              setSelectedPokemon(e)
+              setSelectedMap({value: pokemonToRegionsFound(e.value, regionJSON)[0]})
+            }}
             clearable={false}
           />
         </div>
