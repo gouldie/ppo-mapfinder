@@ -149,7 +149,7 @@
     }
   },
   "diglett-cave": {
-    "name": "Diglett Cave",
+    "name": "Digletts Cave",
     "roam": {
       "common": ["Diglett"],
       "rare": ["Dugtrio"]
@@ -287,6 +287,206 @@
     "fish": {
       "common": ["Magikarp"],
       "extremelyrare": ["Milotic"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "route-24": {
+    "name": "Route 24",
+    "roam": {
+      "common": ["Caterpie", "Weedle", "Pidgey"],
+      "uncommon": ["Oddish", "Metapod", "Kakuna", "Bellsprout"],
+      "veryrare": ["Abra"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Horsea"],
+      "veryrare": ["Slowpoke", "Gyarados", "Psyduck"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "route-25": {
+    "name": "Route 25",
+    "roam": {
+      "common": ["Caterpie", "Weedle", "Pidgey"],
+      "uncommon": ["Oddish", "Metapod", "Kakuna", "Bellsprout"],
+      "veryrare": ["Abra"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Horsea"],
+      "veryrare": ["Slowpoke", "Gyarados", "Psyduck"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "route-9": {
+    "name": "Route 9",
+    "roam": {
+      "common": ["Rattata", "Spearow"],
+      "uncommon": ["Ekans", "Sandshrew"]
+    }
+  },
+  "rock-tunnel": {
+    "name": "Rock Tunnel",
+    "roam": {
+      "common": ["Zubat", "Geodude"],
+      "rare": ["Mankey", "Graveler"],
+      "extremelyrare": ["Machop", "Onix"]
+    }
+  },
+  "power-plant": {
+    "name": "Power Plant",
+    "roam": {
+      "common": ["Voltorb"],
+      "rare": ["Magnemite"],
+      "veryrare": ["Pikachu", "Magneton"],
+      "extremelyrare": ["Electabuzz"],
+      "legendary": ["Zapdos"]
+    }
+  },
+  "lavender-tower": {
+    "name": "Lavender Tower",
+    "roam": {
+      "common": ["Gastly"],
+      "rare": ["Haunter"],
+      "veryrare": ["Cubone"]
+    }
+  },
+  "route-8": {
+    "name": "Route 8",
+    "roam": {
+      "common": ["Pidgey"],
+      "uncommon": ["Sandshrew", "Ekans"],
+      "rare": ["Meowth"],
+      "veryrare": ["Vulpix", "Growlithe"]
+    }
+  },
+  "route-7": {
+    "name": "Route 7",
+    "roam": {
+      "common": ["Pidgey"],
+      "uncommon": ["Sandshrew", "Ekans"],
+      "rare": ["Meowth"],
+      "veryrare": ["Vulpix", "Growlithe"]
+    }
+  },
+  "route-16": {
+    "name": "Route 16",
+    "roam": {
+      "common": ["Rattata", "Spearow"],
+      "uncommon": ["Raticate"],
+      "veryrare": ["Doduo"],
+      "extremelyrare": ["Snorlax"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Horsea", "Kingler"],
+      "veryrare": ["Slowpoke", "Gyarados", "Psyduck", "Seadra"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "route-17": {
+    "name": "Route 17",
+    "roam": {
+      "common": ["Rattata", "Spearow"],
+      "uncommon": ["Raticate"],
+      "rare": ["Fearow"],
+      "veryrare": ["Doduo"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Horsea", "Kingler"],
+      "veryrare": ["Slowpoke", "Gyarados", "Psyduck", "Seadra"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "route-18": {
+    "name": "Route 18",
+    "roam": {
+      "common": ["Rattata", "Spearow"],
+      "uncommon": ["Raticate"],
+      "rare": ["Fearow"],
+      "veryrare": ["Doduo"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Horsea", "Kingler"],
+      "veryrare": ["Slowpoke", "Gyarados", "Psyduck", "Seadra"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "route-5": {
+    "name": "Route 18",
+    "roam": {
+      "common": ["Pidgey"],
+      "uncommon": ["Oddish", "Bellsprout"],
+      "rare": ["Meowth"]
+    }
+  },
+  "route-6": {
+    "name": "Route 6",
+    "roam": {
+      "common": ["Pidgey"],
+      "uncommon": ["Oddish", "Bellsprout"],
+      "rare": ["Meowth"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Goldeen", "Poliwag"],
+      "rare": ["Poliwhirl"],
+      "veryrare": ["Slowpoke", "Gyarados", "Psyduck"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "veryrare": ["Slowopke", "Psyduck"]
+    }
+  },
+  "route-11": {
+    "name": "Route 11",
+    "roam": {
+      "common": ["Spearow"],
+      "uncommon": ["Ekans", "Sandshrew"],
+      "rare": ["Drowzee"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Horsea"],
+      "veryrare": ["Slowpoke", "Gyarados", "Psyduck"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "route-12": {
+    "name": "Route 12",
+    "roam": {
+      "common": ["Pidgey"],
+      "uncommon": ["Oddish", "Bellsprout"],
+      "rare": ["Gloom", "Venonat", "Weepinbell"],
+      "extremelyrare": ["Snorlax"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Horsea"],
+      "veryrare": ["Slowpoke", "Gyarados", "Psyduck"]
     },
     "surf": {
       "common": ["Tentacool"]
