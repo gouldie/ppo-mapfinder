@@ -491,5 +491,161 @@
     "surf": {
       "common": ["Tentacool"]
     }
+  },
+  "route-13": {
+    "name": "Route 13",
+    "roam": {
+      "common": ["Pidgey"],
+      "uncommon": ["Oddish", "Bellsprout", "Pidgeotto"],
+      "rare": ["Gloom", "Venonat", "Weepinbell"],
+      "veryrare": ["Ditto"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Horsea"],
+      "veryrare": ["Slowpoke", "Gyarados", "Psyduck"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "route-14": {
+    "name": "Route 14",
+    "roam": {
+      "common": ["Pidgey"],
+      "uncommon": ["Oddish", "Bellsprout", "Pidgeotto"],
+      "rare": ["Gloom", "Venonat", "Weepinbell"],
+      "veryrare": ["Ditto"]
+    }
+  },
+  "route-15": {
+    "name": "Route 15",
+    "roam": {
+      "common": ["Pidgey"],
+      "uncommon": ["Oddish", "Bellsprout", "Pidgeotto"],
+      "rare": ["Venonat", "Weepinbell"],
+      "veryrare": ["Ditto"]
+    }
+  },
+  "kanto-safari": {
+    "name": "Kanto Safari Zone",
+    "roam": {
+      "common": ["Nidoran-M", "Nidoran-F"],
+      "uncommon": ["Paras"],
+      "rare": ["Nidorina", "Nidorino", "Venonat"],
+      "veryrare": ["Parasect", "Exeggcute", "Chansey", "Tauros", "Doduo", "Venomoth"],
+      "extremelyrare": ["Rhyhorn", "Scyther", "Pinsir", "Kangaskhan"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Poliwag", "Goldeen"],
+      "veryrare": ["Slowpoke", "Psyduck"],
+      "extremelyrare": ["Dratini", "Dragonair"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "veryrare": ["Psyduck", "Slowpoke"]
+    }
+  },
+  "route-19": {
+    "name": "Route 19",
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Horsea", "Kingler"],
+      "veryrare": ["Slowpoke", "Gyarados", "Psyduck", "Seadra"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "route-20": {
+    "name": "Route 20",
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Horsea", "Kingler"],
+      "veryrare": ["Slowpoke", "Gyarados", "Psyduck", "Seadra"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "route-21": {
+    "name": "Route 21",
+    "roam": {
+      "common": ["Rattata", "Pidgey", "Spearow"],
+      "veryrare": ["Tangela"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Horsea", "Kingler"],
+      "veryrare": ["Slowpoke", "Gyarados", "Psyduck", "Seadra"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "pokemon-mansion-1": {
+    "name": "Pokemon Mansion F0",
+    "roam": {
+      "common": ["Rattata"],
+      "uncommon": ["Raticate"],
+      "rare": ["Grimer", "Koffing"],
+      "veryrare": ["Muk", "Weezing", "Ditto", "Vulpix", "Growlithe"]
+    }
+  },
+  "pokemon-mansion-2": {
+    "name": "Pokemon Mansion F1, F2, F3",
+    "roam": {
+      "common": ["Rattata"],
+      "uncommon": ["Raticate"],
+      "rare": ["Grimer", "Koffing"],
+      "veryrare": ["Muk", "Weezing", "Vulpix", "Growlithe"]
+    }
+  },
+  "seafoam-islands-1": {
+    "name": "Seafoam Islands F1",
+    "roam": {
+      "common": ["Zubat"],
+      "rare": ["Golbat"],
+      "veryrare": ["Psyduck", "Slowpoke"],
+      "extremelyrare": ["Swinub"],
+      "legendary": ["Articuno"]
+    }
+  },
+  "seafoam-islands-2": {
+    "name": "Seafoam Islands F2, F3",
+    "roam": {
+      "common": ["Zubat"],
+      "rare": ["Golbat"],
+      "veryrare": ["Psyduck", "Slowpoke", "Seel", "Golduck"],
+      "extremelyrare": ["Swinub"],
+      "legendary": ["Articuno"]
+    }
+  },
+  "seafoam-islands-4": {
+    "name": "Seafoam Islands F4",
+    "roam": {
+      "common": ["Zubat"],
+      "rare": ["Golbat"],
+      "veryrare": ["Psyduck", "Slowpoke", "Seel", "Golduck"],
+      "extremelyrare": ["Swinub"],
+      "legendary": ["Articuno"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Horsea"],
+      "veryrare": ["Gyarados", "Psyduck", "Slowpoke"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Krabby"],
+      "rare": ["Horsea"],
+      "veryrare": ["Seel", "Psyduck", "Slowpoke", "Golduck", "Dewgong"]
+    }
   }
 }

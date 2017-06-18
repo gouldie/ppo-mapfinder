@@ -691,6 +691,185 @@ export default class Kanto extends Component {
         }}>
 				</div>
 
+				<div className="route-13" data-tip="Route 13" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '227px',
+          left: '337px',
+          width: '66px',
+          height: '9px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-13') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-13') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-13') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-13') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-13'])
+        }}>
+				</div>
+
+				<div className="route-14" data-tip="Route 14" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '229px',
+          left: '330px',
+          width: '9px',
+          height: '30px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-14') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-14') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-14') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-14') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-14'])
+        }}>
+				</div>
+
+				<div className="route-15" data-tip="Route 15" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '252px',
+          left: '284px',
+          width: '48px',
+          height: '9px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-15') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-15') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-15') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-15') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-15'])
+        }}>
+				</div>
+
+				<div className='kanto-safari' data-tip="Kanto Safari Zone" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '227px',
+          left: '269px',
+          width: '18px',
+          height: '18px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('kanto-safari') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('kanto-safari') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('kanto-safari') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('kanto-safari') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['kanto-safari'])
+        }}></div>
+
+				<div className="route-19" data-tip="Route 19" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '272px',
+          left: '265px',
+          width: '9px',
+          height: '30px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-19') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-19') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-19') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-19') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-19'])
+        }}>
+				</div>
+
+				<div className="route-20" data-tip="Route 20" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '294px',
+          left: '192px',
+          width: '74px',
+          height: '9px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-20') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-20') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-20') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-20') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-20'])
+        }}>
+				</div>
+				<div className="route-20" data-tip="Route 20" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '294px',
+          left: '110px',
+          width: '61px',
+          height: '9px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-20') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-20') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-20') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-20') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-20'])
+        }}>
+				</div>
+
+				<div className="route-21" data-tip="Route 21" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '248px',
+          left: '89px',
+          width: '9px',
+          height: '36px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-21') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-21') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-21') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-21') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-21'])
+        }}>
+				</div>
+
+				<div className='pokemon-mansion' data-tip="Pokemon Mansion" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '273px',
+          left: '67px',
+          width: '18px',
+          height: '18px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('pokemon-mansion-1') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('pokemon-mansion-1') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('pokemon-mansion-1') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('pokemon-mansion-1') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['pokemon-mansion-1', 'pokemon-mansion-2'])
+        }}></div>
+
+				<div className='seafoam-islands' data-tip="Seafoam Islands" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '289px',
+          left: '172px',
+          width: '18px',
+          height: '18px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('seafoam-islands-1') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('seafoam-islands-1') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('seafoam-islands-1') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('seafoam-islands-1') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['seafoam-islands-1', 'seafoam-islands-2', 'seafoam-islands-4'])
+        }}></div>
+
       </div>
     )
   }
