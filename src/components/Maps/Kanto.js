@@ -24,8 +24,6 @@ export default class Kanto extends Component {
       selectedArea, setSelectedArea, matchedAreas, mode
     } = this.props
 
-		console.log(matchedAreas)
-
     return (
       <div key={this.state.key}>
         <ReactTooltip />

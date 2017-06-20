@@ -5,11 +5,7 @@ import { listAreaDetails, JSONtoPokemonList, matchedAreas, pokemonToRegionsFound
 import Select from 'react-select'
 
 const regionJSON = [kantoJSON, johtoJSON]
-const mapRegionToJSON = {
-  'Kanto': kantoJSON,
-  'Johto': johtoJSON
-}
-
+const JSONtoObj = Object.assign({}, kantoJSON, johtoJSON)
 
 export default class Info extends Component {
   constructor() {
@@ -21,9 +17,9 @@ export default class Info extends Component {
       selectedMap, selectedArea, selectedPokemon, setSelectedMap, setSelectedPokemon, mode
     } = this.props
 
-    const details = selectedArea && selectedArea.map(area => {
-    	return mapRegionToJSON[selectedMap][area]
-    })
+    const details = selectedArea && selectedArea.length > 0 ? selectedArea.map(area => {
+    	return JSONtoObj[area]
+    }) : undefined
 
     return mode === 0 ?
       (
@@ -34,7 +30,7 @@ export default class Info extends Component {
         <div style={{height: '327px', border: '1px solid gray', padding: '5px', backgroundColor: 'lavender', overflowY: 'auto'}}>
 
           {
-            details.length > 0 ? details.map((detail, i) => {
+            details && details.length > 0 ? details.map((detail, i) => {
             	return listAreaDetails(detail, i)
             })
               :
