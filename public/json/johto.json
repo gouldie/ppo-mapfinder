@@ -122,5 +122,109 @@
     "surf": {
       "common": ["Magikarp"]
     }
+  },
+  "dark-cave": {
+    "name": "Dark Cave",
+    "roam": {
+      "common": ["Geodude", "Graveler", "Zubat", "Golbat"],
+      "rare": ["Dunsparce"],
+      "veryrare": ["Wobbuffet"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Goldeen"],
+      "veryrare": ["Seaking"]
+    },
+    "surf": {
+      "common": ["Magikarp"]
+    }
+  },
+  "blackthorn-city": {
+    "name": "Blackthorn City",
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Poliwag"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "dragons-den": {
+    "name": "Dragons Den",
+    "fish": {
+      "common": ["Magikarp"],
+      "veryrare": ["Seadra"],
+      "extremelyrare": ["Dratini"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "veryrare": ["Seadra"]
+    }
+  },
+  "ice-path": {
+    "roam": {
+      "common": ["Zubat", "Golbat"],
+      "rare": ["Dewgong"],
+      "veryrare": ["Swinub", "Sneasel"]
+    }
+  },
+  "route-44": {
+    "name": "Route 44",
+    "roam": {
+      "common": ["Pidgeotto"],
+      "uncommon": ["Bellsprout", "Weepinbell"],
+      "veryrare": ["Tangela"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "rare": ["Remoraid"]
+    },
+    "surf": {
+      "common": ["Magikarp"],
+      "uncommon": ["Poliwag"]
+    }
+  },
+  "route-42": {
+    "name": "Route 42",
+    "roam": {
+      "common": ["Spearow", "Zubat"],
+      "rare": ["Mankey"],
+      "veryrare": ["Mareep", "Flaaffy"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Goldeen"],
+      "veryrare": ["Seaking"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Goldeen"],
+      "veryrare": ["Seaking"]
+    }
+  },
+  "route-43": {
+    "name": "Route 43",
+    "roam": {
+      "common": ["Pidgetto"],
+      "rare": ["Venonat"],
+      "veryrare": ["Mareep", "Flaaffy", "Girafarig"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Poliwag"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "lake-of-rage": {
+    "name": "Lake of Rage",
+    "fish": {
+      "common": ["Magikarp"],
+      "veryrare": ["Gyarados"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
   }
 }
