@@ -315,6 +315,24 @@ export default class Johto extends Component {
         }}>
         </div>
 
+        <div className="route-42" data-tip="Route 42" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '100px',
+          left: '208px',
+          width: '36px',
+          height: '9px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-42') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-42') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-42') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-42') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-42'])
+        }}>
+        </div>
+
         <div className="route-43" data-tip="Route 43" style={{
           cursor: 'pointer',
           position: 'absolute',
@@ -350,6 +368,60 @@ export default class Johto extends Component {
           if (e.stopPropagation) e.stopPropagation()
           setSelectedArea(['lake-of-rage'])
         }}></div>
+
+        <div className="route-38" data-tip="Route 38" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '100px',
+          left: '91px',
+          width: '90px',
+          height: '9px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-38') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-38') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-38') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-38') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-38'])
+        }}>
+        </div>
+
+        <div className="route-30" data-tip="Route 30" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '143px',
+          left: '289px',
+          width: '9px',
+          height: '71px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-30') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-30') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-30') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-30') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-30'])
+        }}>
+        </div>
+
+        <div className="route-31" data-tip="Route 31" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '135px',
+          left: '268px',
+          width: '29px',
+          height: '9px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-31') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-31') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-31') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-31') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-31'])
+        }}>
+        </div>
 
       </div>
     )

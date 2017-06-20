@@ -162,10 +162,11 @@
     }
   },
   "ice-path": {
+    "name": "Ice Path",
     "roam": {
       "common": ["Zubat", "Golbat"],
-      "rare": ["Dewgong"],
-      "veryrare": ["Swinub", "Sneasel"]
+      "veryrare": ["Dewgong"],
+      "extremelyrare": ["Swinub", "Sneasel"]
     }
   },
   "route-44": {
@@ -225,6 +226,47 @@
     },
     "surf": {
       "common": ["Tentacool"]
+    }
+  },
+  "route-38": {
+    "name": "Route 38",
+    "roam": {
+      "common": ["Rattata", "Raticate"],
+      "uncommon": ["Meowth"],
+      "rare": ["Magnemite", "Snubbull"],
+      "veryrare": ["Miltank", "Tauros"]
+    }
+  },
+  "route-30": {
+    "name": "Route 30",
+    "roam": {
+      "common": ["Pidgey", "Caterpie", "Weedle", "Rattata"],
+      "uncommon": ["Metapod", "Hoothoot", "Ledyba", "Spinarak"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Poliwag"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Poliwag"],
+      "rare": ["Tentacruel", "Poliwhirl"]
+    }
+  },
+  "route-31": {
+    "name": "Route 31",
+    "roam": {
+      "common": ["Pidgey", "Caterpie", "Weedle", "Rattata"],
+      "uncommon": ["Metapod", "Kakuna", "Ledyba", "Spinarak", "Bellsprout"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Poliwag"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Poliwag"],
+      "rare": ["Tentacruel", "Poliwhirl"]
     }
   }
 }
