@@ -11,5 +11,116 @@
       "common": ["Tentacool"],
       "rare": ["Tentacool"]
     }
+  },
+  "route-26": {
+    "name": "Route 26",
+    "roam": {
+      "common": ["Raticate"],
+      "uncommon": ["Hoothoot"],
+      "rare": ["Quagsire", "Sandslash", "Pineco"],
+      "veryrare": ["Ponyta", "Arbok", "Doduo"]
+    },
+    "fish": {
+      "common": ["Magikarp", "Tentacool"],
+      "rare": ["Shellder"],
+      "veryrare": ["Chinchou"],
+      "extremelyrare": ["Lanturn"]
+    },
+    "surf" : {
+      "common": ["Tentacool"],
+      "rare": ["Tentacool"]
+    }
+  },
+  "route-27": {
+    "name": "Route 27",
+    "roam": {
+      "common": ["Raticate"],
+      "uncommon": ["Hoothoot"],
+      "rare": ["Quagsire", "Sandslash", "Pineco"],
+      "veryrare": ["Ponyta", "Arbok", "Doduo"]
+    },
+    "fish": {
+      "common": ["Magikarp", "Tentacool"],
+      "rare": ["Shellder"],
+      "veryrare": ["Chinchou"],
+      "extremelyrare": ["Lanturn"]
+    },
+    "surf" : {
+      "common": ["Tentacool"],
+      "rare": ["Tentacool"]
+    }
+  },
+  "route-29": {
+    "name": "Route 29",
+    "roam": {
+      "common": ["Rattata", "Pidgey"],
+      "uncommon": ["Hoothoot", "Sentret"]
+    }
+  },
+  "route-28": {
+    "name": "Route 28",
+    "roam": {
+      "common": ["Geodude", "Graveler"],
+      "rare": ["Aipom"],
+      "veryrare": ["Ponyta", "Ursaring", "Donphan", "Natu", "Tangela", "Doduo"],
+      "extremelyrare": ["Sneasel"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Poliwag"]
+    },
+    "surf" : {
+      "common": ["Magikarp"]
+    }
+  },
+  "mt-silver": {
+    "name": "Mt. Silver",
+    "roam": {
+      "common": ["Graveler", "Golbat"],
+      "veryrare": ["Ursaring", "Donphan"],
+      "extremelyrare": ["Onix"],
+      "legendary": ["Moltres"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Poliwag"]
+    },
+    "surf" : {
+      "common": ["Magikarp"]
+    }
+  },
+  "cherrygrove-city": {
+    "name": "Cherrygrove City",
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Kingler"],
+      "veryrare": ["Staryu", "Corsola"]
+    },
+    "surf" : {
+      "common": ["Tentacool"],
+      "rare": ["Tentacruel"]
+    }
+  },
+  "route-46": {
+    "name": "Route 46",
+    "roam": {
+      "common": ["Rattata", "Spearow", "Geodude"]
+    }
+  },
+  "route-45": {
+    "name": "Route 45",
+    "roam": {
+      "common": ["Geodude", "Graveler"],
+      "veryrare": ["Teddiursa", "Phanpy"],
+      "extremelyrare": ["Gligar", "Skarmory"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Poliwag"]
+    },
+    "surf": {
+      "common": ["Magikarp"]
+    }
   }
 }
