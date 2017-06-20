@@ -423,6 +423,60 @@ export default class Johto extends Component {
         }}>
         </div>
 
+        <div className='sprout-tower' data-tip="Sprout Tower" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '116px',
+          left: '262px',
+          width: '18px',
+          height: '18px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('sprout-tower') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('sprout-tower') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('sprout-tower') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('sprout-tower') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['sprout-tower'])
+        }}></div>
+
+        <div className='violet-city' data-tip="Violet City" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '126px',
+          left: '240px',
+          width: '28px',
+          height: '29px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('violet-city') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('violet-city') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('violet-city') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('violet-city') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['violet-city'])
+        }}></div>
+
+        <div className="route-32" data-tip="Route 32" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '154px',
+          left: '250px',
+          width: '9px',
+          height: '120px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-32') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-32') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-32') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-32') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-32'])
+        }}>
+        </div>
+
       </div>
     )
   }

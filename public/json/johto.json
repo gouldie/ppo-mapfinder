@@ -268,5 +268,41 @@
       "uncommon": ["Poliwag"],
       "rare": ["Tentacruel", "Poliwhirl"]
     }
+  },
+  "sprout-tower": {
+    "name": "Sprout Tower",
+    "roam": {
+      "common": ["Rattata"]
+    }
+  },
+  "violet-city": {
+    "name": "Violet City",
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Kingler"],
+      "veryrare": ["Staryu", "Corsola"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "rare": ["Tentacruel"]
+    }
+  },
+  "route-32": {
+    "name": "Route 32",
+    "roam": {
+      "common": ["Rattata", "Zubat"],
+      "uncommon": ["Ekans", "Bellsprout"],
+      "rare": ["Wooper", "Hoppip"],
+      "veryrare": ["Vulpix", "Growlithe", "Mareep"]
+    },
+    "fish": {
+      "common": ["Magikarp", "Tentacool"],
+      "rare": ["Qwilfish"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "rare": ["Tentacruel", "Quagsire"]
+    }
   }
 }
