@@ -52,7 +52,7 @@ export default class App extends Component {
 
     return (
       <div id="container">
-        <h1>PPO Map Finder</h1>
+        <h1>PPO Townmap XTREME XDDD</h1>
         <div className="flex justify-center" style={{marginBottom: '20px'}}>
           <button className="btn btn-sm btn-secondary"
                   style={mode === 0 ? selectedButtonStyle : {}}

@@ -5,5 +5,36 @@
       "common": ["Zigzagoon", "Wurmple"],
       "rare": ["Poochyena"]
     }
+  },
+  "route-102": {
+    "name": "Route 102",
+    "roam": {
+      "common": ["Zigzagoon", "Wurmple"],
+      "uncommon": ["Surskit"],
+      "rare": ["Poochyena", "Lotad", "Seedot"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Goldeen"],
+      "rare": ["Corphish"]
+    },
+    "surf": {
+      "common": ["Magikarp"],
+      "uncommon": ["Marill", "Surskit"],
+      "rare": ["Azumarill", "Masquerain"]
+    }
+  },
+  "petalburg-city": {
+    "name": "Petalburg City",
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Goldeen"],
+      "rare": ["Corphish"]
+    },
+    "surf": {
+      "common": ["Magikarp"],
+      "uncommon": ["Marill", "Surskit"],
+      "rare": ["Azumarill", "Masquerain"]
+    }
   }
 }
