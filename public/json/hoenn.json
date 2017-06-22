@@ -1,0 +1,9 @@
+{
+  "route-101": {
+    "name": "Route 101",
+    "roam": {
+      "common": ["Zigzagoon", "Wurmple"],
+      "rare": ["Poochyena"]
+    }
+  }
+}

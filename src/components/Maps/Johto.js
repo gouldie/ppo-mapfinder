@@ -26,24 +26,24 @@ export default class Johto extends Component {
 
     return (
       <div key={this.state.key}>
-          <ReactTooltip />
-          <div className='new-bark-town' data-tip="New Bark Town" style={{
-            cursor: 'pointer',
-            position: 'absolute',
-            top: '214px',
-            left: '399px',
-            width: '28px',
-            height: '29px',
-            borderRadius: '50%',
-            backgroundColor: mode === 0 ? selectedArea.indexOf('new-bark-town') >= 0 ? 'indianred' : ''
-              : matchedAreas && matchedAreas.indexOf('new-bark-town') >= 0 ? 'indianred' : '' ,
-            animation: mode === 0 ? selectedArea.indexOf('new-bark-town') >= 0 ? 'pulse 2s infinite' : ''
-              : matchedAreas && matchedAreas.indexOf('new-bark-town') >= 0 ? 'pulse 2s infinite' : ''
-          }} onClick={(e) => {
-            if (mode === 1) return
-            if (e.stopPropagation) e.stopPropagation()
-            setSelectedArea(['new-bark-town'])
-          }}></div>
+        <ReactTooltip />
+        <div className='new-bark-town' data-tip="New Bark Town" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '214px',
+          left: '399px',
+          width: '28px',
+          height: '29px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('new-bark-town') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('new-bark-town') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('new-bark-town') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('new-bark-town') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['new-bark-town'])
+        }}></div>
 
         <div className="route-27" data-tip="Route 27" style={{
           cursor: 'pointer',

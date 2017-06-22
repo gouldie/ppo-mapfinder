@@ -9,7 +9,7 @@ export default class App extends Component {
 
     this.state = {
       mode: 0, // 0: by map, 1: by pokemon
-      selectedMap: 'Johto',
+      selectedMap: 'Hoenn',
       selectedArea: [],
       selectedPokemon: null,
     }

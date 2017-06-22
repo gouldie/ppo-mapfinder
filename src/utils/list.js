@@ -305,9 +305,11 @@ export const pokemonToRegionsFound = (pokemon, regionJSON) => {
 				}
 			})
 
+			// Verify which region was found
 			if (matchFound) {
 				if (region['pallet-town']) regionsFound.indexOf('Kanto') < 0 && regionsFound.push('Kanto')
 				if (region['new-bark-town']) regionsFound.indexOf('Johto') < 0 && regionsFound.push('Johto')
+				if (region['route-101']) regionsFound.indexOf('Hoenn') < 0 && regionsFound.push('Hoenn')
 			}
 
 			matchFound = false
