@@ -81,6 +81,145 @@ export default class Hoenn extends Component {
           setSelectedArea(['petalburg-city'])
         }}></div>
 
+        <div className="route-104" data-tip="Route 104" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '178px',
+          left: '37px',
+          width: '9px',
+          height: '26px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-104-1') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-104-1') >= 0
+            || matchedAreas && matchedAreas.indexOf('route-104-2') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-104-1') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-104-1') >= 0
+            || matchedAreas && matchedAreas.indexOf('route-104-2') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-104-1', 'route-104-2'])
+        }}>
+        </div>
+
+        <div className="route-105" data-tip="Route 105" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '204px',
+          left: '37px',
+          width: '9px',
+          height: '37px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-105') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-105') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-105') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-105') >= 0? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-105'])
+        }}>
+        </div>
+
+        <div className="route-106" data-tip="Route 106" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '239px',
+          left: '37px',
+          width: '35px',
+          height: '9px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-106') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-106') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-106') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-106') >= 0? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-106'])
+        }}>
+        </div>
+
+        <div className='dewford-town' data-tip="Dewford Town" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '248px',
+          left: '59px',
+          width: '18px',
+          height: '18px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('dewford-town') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('dewford-town') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('dewford-town') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('dewford-town') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['dewford-town'])
+        }}></div>
+
+        <div className='granite-cave' data-tip="Granite Cave" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '257px',
+          left: '39px',
+          width: '16px',
+          height: '16px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('granite-cave-1') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('granite-cave-1') >= 0
+            || matchedAreas && matchedAreas.indexOf('granite-cave-2') >= 0
+            || matchedAreas && matchedAreas.indexOf('granite-cave-3') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-1') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-2') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-3') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-4') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-5') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-6') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-7') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-8') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-9') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-10') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-11') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-12') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-dungeon') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('granite-cave-1') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('granite-cave-1') >= 0
+            || matchedAreas && matchedAreas.indexOf('granite-cave-2') >= 0
+            || matchedAreas && matchedAreas.indexOf('granite-cave-3') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-1') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-2') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-3') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-4') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-5') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-6') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-7') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-8') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-9') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-10') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-11') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cavern-12') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-dungeon') >= 0? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea([
+            'granite-cave-1',
+            'granite-cave-2',
+            'granite-cave-3',
+            'ancient-cavern-1',
+            'ancient-cavern-2',
+            'ancient-cavern-3',
+            'ancient-cavern-4',
+            'ancient-cavern-5',
+            'ancient-cavern-6',
+            'ancient-cavern-7',
+            'ancient-cavern-8',
+            'ancient-cavern-9',
+            'ancient-cavern-10',
+            'ancient-cavern-11',
+            'ancient-cavern-12',
+            'ancient-dungeon'
+          ])
+        }}></div>
+
       </div>
     )
   }

@@ -36,5 +36,249 @@
       "uncommon": ["Marill", "Surskit"],
       "rare": ["Azumarill", "Masquerain"]
     }
+  },
+  "route-104-1": {
+    "name": "Route 104_1",
+    "roam": {
+      "common": ["Zigzagoon", "Wurmple"],
+      "uncommon": ["Marill", "Wingull"],
+      "rare": ["Poochyena"]
+    },
+    "fish": {
+      "common": ["Magikarp"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Wingull"],
+      "rare": ["Pelipper"]
+    }
+  },
+  "route-104-2": {
+    "name": "Route 104_2",
+    "roam": {
+      "common": ["Zigzagoon"],
+      "uncommon": ["Marill", "Wingull"],
+      "rare": ["Poochyena"]
+    },
+    "fish": {
+      "common": ["Magikarp"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "rare": ["Pelipper"]
+    }
+  },
+  "route-105": {
+    "name": "Route 105",
+    "fish": {
+      "common": ["Magikarp", "Tentacool"],
+      "veryrare": ["Wailmer"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Wingull", "Krabby"],
+      "rare": ["Pelipper"]
+    }
+  },
+  "route-106": {
+    "name": "Route 106",
+    "fish": {
+      "common": ["Magikarp", "Tentacool"],
+      "veryrare": ["Wailmer"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Wingull", "Krabby"],
+      "rare": ["Pelipper"]
+    }
+  },
+  "dewford-town": {
+    "name": "Dewford Town",
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Goldeen"],
+      "rare": ["Corphish"]
+    },
+    "surf": {
+      "common": ["Magikarp"],
+      "uncommon": ["Marill", "Surskit"],
+      "rare": ["Azumarill", "Masquerain"]
+    }
+  },
+  "granite-cave-1": {
+    "name": "Granite Cave R1, R2",
+    "roam": {
+      "common": ["Graveler", "Golbat"],
+      "veryrare": ["Abra", "Makuhita"]
+    }
+  },
+  "granite-cave-2": {
+    "name": "Granite Cave R3",
+    "roam": {
+      "common": ["Graveler", "Golbat"],
+      "veryrare": ["Abra", "Aron"],
+      "extremelyrare": ["Mawile"]
+    }
+  },
+  "granite-cave-3": {
+    "name": "Granite Cave R4",
+    "roam": {
+      "common": ["Golbat"],
+      "veryrare": ["Abra", "Makuhita", "Aron", "Nosepass"]
+    }
+  },
+  "ancient-cavern-1": {
+    "name": "Ancient Cavern R1 (Light Purple)",
+    "roam": {
+      "common": ["Butterfree", "Arbok", "Golbat"],
+      "uncommon": ["Oddish"],
+      "rare": ["Kecleon", "Muk", "Primeape"],
+      "veryrare": ["Abra", "Cubone", "Tangela", "Natu", "Aron", "Drifloon"],
+      "extremelyrare": ["Tropius", "Mawile", "Onix", "Skarmory", "Snover", "Numel"]
+    }
+  },
+  "ancient-cavern-2": {
+    "name": "Ancient Cavern R2 (Green)",
+    "roam": {
+      "common": ["Butterfree", "Beedrill"],
+      "uncommon": ["Oddish"],
+      "rare": ["Kecleon", "Carnivine"],
+      "veryrare": ["Tangela", "Natu", "Exeggcute"],
+      "extremelyrare": ["Tropius", "Mawile", "Snover"]
+    }
+  },
+  "ancient-cavern-3": {
+    "name": "Ancient Cavern R3 (Blue)",
+    "roam": {
+      "common": ["Butterfree"],
+      "uncommon": ["Oddish"],
+      "rare": ["Kecleon"],
+      "veryrare": ["Cubone", "Dewgong"],
+      "extremelyrare": ["Swinub", "Spheal", "Snover"]
+    }
+  },
+  "ancient-cavern-4": {
+    "name": "Ancient Cavern R4 (Blue)",
+    "roam": {
+      "common": ["Arbok"],
+      "rare": ["Kecleon"],
+      "veryrare": ["Abra", "Cubone", "Tangela", "Natu", "Aron"]
+    },
+    "fish": {
+      "common": ["Tentacruel"],
+      "rare": ["Shellder"],
+      "veryrare": ["Staryu"],
+      "extremelyrare": ["Milotic"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "rare": ["Shellder"]
+    }
+  },
+  "ancient-cavern-5": {
+    "name": "Ancient Cavern R1 (Brown)",
+    "roam": {
+      "common": ["Arbok", "Graveler"],
+      "rare": ["Kecleon"],
+      "veryrare": ["Abra", "Cubone", "Aron", "Phanpy"],
+      "extremelyrare": ["Onix"]
+    }
+  },
+  "ancient-cavern-6": {
+    "name": "Ancient Cavern R4 (Purple)",
+    "roam": {
+      "common": ["Arbok", "Golbat"],
+      "uncommon": ["Oddish"],
+      "rare": ["Muk", "Weezing", "Stunky", "Kecleon"],
+      "veryrare": ["Seviper", "Tangela"],
+      "extremelyrare": ["Skorupi", "Mawile", "Foongus"]
+    }
+  },
+  "ancient-cavern-7": {
+    "name": "Ancient Cavern R2 (Purple)",
+    "roam": {
+      "common": ["Arbok", "Golbat"],
+      "uncommon": ["Oddish"],
+      "rare": ["Muk", "Weezing", "Stunky", "Kecleon"],
+      "veryrare": ["Abra", "Cubone", "Tangela", "Natu", "Aron", "Seviper"],
+      "extremelyrare": ["Mawile", "Onix"]
+    },
+    "fish": {
+      "common": ["Tentacruel"],
+      "rare": ["Qwilfish"],
+      "extremelyrare": ["Milotic"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "rare": ["Qwilfish"]
+    }
+  },
+  "ancient-cavern-8": {
+    "name": "Ancient Cavern R5 (Red)",
+    "roam": {
+      "common": ["Magcargo"],
+      "rare": ["Drifloon", "Kecleon", "Primeape"],
+      "veryrare": ["Vulpix", "Growlithe", "Magmar"],
+      "extremelyrare": ["Numel", "Mawile", "Onix", "Fletchling"]
+    }
+  },
+  "ancient-cavern-9": {
+    "name": "Ancient Cavern R7",
+    "roam": {
+      "common": ["Butterfree", "Beedrill"],
+      "uncommon": ["Oddish"],
+      "rare": ["Kecleon", "Carnivine"],
+      "veryrare": ["Tangela", "Natu", "Exeggcute"],
+      "extremelyrare": ["Tropius", "Mawile", "Snover"]
+    }
+  },
+  "ancient-cavern-10": {
+    "name": "Ancient Cavern R5 (Green)",
+    "roam": {
+      "common": ["Arbok", "Butterfree", "Beedrill"],
+      "uncommon": ["Oddish"],
+      "rare": ["Kecleon", "Carnivine"],
+      "veryrare": ["Abra", "Cubone", "Tangela", "Natu", "Aron", "Vulpix", "Growlithe", "Magmar"],
+      "extremelyrare": ["Numel", "Onix"]
+    }
+  },
+  "ancient-cavern-11": {
+    "name": "Ancient Cavern R3 (Red)",
+    "roam": {
+      "common": ["Magcargo", "Arbok"],
+      "rare": ["Drifloon", "Kecleon", "Primeape"],
+      "veryrare": ["Abra", "Cubone", "Tangela", "Natu", "Aron", "Vulpix", "Growlithe", "Magmar"],
+      "extremelyrare": ["Numel", "Onix"]
+    }
+  },
+  "ancient-cavern-12": {
+    "name": "Ancient Cavern R6",
+    "roam": {
+      "common": ["Magcargo"],
+      "rare": ["Drifloon", "Kecleon", "Primeape"],
+      "veryrare": ["Vulpix", "Growlithe", "Magmar"],
+      "extremelyrare": ["Numel", "Mawile", "Onix", "Fletchling"]
+    }
+  },
+  "ancient-dungeon": {
+    "name": "Ancient Dungeon",
+    "roam": {
+      "common": ["Magneton", "Gengar", "Arbok", "Exploud", "Electrode", "Golem", "Fearow"],
+      "rare": ["Shroomish"],
+      "veryrare": ["Clefairy", "Chansey", "Aggron", "Growlithe", "Alakazam", "Dewgong"],
+      "extremelyrare": ["Salamence", "Goodra", "Deino"]
+    },
+    "fish": {
+      "common": ["Gyarados", "Tentacruel"],
+      "Uncommon": ["Kingler"],
+      "veryrare": ["Wailord", "Staryu"],
+      "extremelyrare": ["Dratini"]
+    },
+    "surf": {
+      "common": ["Gyarados", "Tentacruel"],
+      "uncommon": ["Kingler"],
+      "veryrare": ["Wailord", "Slowbro", "Staryu"],
+      "extremelyrare": ["Milotic"]
+    }
   }
 }
