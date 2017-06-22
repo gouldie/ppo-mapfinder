@@ -641,5 +641,84 @@
     "surf": {
       "common": ["Tentacool"]
     }
+  },
+  "lost-meadows-west": {
+    "name": "Lost Meadows (West)",
+    "roam": {
+      "common": ["Butterfree"],
+      "uncommon": ["Marill"],
+      "veryrare": ["Igglybuff", "Cleffa"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Kingler"],
+      "veryrare": ["Staryu", "Corsola"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "rare": ["Tentacruel"]
+    }
+  },
+  "lost-meadows-north": {
+    "name": "Lost Meadows (North)",
+    "roam": {
+      "common": ["Butterfree"],
+      "uncommon": ["Marill"],
+      "veryrare": ["Igglybuff", "Cleffa"],
+      "extremelyrare": ["Chikorita"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Kingler"],
+      "veryrare": ["Staryu", "Corsola"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "rare": ["Tentacruel"]
+    }
+  },
+  "lost-meadows-east": {
+    "name": "Lost Meadows (East)",
+    "roam": {
+      "common": ["Butterfree"],
+      "uncommon": ["Marill"],
+      "veryrare": ["Igglybuff", "Cleffa"]
+    }
+  },
+  "toto-cave": {
+    "name": "Toto Cave",
+    "roam": {
+      "common": ["Butterfree"],
+      "extremelyrare": ["Totodile"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Kingler"],
+      "veryrare": ["Staryu", "Corsola"],
+      "extremelyrare": ["Totodile"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "rare": ["Tentacruel"],
+      "extremelyrare": ["Totodile"]
+    }
+  },
+  "ember-cave-1": {
+    "name": "Ember Cave F1",
+    "roam": {
+      "common": ["Magcargo"],
+      "veryrare": ["Vulpix", "Growlithe", "Magmar"]
+    }
+  },
+  "ember-cave-2": {
+    "name": "Ember Cave F2",
+    "roam": {
+      "common": ["Magcargo"],
+      "veryrare": ["Vulpix", "Growlithe", "Magmar"],
+      "extremelyrare": ["Cyndaquil"]
+    }
   }
 }

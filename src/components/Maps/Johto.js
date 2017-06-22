@@ -674,6 +674,23 @@ export default class Johto extends Component {
           setSelectedArea(['route-40'])
         }}>
         </div>
+        <div className="route-40" data-tip="Route 40" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '135px',
+          left: '64px',
+          width: '17px',
+          height: '9px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-40') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-40') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-40') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-40') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-40'])
+        }}>
+        </div>
 
         <div className="route-41" data-tip="Route 41" style={{
           cursor: 'pointer',
@@ -746,7 +763,7 @@ export default class Johto extends Component {
         }}>
         </div>
 
-        <div className='johto-safari' data-tip="Johto Safari" style={{
+        <div className='johto-safari' data-tip="Johto Safari Zone" style={{
           cursor: 'pointer',
           position: 'absolute',
           top: '190px',
@@ -795,6 +812,66 @@ export default class Johto extends Component {
             'johto-safari-peak',
             'johto-safari-mountain',
             'johto-safari-rockybeach'])
+        }}></div>
+
+        <div className="lost-meadows" data-tip="Lost Meadows" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '182px',
+          left: '26px',
+          width: '9px',
+          height: '33px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('lost-meadows-east') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('lost-meadows-east') >= 0
+            || matchedAreas.indexOf('lost-meadows-west') >= 0
+            || matchedAreas.indexOf('lost-meadows-north') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('lost-meadows-east') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('lost-meadows-east') >= 0
+            || matchedAreas.indexOf('lost-meadows-west') >= 0
+            || matchedAreas.indexOf('lost-meadows-north') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['lost-meadows-east', 'lost-meadows-west', 'lost-meadows-north'])
+        }}>
+        </div>
+
+        <div className='toto-cave' data-tip="Toto Cave" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '158px',
+          left: '8px',
+          width: '16px',
+          height: '16px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('toto-cave') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('toto-cave') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('toto-cave') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('toto-cave') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['toto-cave'])
+        }}></div>
+
+        <div className='ember-cave' data-tip="Ember Cave" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '168px',
+          left: '28px',
+          width: '16px',
+          height: '16px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('ember-cave-1') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('ember-cave-1') >= 0
+            || matchedAreas && matchedAreas.indexOf('ember-cave-2') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('ember-cave-1') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('ember-cave-1') >= 0
+            || matchedAreas && matchedAreas.indexOf('ember-cave-2') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['ember-cave-1', 'ember-cave-2'])
         }}></div>
 
       </div>
