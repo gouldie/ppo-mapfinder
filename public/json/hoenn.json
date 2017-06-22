@@ -363,5 +363,123 @@
       "common": ["Tentacool"],
       "rare": ["Tentacruel", "Pelipper"]
     }
+  },
+  "evergrande-city": {
+    "name": "Ever Grande City",
+    "fish": {
+      "common": ["Magikarp"],
+      "rare": ["Luvdisc"],
+      "veryrare": ["Wailmer", "Corsola"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "rare": ["Pelipper", "Luvdisc"]
+    }
+  },
+  "hoenn-victory-road-1": {
+    "name": "Hoenn Victory Road F1, F2",
+    "roam": {
+      "common": ["Golbat", "Exploud"],
+      "veryrare": ["Makuhita", "Aron"],
+      "extremelyrare": ["Mawile"]
+    }
+  },
+  "hoenn-victory-road-2": {
+    "name": "Hoenn Victory Road F3",
+    "roam": {
+      "common": ["Golbat", "Exploud"],
+      "veryrare": ["Aron", "Meditite"],
+      "extremelyrare": ["Mawile"]
+    },
+    "fish": {
+      "common": ["Gyarados"],
+      "uncommon": ["Goldeen"],
+      "veryrare": ["Barboach"]
+    },
+    "surf": {
+      "common": ["Tentacruel"]
+    }
+  },
+  "route-128": {
+    "name": "Route 128",
+    "fish": {
+      "common": ["Magikarp"],
+      "veryrare": ["Wailmer", "Corsola"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "rare": ["Tentacruel", "Pelipper"]
+    }
+  },
+  "route-127": {
+    "name": "Route 127",
+    "fish": {
+      "common": ["Magikarp"],
+      "veryrare": ["Carvanha", "Wailmer"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Wingull"],
+      "rare": ["Tentacruel", "Pelipper"]
+    }
+  },
+  "route-126": {
+    "name": "Route 126",
+    "fish": {
+      "common": ["Magikarp"],
+      "veryrare": ["Carvanha", "Wailmer", "Clamperl", "Chinchou", "Relicanth"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Wingull"],
+      "rare": ["Pelipper"]
+    }
+  },
+  "sootopolis-city": {
+    "name": "Sootopolis City",
+    "fish": {
+      "common": ["Magikarp"],
+      "veryrare": ["Gyarados"]
+    },
+    "surf": {
+      "common": ["Magikarp"]
+    }
+  },
+  "route-124": {
+    "name": "Route 124",
+    "fish": {
+      "common": ["Magikarp"],
+      "veryrare": ["Wailmer", "Clamperl", "Chinchou", "Relicanth"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Wingull"],
+      "rare": ["Pelipper", "Tentacool"],
+      "veryrare": ["Clamperl"]
+    }
+  },
+  "mossdeep-city": {
+    "name": "Mossdeep City",
+    "fish": {
+      "common": ["Magikarp"],
+      "veryrare": ["Wailmer"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Wingull"],
+      "rare": ["Pelipper", "Tentacool"]
+    }
+  },
+  "route-125": {
+    "name": "Route 125",
+    "fish": {
+      "common": ["Magikarp"],
+      "veryrare": ["Wailmer"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Wingull"],
+      "rare": ["Pelipper", "Tentacool"]
+    }
   }
 }

@@ -346,6 +346,205 @@ export default class Hoenn extends Component {
         }}>
         </div>
 
+        <div className='evergrande-city' data-tip="Evergrande City" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '166px',
+          left: '395px',
+          width: '25px',
+          height: '39px',
+          borderRadius: '40%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('evergrande-city') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('evergrande-city') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('evergrande-city') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('evergrande-city') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['evergrande-city'])
+        }}></div>
+
+        <div className='hoenn-victory-road' data-tip="Hoenn Victory Road" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '175px',
+          left: '380px',
+          width: '16px',
+          height: '16px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('hoenn-victory-road-1') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('hoenn-victory-road-1') >= 0
+            || matchedAreas && matchedAreas.indexOf('hoenn-victory-road-2') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('hoenn-victory-road-1') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('hoenn-victory-road-1') >= 0
+            || matchedAreas && matchedAreas.indexOf('hoenn-victory-road-2') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['hoenn-victory-road-1', 'hoenn-victory-road-2'])
+        }}></div>
+
+        <div className="route-128" data-tip="Route 128" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '187px',
+          left: '372px',
+          width: '21px',
+          height: '8px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-128') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-128') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-128') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-128') >= 0? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-128'])
+        }}>
+        </div>
+
+        <div className="route-127" data-tip="Route 127" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '148px',
+          left: '365px',
+          width: '9px',
+          height: '54px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-127') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-127') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-127') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-127') >= 0? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-127'])
+        }}>
+        </div>
+
+        <div className="route-126" data-tip="Route 126" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '159px',
+          left: '341px',
+          width: '27px',
+          height: '9px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-126') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-126') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-126') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-126') >= 0? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-126'])
+        }}>
+        </div>
+
+        <div className='sootopolis-city' data-tip="Sootopolis City" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '150px',
+          left: '314px',
+          width: '27px',
+          height: '27px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('sootopolis-city') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('sootopolis-city') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('sootopolis-city') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('sootopolis-city') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['sootopolis-city'])
+        }}></div>
+
+        <div className="route-124" data-tip="Route 124" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '131px',
+          left: '324px',
+          width: '29px',
+          height: '8px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-124') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-124') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-124') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-124') >= 0? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-124'])
+        }}>
+        </div>
+        <div className="route-124" data-tip="Route 124" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '138px',
+          left: '324px',
+          width: '8px',
+          height: '12px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-124') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-124') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-124') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-124') >= 0? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-124'])
+        }}>
+        </div>
+        <div className="route-124" data-tip="Route 124" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '107px',
+          left: '317px',
+          width: '30px',
+          height: '8px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-124') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-124') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-124') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-124') >= 0? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-124'])
+        }}>
+        </div>
+
+        <div className="route-125" data-tip="Route 125" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '113px',
+          left: '343px',
+          width: '21px',
+          height: '7px',
+          transform: 'rotateZ(45deg)',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-125') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-125') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-125') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-125') >= 0? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-125'])
+        }}>
+        </div>
+
+        <div className='mossdeep-city' data-tip="Mossdeep City" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '123px',
+          left: '355px',
+          width: '39px',
+          height: '25px',
+          borderRadius: '40%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('mossdeep-city') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('mossdeep-city') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('mossdeep-city') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('mossdeep-city') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['mossdeep-city'])
+        }}></div>
+
       </div>
     )
   }
