@@ -481,5 +481,74 @@
       "uncommon": ["Wingull"],
       "rare": ["Pelipper", "Tentacool"]
     }
+  },
+  "lilycove-city": {
+    "name": "Lilycove City",
+    "fish": {
+      "common": ["Magikarp"],
+      "veryrare": ["Staryu", "Wailmer"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Wingull"],
+      "rare": ["Pelipper"]
+    }
+  },
+  "hoenn-safari-zone": {
+    "name": "Hoenn Safari Zone",
+    "roam": {
+      "common": ["Raticate", "Golem", "Parasect", "Pidgeot", "Ekans"],
+      "uncommon": ["Gloom"],
+      "rare": ["Pachirisu", "Meditite"],
+      "veryrare": ["Timburr", "Ferroseed", "Drilbur", "Starly", "Pikachu", "Girafarig", "Xatu", "Donphan"],
+      "extremelyrare": ["Treecko", "Torchic", "Litwick", "Larvesta", "Fletchling", "Pawniard", "Rhyhorn"]
+    },
+    "fish": {
+      "common": ["Gyarados"],
+      "uncommon": ["Goldeen"],
+      "rare": ["Alomomola"],
+      "veryrare": ["Frillish", "Psyduck"],
+      "extremelyrare": ["Mudkip"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "rare": ["Tynamo"],
+      "veryrare": ["Psyduck"]
+    }
+  },
+  "route-121": {
+    "name": "Route 121",
+    "roam": {
+      "common": ["Linoone"],
+      "uncommon": ["Oddish", "Wingull"],
+      "rare": ["Kecleon", "Poochyena"],
+      "veryrare": ["Mightyena", "Absol"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "veryrare": ["Wailmer"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Wingull"],
+      "rare": ["Pelipper"]
+    }
+  },
+  "route-120": {
+    "name": "Route 120",
+    "roam": {
+      "common": ["Linoone"],
+      "uncommon": ["Surskit", "Oddish", "Marill"],
+      "rare": ["Kecleon", "Poochyena"],
+      "veryrare": ["Mightyena", "Absol"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "veryrare": ["Barboach"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Surskit", "Goldeen"]
+    }
   }
 }
