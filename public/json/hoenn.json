@@ -550,5 +550,153 @@
       "common": ["Tentacool"],
       "uncommon": ["Surskit", "Goldeen"]
     }
+  },
+  "route-119": {
+    "name": "Route 119",
+    "roam": {
+      "common": ["Linoone"],
+      "uncommon": ["Oddish"],
+      "rare": ["Kecleon"],
+      "extremelyrare": ["Tropius"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "veryrare": ["Carvanha"],
+      "extremelyrare": ["Feebas"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Wingull"]
+    }
+  },
+  "route-122": {
+    "name": "Route 122",
+    "roam": {
+      "common": ["Linoone"],
+      "uncommon": ["Oddish", "Wingull"],
+      "rare": ["Kecleon", "Poochyena"],
+      "veryrare": ["Mightyena", "Absol"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "veryrare": ["Wailmer"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Wingull"],
+      "rare": ["Pelipper"]
+    }
+  },
+  "route-123": {
+    "name": "Route 123",
+    "roam": {
+      "common": ["Linoone"],
+      "uncommon": ["Oddish", "Wingull"],
+      "rare": ["Kecleon", "Poochyena"],
+      "veryrare": ["Mightyena", "Shuppet", "Absol"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "rare": ["Corphish"],
+      "veryrare": ["Wailmer"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Wingull"],
+      "rare": ["Pelipper"]
+    }
+  },
+  "route-118": {
+    "name": "Route 118",
+    "roam": {
+      "common": ["Linoone"],
+      "uncommon": ["Wingull"],
+      "rare": ["Kecleon"],
+      "veryrare": ["Electrike"]
+    },
+    "fish": {
+      "common": ["Magikarp", "Tentacool"],
+      "veryrare": ["Carvanha"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Wingull"]
+    }
+  },
+  "route-111": {
+    "name": "Route 111",
+    "roam": {
+      "common": ["Graveler"],
+      "uncommon": ["Sandshrew"],
+      "rare": ["Cacnea"],
+      "veryrare": ["Trapinch", "Baltoy"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "veryrare": ["Barboach"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Marill", "Surskit"]
+    }
+  },
+  "route-112": {
+    "name": "Route 112",
+    "roam": {
+      "common": ["Magcargo"],
+      "uncommon": ["Marill"],
+      "extremelyrare": ["Machop", "Numel"]
+    }
+  },
+  "route-113": {
+    "name": "Route 113",
+    "roam": {
+      "common": ["Magcargo"],
+      "uncommon": ["Sandshrew"],
+      "rare": ["Spinda"],
+      "extremelyrare": ["Skarmory"]
+    }
+  },
+  "jagged-pass": {
+    "name": "Jagged Pass",
+    "roam": {
+      "common": ["Magcargo"],
+      "veryrare": ["Spoink"],
+      "extremelyrare": ["Machop", "Numel"]
+    }
+  },
+  "route-114": {
+    "name": "Route 114",
+    "roam": {
+      "common": ["Zigzagoon"],
+      "uncommon": ["Surskit"],
+      "rare": ["Seedot", "Lotad"],
+      "veryrare": ["Zangoose", "Seviper"],
+      "extremelyrare": ["Swablu"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "veryrare": ["Barboach"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Marill", "Surskit", "Goldeen"]
+    }
+  },
+  "meteor-falls": {
+    "name": "Meteor Falls",
+    "roam": {
+      "common": ["Golbat"],
+      "veryrare": ["Solrock", "Lunatone"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Goldeen"],
+      "veryrare": ["Barboach"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "veryrare": ["Solrock", "Lunatone"]
+    }
   }
 }
