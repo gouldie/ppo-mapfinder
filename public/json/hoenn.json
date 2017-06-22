@@ -280,5 +280,29 @@
       "veryrare": ["Wailord", "Slowbro", "Staryu"],
       "extremelyrare": ["Milotic"]
     }
+  },
+  "route-107": {
+    "name": "Route 107, 108",
+    "fish": {
+      "common": ["Magikarp", "Tentacool"],
+      "veryrare": ["Wailmer"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Wingull", "Krabby"],
+      "rare": ["Pelipper"]
+    }
+  },
+  "route-109": {
+    "name": "Route 109",
+    "fish": {
+      "common": ["Magikarp", "Tentacool"],
+      "veryrare": ["Wailmer"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Wingull", "Krabby"],
+      "rare": ["Pelipper"]
+    }
   }
 }

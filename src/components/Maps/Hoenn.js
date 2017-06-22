@@ -220,6 +220,42 @@ export default class Hoenn extends Component {
           ])
         }}></div>
 
+        <div className="route-107" data-tip="Route 107" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '253px',
+          left: '77px',
+          width: '70px',
+          height: '9px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-107') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-107') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-107') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-107') >= 0? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-107'])
+        }}>
+        </div>
+
+        <div className="route-109" data-tip="Route 109" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '232px',
+          left: '145px',
+          width: '9px',
+          height: '30px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-109') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-109') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-109') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-109') >= 0? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-109'])
+        }}>
+        </div>
+
       </div>
     )
   }
