@@ -256,6 +256,96 @@ export default class Hoenn extends Component {
         }}>
         </div>
 
+        <div className='slateport-city' data-tip="Slateport City" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '191px',
+          left: '138px',
+          width: '25px',
+          height: '39px',
+          borderRadius: '40%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('slateport-city') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('slateport-city') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('slateport-city') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('slateport-city') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['slateport-city'])
+        }}></div>
+
+        <div className="route-132" data-tip="Route 132" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '200px',
+          left: '164px',
+          width: '99px',
+          height: '9px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-132') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-132') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-132') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-132') >= 0? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-132'])
+        }}>
+        </div>
+
+        <div className='pacifidlog-town' data-tip="Pacifidlog Town" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '195px',
+          left: '264px',
+          width: '17px',
+          height: '18px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('pacifidlog-town') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('pacifidlog-town') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('pacifidlog-town') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('pacifidlog-town') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['pacifidlog-town'])
+        }}></div>
+
+        <div className="route-129" data-tip="Route 129" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '200px',
+          left: '327px',
+          width: '47px',
+          height: '9px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-129') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-129') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-129') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-129') >= 0? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-129'])
+        }}>
+        </div>
+
+        <div className="route-130" data-tip="Route 130" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '200px',
+          left: '283px',
+          width: '45px',
+          height: '9px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-130') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-130') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-130') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-130') >= 0? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-130'])
+        }}>
+        </div>
+
       </div>
     )
   }

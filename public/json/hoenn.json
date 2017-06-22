@@ -304,5 +304,64 @@
       "uncommon": ["Wingull", "Krabby"],
       "rare": ["Pelipper"]
     }
+  },
+  "slateport-city": {
+    "name": "Slateport City",
+    "fish": {
+      "common": ["Magikarp", "Tentacool"],
+      "veryrare": ["Wailmer"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Wingull", "Krabby"],
+      "rare": ["Pelipper"]
+    }
+  },
+  "route-132": {
+    "name": "Route 132, 133, 134",
+    "fish": {
+      "common": ["Magikarp"],
+      "rare": ["Horsea"],
+      "veryrare": ["Carvanha", "Seadra", "Wailmer", "Clamperl", "Chinchou", "Relicanth"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "rare": ["Tentacruel", "Pelipper"]
+    }
+  },
+  "pacifidlog-town": {
+    "name": "Pacifidlog Town",
+    "fish": {
+      "common": ["Magikarp"],
+      "veryrare": ["Wailmer", "Carvanha"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Wingull"],
+      "rare": ["Pelipper"]
+    }
+  },
+  "route-129": {
+    "name": "Route 129",
+    "fish": {
+      "common": ["Luvdisc", "Magikarp"],
+      "veryrare": ["Carvanha", "Wailmer", "Clameperl", "Chinchou", "Relicanth"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "rare": ["Tentacruel", "Pelipper"]
+    }
+  },
+  "route-130": {
+    "name": "Route 130, 131",
+    "fish": {
+      "common": ["Magikarp"],
+      "rare": ["Horsea"],
+      "veryrare": ["Carvanha", "Seadra", "Wailmer", "Clampert", "Chinchou", "Relicanth"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "rare": ["Tentacruel", "Pelipper"]
+    }
   }
 }
