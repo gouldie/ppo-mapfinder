@@ -477,6 +477,326 @@ export default class Johto extends Component {
         }}>
         </div>
 
+        <div className="route-37" data-tip="Route 37" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '118px',
+          left: '190px',
+          width: '9px',
+          height: '20px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-37') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-37') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-37') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-37') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-37'])
+        }}>
+        </div>
+
+        <div className="route-36" data-tip="Route 36" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '135px',
+          left: '164px',
+          width: '76px',
+          height: '9px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-36') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-36') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-36') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-36') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-36'])
+        }}>
+        </div>
+
+        <div className='union-cave' data-tip="Union Cave" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '274px',
+          left: '245px',
+          width: '18px',
+          height: '18px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('union-cave') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('union-cave') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('union-cave') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('union-cave') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['union-cave'])
+        }}></div>
+
+        <div className="route-33" data-tip="Route 33" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '279px',
+          left: '208px',
+          width: '37px',
+          height: '9px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-33') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-33') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-33') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-33') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-33'])
+        }}>
+        </div>
+
+        <div className='ilex-forest' data-tip="Ilex Forest" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '274px',
+          left: '145px',
+          width: '18px',
+          height: '18px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('ilex-forest') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('ilex-forest') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('ilex-forest') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('ilex-forest') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['ilex-forest'])
+        }}></div>
+
+        <div className="route-34" data-tip="Route 34" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '224px',
+          left: '149px',
+          width: '9px',
+          height: '50px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-34') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-34') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-34') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-34') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-34'])
+        }}>
+        </div>
+
+        <div className="route-35" data-tip="Route 35" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '150px',
+          left: '149px',
+          width: '9px',
+          height: '31px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-35') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-35') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-35') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-35') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-35'])
+        }}>
+        </div>
+
+        <div className='national-park' data-tip="National Park" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '131px',
+          left: '145px',
+          width: '18px',
+          height: '18px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('national-park') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('national-park') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('national-park') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('national-park') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['national-park'])
+        }}></div>
+
+        <div className="route-39" data-tip="Route 39" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '107px',
+          left: '90px',
+          width: '9px',
+          height: '19px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-39') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-39') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-39') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-39') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-39'])
+        }}>
+        </div>
+
+        <div className='olivine-city' data-tip="Olivine City" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '125px',
+          left: '81px',
+          width: '28px',
+          height: '29px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('olivine-city') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('olivine-city') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('olivine-city') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('olivine-city') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['olivine-city'])
+        }}></div>
+
+        <div className="route-40" data-tip="Route 40" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '149px',
+          left: '50px',
+          width: '9px',
+          height: '34px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-40') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-40') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-40') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-40') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-40'])
+        }}>
+        </div>
+
+        <div className="route-41" data-tip="Route 41" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '202px',
+          left: '50px',
+          width: '9px',
+          height: '31px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-41') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-41') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-41') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-41') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-41'])
+        }}>
+        </div>
+        <div className="route-41" data-tip="Route 41" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '224px',
+          left: '43px',
+          width: '7px',
+          height: '9px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-41') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-41') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-41') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-41') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-41'])
+        }}>
+        </div>
+
+        <div className='cianwood-city' data-tip="Cianwood City" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '215px',
+          left: '16px',
+          width: '28px',
+          height: '29px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('cianwood-city') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('cianwood-city') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('cianwood-city') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('cianwood-city') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['cianwood-city'])
+        }}></div>
+
+        <div className="route-48" data-tip="Route 48" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '209px',
+          left: '14px',
+          width: '9px',
+          height: '12px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-48') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-48') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-48') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-48') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-48'])
+        }}>
+        </div>
+
+        <div className='johto-safari' data-tip="Johto Safari" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '190px',
+          left: '8px',
+          width: '18px',
+          height: '18px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('johto-safari-wasteland') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('johto-safari-wasteland') >= 0
+            || matchedAreas.indexOf('johto-safari-savannah') >= 0
+            || matchedAreas.indexOf('johto-safari-wetland') >= 0
+            || matchedAreas.indexOf('johto-safari-forest') >= 0
+            || matchedAreas.indexOf('johto-safari-swamp') >= 0
+            || matchedAreas.indexOf('johto-safari-marshland') >= 0
+            || matchedAreas.indexOf('johto-safari-desert') >= 0
+            || matchedAreas.indexOf('johto-safari-plains') >= 0
+            || matchedAreas.indexOf('johto-safari-meadow') >= 0
+            || matchedAreas.indexOf('johto-safari-peak') >= 0
+            || matchedAreas.indexOf('johto-safari-mountain') >= 0
+            || matchedAreas.indexOf('johto-safari-rockybeach') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('johto-safari-wasteland') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('johto-safari-wasteland') >= 0
+            || matchedAreas.indexOf('johto-safari-savannah') >= 0
+            || matchedAreas.indexOf('johto-safari-wetland') >= 0
+            || matchedAreas.indexOf('johto-safari-forest') >= 0
+            || matchedAreas.indexOf('johto-safari-swamp') >= 0
+            || matchedAreas.indexOf('johto-safari-marshland') >= 0
+            || matchedAreas.indexOf('johto-safari-desert') >= 0
+            || matchedAreas.indexOf('johto-safari-plains') >= 0
+            || matchedAreas.indexOf('johto-safari-meadow') >= 0
+            || matchedAreas.indexOf('johto-safari-peak') >= 0
+            || matchedAreas.indexOf('johto-safari-mountain') >= 0
+            || matchedAreas.indexOf('johto-safari-rockybeach') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['johto-safari-wasteland',
+            'johto-safari-savannah',
+            'johto-safari-wetland',
+            'johto-safari-forest',
+            'johto-safari-swamp',
+            'johto-safari-marshland',
+            'johto-safari-desert',
+            'johto-safari-plains',
+            'johto-safari-meadow',
+            'johto-safari-peak',
+            'johto-safari-mountain',
+            'johto-safari-rockybeach'])
+        }}></div>
+
       </div>
     )
   }

@@ -304,5 +304,342 @@
       "common": ["Tentacool"],
       "rare": ["Tentacruel", "Quagsire"]
     }
+  },
+  "route-37": {
+    "name": "Route 37",
+    "roam": {
+      "common": ["Pidgey"],
+      "uncommon": ["Hoothoot", "Spinarak", "Ledyba", "Pidgeotto"],
+      "veryrare": ["Growlithe", "Vulpix"]
+    }
+  },
+  "route-36": {
+    "name": "Route 38",
+    "roam": {
+      "common": ["Pidgey", "Nidoran-M", "Nidoran-F"],
+      "uncommon": ["Hoothoot"],
+      "veryrare": ["Growlithe", "Vulpix"],
+      "extremelyrare": ["Sudowoodo"]
+    }
+  },
+  "union-cave": {
+    "name": "Union Cave",
+    "roam": {
+      "common": ["Rattata", "Zubat", "Geodude"],
+      "uncommon": ["Sandshrew"],
+      "extremelyrare": ["Onix"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Goldeen"],
+      "veryrare": ["Seaking"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "rare": ["Tentacruel", "Wooper", "Quagsire"]
+    }
+  },
+  "route-33": {
+    "name": "Route 33",
+    "roam": {
+      "common": ["Pidgey", "Spearow", "Zubat"],
+      "uncommon": ["Ekans"],
+      "rare": ["Hoppip"]
+    }
+  },
+  "ilex-forest": {
+    "name": "Ilex Forest",
+    "roam": {
+      "common": ["Caterpie", "Weedle", "Paras"],
+      "uncommon": ["Metapod", "Kakuna", "Oddish", "Hoothoot", "Ledyba", "Spinarak"],
+      "rare": ["Pineco", "Butterfree", "Beedrill"],
+      "extremelyrare": ["Heracross", "Pinsir"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Poliwag"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "rare": ["Tentacruel"],
+      "veryrare": ["Psyduck"]
+    }
+  },
+  "route-34": {
+    "name": "Route 34",
+    "roam": {
+      "common": ["Rattata"],
+      "uncommon": ["Hoothoot"],
+      "rare": ["Drowzee"],
+      "veryrare": ["Abra", "Ditto"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Kingler"],
+      "veryrare": ["Staryu", "Corsola"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "rare": ["Tentacruel"]
+    }
+  },
+  "route-35": {
+    "name": "Route 35",
+    "roam": {
+      "common": ["Pidgey", "Nidoran-F", "Nidoran-M"],
+      "uncommon": ["Hoothoot"],
+      "rare": ["Drowzee"],
+      "veryrare": ["Abra", "Ditto", "Yanma"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Poliwag"],
+      "rare": ["Kingler"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "rare": ["Psyduck", "Tentacruel"]
+    }
+  },
+  "national-park": {
+    "name": "National Park",
+    "roam": {
+      "common": ["Caterpie", "Weedle", "Pidgey"],
+      "uncommon": ["Metapod", "Kakuna", "Hoothoot"],
+      "rare": ["Sunkern"]
+    },
+    "fish": {
+      "common": ["Magikarp"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "route-39": {
+    "name": "Route 39",
+    "roam": {
+      "common": ["Rattata", "Raticate"],
+      "uncommon": ["Meowth"],
+      "rare": ["Magnemite", "Snubbull"],
+      "veryrare": ["Miltank", "Tauros"]
+    }
+  },
+  "olivine-city": {
+    "name": "Olivine City",
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Kingler"],
+      "veryrare": ["Staryu", "Corsola"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "rare": ["Tentacruel"]
+    }
+  },
+  "route-40": {
+    "name": "Route 40",
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Kingler"],
+      "veryrare": ["Staryu", "Corsola"],
+      "extremelyrare": ["Lanturn"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "rare": ["Tentacruel"]
+    }
+  },
+  "route-41": {
+    "name": "Route 41",
+    "fish": {
+      "common": ["Magikarp", "Tentacool"],
+      "rare": ["Shellder"],
+      "veryrare": ["Chinchou", "Mantine"],
+      "extremelyrare": ["Lanturn"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "rare": ["Tentacruel"]
+    }
+  },
+  "cianwood-city": {
+    "name": "Cianwood City",
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Kingler"],
+      "veryrare": ["Staryu", "Corsola"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "rare": ["Tentacruel"]
+    }
+  },
+  "route-48": {
+    "name": "Route 48",
+    "roam": {
+      "common": ["Fearow"],
+      "rare": ["Hoppip", "Golem"],
+      "veryrare": ["Vulpix", "Growlithe", "Girafarig", "Tauros"]
+    }
+  },
+  "johto-safari-wasteland": {
+    "name": "Johto Safari Wasteland",
+    "roam": {
+      "common": ["Spearow", "Fearow"],
+      "uncommon": ["Bellsprout"],
+      "rare": ["Magnemite", "Kingler", "Meditite", "Illumise"],
+      "veryrare": ["Golduck", "Manectric", "Breloom", "Solrock"],
+      "extremelyrare": ["Machop", "Onix", "Kangaskhan", "Skorupi"]
+    }
+  },
+  "johto-safari-savannah": {
+    "name": "Johto Safari Savannah",
+    "roam": {
+      "common": ["Nidoran-M", "Nidoran-F", "Golbat"],
+      "uncommon": ["Azurill"],
+      "rare": ["Zigzagoon", "Shroomish", "Cacnea"],
+      "veryrare": ["Tauros", "Houndour", "Torkoal", "Luxio"],
+      "extremelyrare": ["Rhyhorn"]
+    }
+  },
+  "johto-safari-wetland": {
+    "name": "Johto Safari Wetland",
+    "roam": {
+      "common": ["Spearow"],
+      "uncommon": ["Surskit"],
+      "rare": ["Furret", "Wooper", "Quagsire", "Lombre", "Pachirisu"],
+      "veryrare": ["Psyduck", "Doduo", "Ditto", "Floatzel"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "rare": ["Poliwag", "Corphish"],
+      "veryrare": ["Psyduck", "Poliwhirl", "Gyarados"],
+      "extremelyrare": ["Rhyhorn"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "johto-safari-forest": {
+    "name": "Johto Safari Forest",
+    "roam": {
+      "common": ["Pidgey"],
+      "uncommon": ["Bellsprout", "Surskit"],
+      "rare": ["Misdreavus", "Bidoof"],
+      "veryrare": ["Shuppet"],
+      "extremelyrare": ["Bronzong", "Electabuzz"]
+    }
+  },
+  "johto-safari-swamp": {
+    "name": "Johto Safari Swamp",
+    "roam": {
+      "common": ["Paras", "Voltorb"],
+      "uncommon": ["Weepinbell"],
+      "rare": ["Drowzee", "Furret", "Chimecho", "Pachirisu"],
+      "veryrare": ["Murkrow", "Floatzel"],
+      "extremelyrare": ["Duskull", "Bagon"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Goldeen"],
+      "veryrare": ["Seaking"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "johto-safari-marshland": {
+    "name": "Johto Safari Marshland",
+    "roam": {
+      "common": ["Ekans", "Diglett"],
+      "uncommon": ["Oddish"],
+      "rare": ["Gloom", "Grimer", "Koffing", "Jumpluff", "Wooper", "Quagsire", "Carnivine"],
+      "veryrare": ["Banette", "Seviper", "Croagunk"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "rare": ["Poliwag", "Quagsire"],
+      "veryrare": ["Barboach"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "johto-safari-desert": {
+    "name": "Johto Safari Desert",
+    "roam": {
+      "common": ["Fearow"],
+      "uncommon": ["Sandshrew"],
+      "rare": ["Sandslash", "Lotad", "Spinda", "Cacnea", "Carnivine"],
+      "veryrare": ["Cubone", "Trapinch"],
+      "extremelyrare": ["Hippopotas"]
+    }
+  },
+  "johto-safari-plains": {
+    "name": "Johto Safari Plains",
+    "roam": {
+      "common": ["Raticate"],
+      "uncommon": ["Surskit"],
+      "rare": ["Smeargle", "Zigzagoon", "Lotad"],
+      "veryrare": ["Abra", "Girafarig", "Ponyta", "Houndoom", "Zangoose", "Manectric", "Shinx"]
+    }
+  },
+  "johto-safari-meadow": {
+    "name": "Johto Safari Meadow",
+    "roam": {
+      "common": ["Raticate", "Geodude"],
+      "uncommon": ["Marill"],
+      "rare": ["Hoppip", "Sunkern", "Wooper", "Masquerain", "Seedot"],
+      "veryrare": ["Clefairy", "Jigglypuff", "Chansey", "Nosepass"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Marill"],
+      "rare": ["Poliwag", "Wooper"],
+      "veryrare": ["Poliwhirl", "Gyarados"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "johto-safari-peak": {
+    "name": "Johto Safari Peak",
+    "roam": {
+      "common": ["Fearow", "Paras", "Graveler"],
+      "rare": ["Magnemite", "Linoone"],
+      "veryrare": ["Slowbro", "Magneton", "Magmar", "Wobbuffet", "Lairon", "Zangoose"],
+      "extremelyrare": ["Bronzor"]
+    }
+  },
+  "johto-safari-mountain": {
+    "name": "Johto Safari Mountain",
+    "roam": {
+      "common": ["Raticate", "Zubat"],
+      "uncommon": ["Krabby"],
+      "rare": ["Meditite", "Volbeat"],
+      "veryrare": ["Magneton", "Lunatone"],
+      "extremelyrare": ["Duskull"]
+    }
+  },
+  "johto-safari-rockybeach": {
+    "name": "Johto Safari Rocky Beach",
+    "roam": {
+      "common": ["Zubat"],
+      "uncommon": ["Krabby"],
+      "veryrare": ["Doduo", "Aron", "Mareep", "Manectric"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby", "Goldeen"],
+      "rare": ["Poliwag", "Corphish"],
+      "veryrare": ["Poliwhirl", "Slowpoke", "Seaking"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
   }
 }
