@@ -134,6 +134,24 @@ export default class Kanto extends Component {
 					setSelectedArea(['kindle-road'])
 				}}></div>
 
+				<div className='mt-ember' data-tip="Mt. Ember" style={{
+					cursor: 'pointer',
+					position: 'absolute',
+					top: '44px',
+					left: '119px',
+					width: '19px',
+					height: '19px',
+					borderRadius: '50%',
+					backgroundColor: mode === 0 ? selectedArea.indexOf('mt-ember') >= 0 ? 'indianred' : ''
+						: matchedAreas && matchedAreas.indexOf('mt-ember') >= 0 ? 'indianred' : '' ,
+					animation: mode === 0 ? selectedArea.indexOf('mt-ember') >= 0 ? 'pulse 2s infinite' : ''
+						: matchedAreas && matchedAreas.indexOf('mt-ember') >= 0 ? 'pulse 2s infinite' : ''
+				}} onClick={(e) => {
+					if (mode === 1) return
+					if (e.stopPropagation) e.stopPropagation()
+					setSelectedArea(['mt-ember'])
+				}}></div>
+
 			</div>
 		)
 	}

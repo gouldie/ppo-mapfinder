@@ -81,5 +81,15 @@
       "common": ["Tentacool"],
       "veryrare": ["Slowpoke", "Psyduck"]
     }
+  },
+  "mt-ember": {
+    "name": ["Mt. Ember"],
+    "roam": {
+      "common": ["Spearow", "Geodude"],
+      "rare": ["Fearow"],
+      "veryrare": ["Ponyta", "Magmar"],
+      "extremelyrare": ["Numel", "Machop"],
+      "legendary": ["Moltres"]
+    }
   }
 }
