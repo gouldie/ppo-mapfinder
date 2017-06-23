@@ -252,13 +252,21 @@ export default class Johto extends Component {
           height: '18px',
           borderRadius: '50%',
           backgroundColor: mode === 0 ? selectedArea.indexOf('dragons-den') >= 0 ? 'indianred' : ''
-            : matchedAreas && matchedAreas.indexOf('dragons-den') >= 0 ? 'indianred' : '' ,
+            : matchedAreas && matchedAreas.indexOf('dragons-den') >= 0
+            || matchedAreas && matchedAreas.indexOf('mossy-cave-entrance') >= 0
+						|| matchedAreas && matchedAreas.indexOf('mossy-cave-fire') >= 0
+						|| matchedAreas && matchedAreas.indexOf('mossy-cave-water') >= 0
+						|| matchedAreas && matchedAreas.indexOf('mossy-cave-thunder') >= 0 ? 'indianred' : '' ,
           animation: mode === 0 ? selectedArea.indexOf('dragons-den') >= 0 ? 'pulse 2s infinite' : ''
-            : matchedAreas && matchedAreas.indexOf('dragons-den') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('dragons-den') >= 0
+						|| matchedAreas && matchedAreas.indexOf('mossy-cave-entrance') >= 0
+						|| matchedAreas && matchedAreas.indexOf('mossy-cave-fire') >= 0
+						|| matchedAreas && matchedAreas.indexOf('mossy-cave-water') >= 0
+						|| matchedAreas && matchedAreas.indexOf('mossy-cave-thunder') >= 0 ? 'pulse 2s infinite' : ''
         }} onClick={(e) => {
           if (mode === 1) return
           if (e.stopPropagation) e.stopPropagation()
-          setSelectedArea(['dragons-den'])
+          setSelectedArea(['dragons-den', 'mossy-cave-entrance', 'mossy-cave-fire', 'mossy-cave-water', 'mossy-cave-thunder'])
         }}></div>
 
         <div className='ice-path' data-tip="Ice Path" style={{

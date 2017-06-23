@@ -161,6 +161,60 @@
       "veryrare": ["Seadra"]
     }
   },
+  "mossy-cave-entrance": {
+    "name": "Mossy Cave Entrance",
+    "roam": {
+      "common": ["Parasect", "Beautifly", "Butterfree", "Beedrill"],
+      "uncommon": ["Weepinbell", "Gloom"],
+      "rare": ["Seedot", "Shroomish", "Sewaddle", "Cottonee", "Skiddo"],
+      "veryrare": ["Exeggcute", "Ferroseed", "Yanma"],
+      "extremelyrare": ["Scyther", "Pinsir", "Heracross", "Skorupi", "Klefki", "Sandile"]
+    },
+    "fish": {
+      "common": ["Gyarados", "Tentacruel"],
+      "uncommon": ["Kingler"],
+      "rare": ["Stunfisk"],
+      "veryrare": ["Wailord", "Staryu"],
+      "extremelyrare": ["Dratini", "Milotic"]
+    },
+    "surf": {
+      "common": ["Gyarados", "Tentacruel"],
+      "uncommon": ["Kingler"],
+      "veryrare": ["Wailord", "Slowbro", "Staryu"],
+      "extremelyrare": ["Milotic"]
+    }
+  },
+  "mossy-cave-fire": {
+    "name": "Mossy Cave Fire Cavern",
+    "roam": {
+      "common": ["Magcargo", "Electrode", "Golem", "Exploud"],
+      "rare": ["Drifloon", "Primeape"],
+      "veryrare": ["Vulpix", "Growlithe", "Magmar"],
+      "extremelyrare": ["Numel", "Onix", "Fletchling"],
+      "legendary": ["Entei"]
+    }
+  },
+  "mossy-cave-water": {
+    "name": "Mossy Cave Water Cavern",
+    "roam": {
+      "common": ["Gyarados", "Golem", "Exploud"],
+      "uncommon": ["Kingler"],
+      "rare": ["Poliwhirl", "Primeape", "Lombre"],
+      "veryrare": ["Dewgong"],
+      "extremelyrare": ["Milotic", "Onix", "Spheal", "Snover"],
+      "legendary": ["Suicune"]
+    }
+  },
+  "mossy-cave-thunder": {
+    "name": "Mossy Cave Thunder Cavern",
+    "roam": {
+      "common": ["Magneton", "Electrode", "Golem", "Exploud"],
+      "rare": ["Primeape"],
+      "veryrare": ["Pichu", "Manectric", "Luxio", "Mareep"],
+      "extremelyrare": ["Elekid", "Onix"],
+      "legendary": ["Raikou"]
+    }
+  },
   "ice-path": {
     "name": "Ice Path",
     "roam": {
