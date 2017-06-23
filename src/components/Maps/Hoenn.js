@@ -778,6 +778,23 @@ export default class Hoenn extends Component {
           setSelectedArea(['route-114'])
         }}>
         </div>
+        <div className="route-114" data-tip="Route 114" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '76px',
+          left: '51px',
+          width: '8px',
+          height: '24px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-114') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-114') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-114') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-114') >= 0? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-114'])
+        }}>
+        </div>
 
         <div className='meteor-falls' data-tip="Meteor Falls" style={{
           cursor: 'pointer',
@@ -795,6 +812,169 @@ export default class Hoenn extends Component {
           if (mode === 1) return
           if (e.stopPropagation) e.stopPropagation()
           setSelectedArea(['meteor-falls'])
+        }}></div>
+
+        <div className="route-115" data-tip="Route 115" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '94px',
+          left: '38px',
+          width: '8px',
+          height: '27px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-115') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-115') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-115') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-115') >= 0? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-115'])
+        }}>
+        </div>
+        <div className="route-115" data-tip="Route 115" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '94px',
+          left: '45px',
+          width: '8px',
+          height: '8px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-115') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-115') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-115') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-115') >= 0? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-115'])
+        }}>
+        </div>
+
+        <div className='petalburg-woods' data-tip="Petalburg Woods" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '162px',
+          left: '33px',
+          width: '15px',
+          height: '15px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('petalburg-woods') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('petalburg-woods') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('petalburg-woods') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('petalburg-woods') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['petalburg-woods'])
+        }}></div>
+
+        <div className="route-103" data-tip="Route 103" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '174px',
+          left: '94px',
+          width: '54px',
+          height: '8px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-103') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-103') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-103') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-103') >= 0? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-103'])
+        }}>
+        </div>
+
+        <div className="route-110" data-tip="Route 110" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '164px',
+          left: '146px',
+          width: '8px',
+          height: '25px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-110-1') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-110-1') >= 0
+            || matchedAreas && matchedAreas.indexOf('route-110-2') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-110-1') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-110-1') >= 0
+            || matchedAreas && matchedAreas.indexOf('route-110-2') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-110-1', 'route-110-2'])
+        }}>
+        </div>
+
+        <div className='altering-cave' data-tip="Altering Cave" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '161px',
+          left: '120px',
+          width: '15px',
+          height: '15px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('altering-cave') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('altering-cave') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('altering-cave') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('altering-cave') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['altering-cave'])
+        }}></div>
+
+        <div className="route-117" data-tip="Route 117" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '146px',
+          left: '106px',
+          width: '30px',
+          height: '8px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-117') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-117') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-117') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-117') >= 0? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-117'])
+        }}>
+        </div>
+
+        <div className="route-116" data-tip="Route 116" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '133px',
+          left: '55px',
+          width: '30px',
+          height: '8px',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('route-116') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('route-116') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('route-116') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-116') >= 0? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['route-116'])
+        }}>
+        </div>
+
+        <div className='rusturf-tunnel' data-tip="Rusturf Tunnel" style={{
+          cursor: 'pointer',
+          position: 'absolute',
+          top: '126px',
+          left: '86px',
+          width: '15px',
+          height: '15px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('rusturf-tunnel') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('rusturf-tunnel') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('rusturf-tunnel') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('rusturf-tunnel') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['rusturf-tunnel'])
         }}></div>
 
       </div>

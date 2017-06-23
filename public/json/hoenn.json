@@ -698,5 +698,147 @@
       "common": ["Tentacool"],
       "veryrare": ["Solrock", "Lunatone"]
     }
+  },
+  "route-115": {
+    "name": "Route 115",
+    "roam": {
+      "common": ["Zigzagoon"],
+      "uncommon": ["Taillow", "Wingull"],
+      "veryrare": ["Jigglypuff"],
+      "extremelyrare": ["Swablu"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "veryrare": ["Wailmer"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Wingull"]
+    }
+  },
+  "petalburg-woods": {
+    "name": "Petalburg Woods",
+    "roam": {
+      "common": ["Wurmple", "Zigzagoon", "Paras"],
+      "uncommon": ["Silcoon", "Cascoon", "Taillow"],
+      "rare": ["Poochyena"],
+      "veryrare": ["Shroomish"]
+    }
+  },
+  "route-103": {
+    "name": "Route 103",
+    "roam": {
+      "common": ["Zigzagoon"],
+      "uncommon": ["Wingull", "Shellos"],
+      "rare": ["Poochyena", "Chatot"]
+    },
+    "fish": {
+      "common": ["Magikarp", "Tentacool"],
+      "veryrare": ["Carvanha", "Wailmer"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Wingull"],
+      "rare": ["Pelipper"]
+    }
+  },
+  "route-110-1": {
+    "name": "Route 110_1",
+    "roam": {
+      "common": ["Zigzagoon"],
+      "uncommon": ["Oddish", "Wingull", "Voltorb", "Shellos"],
+      "rare": ["Poochyena", "Minun", "Plusle", "Gulpin", "Magnemite", "Chatot"],
+      "veryrare": ["Electrike"]
+    }
+  },
+  "route-110-2": {
+    "name": "Route 110_2",
+    "roam": {
+      "common": ["Zigzagoon"],
+      "uncommon": ["Oddish", "Wingull", "Voltorb", "Shellos"],
+      "rare": ["Poochyena", "Minun", "Plusle", "Gulpin", "Magnemite", "Chatot"],
+      "veryrare": ["Electrike"]
+    },
+    "fish": {
+      "common": ["Magikarp", "Tentacool"],
+      "veryrare": ["Wailmer"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "uncommon": ["Wingull", "Krabby"],
+      "rare": ["Pelipper"]
+    }
+  },
+  "altering-cave": {
+    "name": "Altering Cave (Possible Spawns)",
+    "roam": {
+      "common": ["Beautifly", "Beedrill", "Butterfree", "Electrode", "Exploud", "Fearow", "Golbat", "Pidgeot"],
+      "uncommon": ["Arbok", "Ariados", "Furret", "Gloom", "Krabby", "Ledian", "Marill", "Masquerain", "Noctowl",
+                  "Pelipper", "Persian", "Sandslash", "Shellos", "Swellow", "Weepinbell"],
+      "rare": ["Bibarel", "Breloom", "Cacturne", "Carnivine", "Chatot", "Chimecho", "Drifloon", "Dunsparce",
+              "Forretress", "Granbull", "Hypno", "Illumise", "Jumpluff", "Lombre", "Magneton", "Medicham",
+              "Mightyena", "Misdreavus", "Muk", "Ninjask", "Nuzleaf", "Pachirisu", "Primeape", "Quagsire",
+              "Skitty", "Smeargle", "Sunkern", "Venomoth", "Volbeat", "Weezing"],
+      "veryrare": ["Absol", "Aggron", "Ampharos", "Banette", "Chansey", "Cleffa", "Cubone", "Dewgong",
+                  "Ditto", "Dodrio", "Donphan", "Exeggcute", "Floatzel", "Flygon", "Girafarig", "Golduck",
+                  "Growlithe", "Hariyama", "Houndoom", "Igglybuff", "Kadabra", "Lairon", "Lunatone", "Luxray",
+                  "Magby", "Manectric", "Miltank", "Murkrow", "Nosepass", "Pikachu", "Ponyta", "Seviper", "Slowbro",
+                  "Tauros", "Torkoal", "Toxicroak", "Ursaring", "Vulpix", "Wobbuffet", "Wynaut", "Xatu",
+                  "Yanma", "Zangoose"],
+      "extremelyrare": ["Bagon", "Bronzor", "Bulbasaur", "Charmander", "Chikorita", "Chimchar", "Cyndaquil",
+                      "Duskull", "Elekid", "Farfetch'd", "Gible", "Gligar", "Heracross", "Hippopotas",
+                      "Kangaskhan", "Machoke", "Mawile", "Munchlax", "Numel", "Onix", "Pinsir", "Rhyhorn",
+                      "Scyther", "Skarmory", "Skorupi", "Sneasel", "Snorunt", "Snover", "Spheal", "Spiritomb",
+                      "Swablu", "Swinub", "Torchic", "Treecko", "Tropius", "Turtwig"]
+    },
+    "fish": {
+      "common": ["Gyarados", "Tentacruel"],
+      "uncommon": ["Kingler", "Marill", "Poliwhirl", "Seaking"],
+      "rare": ["Crawdaunt", "Finneon", "Horsea", "Luvdisc", "Octillery", "Qwilfish", "Shellder", "Wooper"],
+      "veryrare": ["Carvanha", "Chinchou", "Clamperl", "Corsola", "Golduck", "Mantine", "Relicanth",
+                  "Slowbro", "Staryu", "Wailmer", "Whiscash"],
+      "extremelyrare": ["Dratini", "Feebas", "Mudkip", "Piplup", "Squirtle", "Totodile"]
+    },
+    "surf": {
+      "common": ["Gyarados", "Tentacruel"],
+      "uncommon": ["Kingler", "Marill", "Poliwhirl", "Seaking"],
+      "rare": ["Crawdaunt", "Finneon", "Horsea", "Luvdisc", "Octillery", "Qwilfish", "Shellder", "Wooper"],
+      "veryrare": ["Carvanha", "Chinchou", "Clamperl", "Corsola", "Golduck", "Mantine", "Relicanth", "Slowbro",
+                  "Staryu", "Wailmer", "Whiscash"],
+      "extremelyrare": ["Dratini", "Feebas", "Mudkip", "Piplup", "Squirtle", "Totodile"]
+    }
+  },
+  "route-117": {
+    "name": "Route 117",
+    "roam": {
+      "common": ["Zigzagoon"],
+      "uncommon": ["Oddish", "Marill", "Surskit"],
+      "rare": ["Poochyena", "Seedot", "Volbeat", "Illumuse"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Marill", "Surskit", "Goldeen"]
+    },
+    "surf": {
+      "common": ["Magikarp"],
+      "uncommon": ["Wingull"],
+      "rare": ["Corphish"]
+    }
+  },
+  "route-116": {
+    "name": "Route 116",
+    "roam": {
+      "common": ["Whismur", "Zigzagoon"],
+      "uncommon": ["Taillow"],
+      "rare": ["Poochyena", "Nincada", "Skitty"],
+      "veryrare": ["Abra"]
+    }
+  },
+  "rusturf-tunnel": {
+    "name": "Rusturf Tunnel",
+    "roam": {
+      "common": ["Whismur"],
+      "rare": ["Loudred"]
+    }
   }
 }
