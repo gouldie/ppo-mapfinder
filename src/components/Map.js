@@ -3,21 +3,25 @@ import Select from 'react-select'
 import Kanto from './Maps/Kanto'
 import Johto from './Maps/Johto'
 import Hoenn from './Maps/Hoenn'
+import Sevii from './Maps/Sevii'
 import kantoJSON from '../../public/json/kanto.json'
 import johtoJSON from '../../public/json/johto.json'
 import hoennJSON from '../../public/json/hoenn.json'
+import seviiJSON from '../../public/json/sevii.json'
 import { matchedAreas } from '../utils/list'
 
-const regionJSON = [kantoJSON, johtoJSON, hoennJSON]
+const regionJSON = [kantoJSON, johtoJSON, hoennJSON, seviiJSON]
 const maps = [
   {value: 'Kanto', label: 'Kanto', clearableValue: false},
   {value: 'Johto', label: 'Johto', clearableValue: false},
-  {value: 'Hoenn', label: 'Hoenn', clearableValue: false}
+  {value: 'Hoenn', label: 'Hoenn', clearableValue: false},
+  {value: 'Sevii Islands', label: 'Sevii Islands', clearableValue: false}
 ]
 const mapRegionToImage = {
   'Kanto': 'kanto',
   'Johto': 'johto',
-  'Hoenn': 'hoenn'
+  'Hoenn': 'hoenn',
+  'Sevii Islands': 'sevii'
 }
 
 export default class Map extends Component {
@@ -55,9 +59,12 @@ export default class Map extends Component {
                 <Kanto selectedArea={selectedArea} setSelectedArea={setSelectedArea} mode={mode} />
                   : selectedMap === 'Johto' ?
                   <Johto selectedArea={selectedArea} setSelectedArea={setSelectedArea} mode={mode} />
-                  :
-                  <Hoenn selectedArea={selectedArea} setSelectedArea={setSelectedArea} mode={mode} />
-            }
+									: selectedMap === 'Hoenn' ?
+										<Hoenn selectedArea={selectedArea} setSelectedArea={setSelectedArea} mode={mode} />
+										:
+										<Sevii selectedArea={selectedArea} setSelectedArea={setSelectedArea} mode={mode} />
+
+						}
 
           </div>
         </div>
@@ -85,9 +92,12 @@ export default class Map extends Component {
               : selectedMap === 'Johto' ?
                 <Johto selectedArea={selectedArea} setSelectedArea={setSelectedArea} mode={mode}
                      selectedPokemon={selectedPokemon} matchedAreas={matchedAreasStr} />
-                :
-                <Hoenn selectedArea={selectedArea} setSelectedArea={setSelectedArea} mode={mode}
+                : selectedMap === 'Hoenn' ?
+									<Hoenn selectedArea={selectedArea} setSelectedArea={setSelectedArea} mode={mode}
                        selectedPokemon={selectedPokemon} matchedAreas={matchedAreasStr} />
+									:
+									<Sevii selectedArea={selectedArea} setSelectedArea={setSelectedArea} mode={mode}
+												 selectedPokemon={selectedPokemon} matchedAreas={matchedAreasStr} />
           }
 
         </div>

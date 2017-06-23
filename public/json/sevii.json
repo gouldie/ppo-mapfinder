@@ -1,0 +1,85 @@
+{
+  "treasure-beach": {
+    "name": "Treasure Beach",
+    "roam": {
+      "common": ["Spearow"],
+      "uncommon": ["Meowth"],
+      "rare": ["Fearow", "Persian"],
+      "veryrare": ["Tangela"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Horsea", "Shellder", "Kingler"],
+      "veryrare": ["Gyarados", "Slowpoke", "Staryu", "Psyduck"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "rare": ["Tentacruel"]
+    }
+  },
+  "one-island": {
+    "name": "One Island",
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Horsea"],
+      "veryrare": ["Slowpoke", "Gyarados", "Psyduck"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "rare": ["Tentacruel"]
+    }
+  },
+  "huntys-path": {
+    "name": "Hunty's Path",
+    "roam": {
+      "common": ["Rattata", "Spearow", "Pidgey"],
+      "rare": ["Jumpluff"],
+      "veryrare": ["Vulpix", "Growlithe"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Horsea"],
+      "veryrare": ["Gyarados", "Slowpoke", "Psyduck"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "rare": ["Tentacruel"]
+    }
+  },
+  "hellfire-cavern-1": {
+    "name": "Hellfire Cavern F1",
+    "roam": {
+      "common": ["Slugma"],
+      "veryrare": ["Vulpix", "Growlithe", "Magmar"]
+    }
+  },
+  "hellfire-cavern-2": {
+    "name": "Hellfire Cavern F2",
+    "roam": {
+      "common": ["Slugma"],
+      "veryrare": ["Vulpix", "Growlithe", "Magmar"],
+      "extremelyrare": ["Charmander"]
+    }
+  },
+  "kindle-road": {
+    "name": "Kindle Road",
+    "roam": {
+      "common": ["Spearow", "Geodude"],
+      "uncommon": ["Meowth"],
+      "rare": ["Fearow", "Persian"],
+      "veryrare": ["Ponyta"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Poliwag", "Goldeen"],
+      "veryrare": ["Gyarados", "Slowpoke", "Seaking", "Psyduck"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "veryrare": ["Slowpoke", "Psyduck"]
+    }
+  }
+}

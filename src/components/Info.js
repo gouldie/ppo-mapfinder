@@ -2,11 +2,12 @@ import React, {Component} from 'react'
 import kantoJSON from '../../public/json/kanto.json'
 import johtoJSON from '../../public/json/johto.json'
 import hoennJSON from '../../public/json/hoenn.json'
+import seviiJSON from '../../public/json/sevii.json'
 import { listAreaDetails, JSONtoPokemonList, matchedAreas, pokemonToRegionsFound } from '../utils/list'
 import Select from 'react-select'
 
-const regionJSON = [kantoJSON, johtoJSON, hoennJSON]
-const JSONtoObj = Object.assign({}, kantoJSON, johtoJSON, hoennJSON)
+const regionJSON = [kantoJSON, johtoJSON, hoennJSON, seviiJSON]
+const JSONtoObj = Object.assign({}, kantoJSON, johtoJSON, hoennJSON, seviiJSON)
 
 export default class Info extends Component {
   constructor() {
