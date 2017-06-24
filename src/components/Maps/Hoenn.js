@@ -28,7 +28,7 @@ export default class Hoenn extends Component {
       <div key={this.state.key}>
         <ReactTooltip />
         <div className="route-101" data-tip="Route 101" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '201px',
           left: '91px',
@@ -46,7 +46,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className="route-102" data-tip="Route 102" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '187px',
           left: '67px',
@@ -64,7 +64,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className='petalburg-city' data-tip="Petalburg City" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '183px',
           left: '49px',
@@ -82,7 +82,7 @@ export default class Hoenn extends Component {
         }}></div>
 
         <div className="route-104" data-tip="Route 104" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '178px',
           left: '37px',
@@ -102,7 +102,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className="route-105" data-tip="Route 105" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '204px',
           left: '37px',
@@ -120,7 +120,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className="route-106" data-tip="Route 106" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '239px',
           left: '37px',
@@ -138,7 +138,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className='dewford-town' data-tip="Dewford Town" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '248px',
           left: '59px',
@@ -156,7 +156,7 @@ export default class Hoenn extends Component {
         }}></div>
 
         <div className='granite-cave' data-tip="Granite Cave" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '257px',
           left: '39px',
@@ -221,7 +221,7 @@ export default class Hoenn extends Component {
         }}></div>
 
         <div className="route-107" data-tip="Route 107" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '253px',
           left: '77px',
@@ -239,7 +239,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className="route-109" data-tip="Route 109" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '232px',
           left: '145px',
@@ -257,7 +257,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className='slateport-city' data-tip="Slateport City" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '191px',
           left: '138px',
@@ -275,7 +275,7 @@ export default class Hoenn extends Component {
         }}></div>
 
         <div className="route-132" data-tip="Route 132" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '200px',
           left: '164px',
@@ -293,7 +293,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className='pacifidlog-town' data-tip="Pacifidlog Town" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '195px',
           left: '264px',
@@ -311,7 +311,7 @@ export default class Hoenn extends Component {
         }}></div>
 
         <div className="route-129" data-tip="Route 129" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '200px',
           left: '327px',
@@ -329,7 +329,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className="route-130" data-tip="Route 130" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '200px',
           left: '283px',
@@ -347,7 +347,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className='evergrande-city' data-tip="Evergrande City" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '166px',
           left: '395px',
@@ -365,7 +365,7 @@ export default class Hoenn extends Component {
         }}></div>
 
         <div className='hoenn-victory-road' data-tip="Hoenn Victory Road" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '175px',
           left: '380px',
@@ -385,7 +385,7 @@ export default class Hoenn extends Component {
         }}></div>
 
         <div className="route-128" data-tip="Route 128" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '187px',
           left: '372px',
@@ -403,7 +403,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className="route-127" data-tip="Route 127" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '148px',
           left: '365px',
@@ -421,7 +421,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className="route-126" data-tip="Route 126" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '159px',
           left: '341px',
@@ -439,7 +439,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className='sootopolis-city' data-tip="Sootopolis City" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '150px',
           left: '314px',
@@ -457,7 +457,7 @@ export default class Hoenn extends Component {
         }}></div>
 
         <div className="route-124" data-tip="Route 124" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '131px',
           left: '324px',
@@ -474,7 +474,7 @@ export default class Hoenn extends Component {
         }}>
         </div>
         <div className="route-124" data-tip="Route 124" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '138px',
           left: '324px',
@@ -491,7 +491,7 @@ export default class Hoenn extends Component {
         }}>
         </div>
         <div className="route-124" data-tip="Route 124" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '107px',
           left: '317px',
@@ -509,7 +509,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className="route-125" data-tip="Route 125" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '113px',
           left: '343px',
@@ -528,7 +528,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className='mossdeep-city' data-tip="Mossdeep City" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '123px',
           left: '355px',
@@ -546,7 +546,7 @@ export default class Hoenn extends Component {
         }}></div>
 
         <div className='lilycove-city' data-tip="Lilycove City" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '98px',
           left: '275px',
@@ -564,7 +564,7 @@ export default class Hoenn extends Component {
         }}></div>
 
         <div className='hoenn-safari-zone' data-tip="Hoenn Safari Zone" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '85px',
           left: '253px',
@@ -582,7 +582,7 @@ export default class Hoenn extends Component {
         }}></div>
 
         <div className="route-121" data-tip="Route 121" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '108px',
           left: '228px',
@@ -600,7 +600,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className="route-120" data-tip="Route 120" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '66px',
           left: '222px',
@@ -618,7 +618,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className="route-119" data-tip="Route 119" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '66px',
           left: '186px',
@@ -636,7 +636,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className="route-122" data-tip="Route 122" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '113px',
           left: '255px',
@@ -654,7 +654,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className="route-123" data-tip="Route 123" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '146px',
           left: '200px',
@@ -672,7 +672,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className="route-118" data-tip="Route 118" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '146px',
           left: '181px',
@@ -690,7 +690,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className="route-111" data-tip="Route 111" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '67px',
           left: '146px',
@@ -708,7 +708,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className="route-112" data-tip="Route 112" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '106px',
           left: '119px',
@@ -726,7 +726,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className='jagged-pass' data-tip="Jagged Pass" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '93px',
           left: '119px',
@@ -744,7 +744,7 @@ export default class Hoenn extends Component {
         }}></div>
 
         <div className="route-113" data-tip="Route 113" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '67px',
           left: '91px',
@@ -762,7 +762,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className="route-114" data-tip="Route 114" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '67px',
           left: '61px',
@@ -779,7 +779,7 @@ export default class Hoenn extends Component {
         }}>
         </div>
         <div className="route-114" data-tip="Route 114" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '76px',
           left: '51px',
@@ -797,7 +797,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className='meteor-falls' data-tip="Meteor Falls" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '60px',
           left: '45px',
@@ -815,7 +815,7 @@ export default class Hoenn extends Component {
         }}></div>
 
         <div className="route-115" data-tip="Route 115" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '94px',
           left: '38px',
@@ -832,7 +832,7 @@ export default class Hoenn extends Component {
         }}>
         </div>
         <div className="route-115" data-tip="Route 115" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '94px',
           left: '45px',
@@ -850,7 +850,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className='petalburg-woods' data-tip="Petalburg Woods" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '162px',
           left: '33px',
@@ -868,7 +868,7 @@ export default class Hoenn extends Component {
         }}></div>
 
         <div className="route-103" data-tip="Route 103" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '174px',
           left: '94px',
@@ -886,7 +886,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className="route-110" data-tip="Route 110" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '164px',
           left: '146px',
@@ -906,7 +906,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className='altering-cave' data-tip="Altering Cave" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '161px',
           left: '120px',
@@ -924,7 +924,7 @@ export default class Hoenn extends Component {
         }}></div>
 
         <div className="route-117" data-tip="Route 117" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '146px',
           left: '106px',
@@ -942,7 +942,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className="route-116" data-tip="Route 116" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '133px',
           left: '55px',
@@ -960,7 +960,7 @@ export default class Hoenn extends Component {
         </div>
 
         <div className='rusturf-tunnel' data-tip="Rusturf Tunnel" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '126px',
           left: '86px',

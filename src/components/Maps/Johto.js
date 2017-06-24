@@ -28,7 +28,7 @@ export default class Johto extends Component {
       <div key={this.state.key}>
         <ReactTooltip />
         <div className='new-bark-town' data-tip="New Bark Town" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '214px',
           left: '399px',
@@ -46,7 +46,7 @@ export default class Johto extends Component {
         }}></div>
 
         <div className="route-27" data-tip="Route 27" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '224px',
           left: '427px',
@@ -64,7 +64,7 @@ export default class Johto extends Component {
         </div>
 
         <div className="route-26" data-tip="Route 26" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '179px',
           left: '434px',
@@ -82,7 +82,7 @@ export default class Johto extends Component {
         </div>
 
         <div className="route-29" data-tip="Route 29" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '224px',
           left: '308px',
@@ -100,7 +100,7 @@ export default class Johto extends Component {
         </div>
 
         <div className="route-28" data-tip="Route 28" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '154px',
           left: '423px',
@@ -118,7 +118,7 @@ export default class Johto extends Component {
         </div>
 
         <div className='mt-silver' data-tip="Mt. Silver" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '149px',
           left: '404px',
@@ -136,7 +136,7 @@ export default class Johto extends Component {
         }}></div>
 
         <div className='cherrygrove-city' data-tip="Cherrygrove City" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '214px',
           left: '280px',
@@ -154,7 +154,7 @@ export default class Johto extends Component {
         }}></div>
 
         <div className="route-46" data-tip="Route 46" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '177px',
           left: '349px',
@@ -172,7 +172,7 @@ export default class Johto extends Component {
         </div>
 
         <div className="route-45" data-tip="Route 45" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '117px',
           left: '369px',
@@ -190,7 +190,7 @@ export default class Johto extends Component {
         </div>
 
         <div className="route-45" data-tip="Route 45" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '169px',
           left: '351px',
@@ -208,7 +208,7 @@ export default class Johto extends Component {
         </div>
 
         <div className='dark-cave' data-tip="Dark Cave" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '150px',
           left: '325px',
@@ -226,7 +226,7 @@ export default class Johto extends Component {
         }}></div>
 
         <div className='blackthorn-city' data-tip="Blackthorn City" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '89px',
           left: '360px',
@@ -244,7 +244,7 @@ export default class Johto extends Component {
         }}></div>
 
         <div className='dragons-den' data-tip="Dragons Den" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '81px',
           left: '381px',
@@ -270,7 +270,7 @@ export default class Johto extends Component {
         }}></div>
 
         <div className='ice-path' data-tip="Ice Path" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '95px',
           left: '345px',
@@ -288,7 +288,7 @@ export default class Johto extends Component {
         }}></div>
 
         <div className="route-44" data-tip="Route 44" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '100px',
           left: '327px',
@@ -306,7 +306,7 @@ export default class Johto extends Component {
         </div>
 
         <div className="route-42" data-tip="Route 42" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '100px',
           left: '264px',
@@ -324,7 +324,7 @@ export default class Johto extends Component {
         </div>
 
         <div className="route-42" data-tip="Route 42" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '100px',
           left: '208px',
@@ -342,7 +342,7 @@ export default class Johto extends Component {
         </div>
 
         <div className="route-43" data-tip="Route 43" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '77px',
           left: '309px',
@@ -360,7 +360,7 @@ export default class Johto extends Component {
         </div>
 
         <div className='lake-of-rage' data-tip="Lake of Rage" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '59px',
           left: '304px',
@@ -378,7 +378,7 @@ export default class Johto extends Component {
         }}></div>
 
         <div className="route-38" data-tip="Route 38" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '100px',
           left: '91px',
@@ -396,7 +396,7 @@ export default class Johto extends Component {
         </div>
 
         <div className="route-30" data-tip="Route 30" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '143px',
           left: '289px',
@@ -414,7 +414,7 @@ export default class Johto extends Component {
         </div>
 
         <div className="route-31" data-tip="Route 31" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '135px',
           left: '268px',
@@ -432,7 +432,7 @@ export default class Johto extends Component {
         </div>
 
         <div className='sprout-tower' data-tip="Sprout Tower" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '116px',
           left: '262px',
@@ -450,7 +450,7 @@ export default class Johto extends Component {
         }}></div>
 
         <div className='violet-city' data-tip="Violet City" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '126px',
           left: '240px',
@@ -468,7 +468,7 @@ export default class Johto extends Component {
         }}></div>
 
         <div className="route-32" data-tip="Route 32" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '154px',
           left: '250px',
@@ -486,7 +486,7 @@ export default class Johto extends Component {
         </div>
 
         <div className="route-37" data-tip="Route 37" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '118px',
           left: '190px',
@@ -504,7 +504,7 @@ export default class Johto extends Component {
         </div>
 
         <div className="route-36" data-tip="Route 36" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '135px',
           left: '164px',
@@ -522,7 +522,7 @@ export default class Johto extends Component {
         </div>
 
         <div className='union-cave' data-tip="Union Cave" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '274px',
           left: '245px',
@@ -540,7 +540,7 @@ export default class Johto extends Component {
         }}></div>
 
         <div className="route-33" data-tip="Route 33" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '279px',
           left: '208px',
@@ -558,7 +558,7 @@ export default class Johto extends Component {
         </div>
 
         <div className='ilex-forest' data-tip="Ilex Forest" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '274px',
           left: '145px',
@@ -576,7 +576,7 @@ export default class Johto extends Component {
         }}></div>
 
         <div className="route-34" data-tip="Route 34" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '224px',
           left: '149px',
@@ -594,7 +594,7 @@ export default class Johto extends Component {
         </div>
 
         <div className="route-35" data-tip="Route 35" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '150px',
           left: '149px',
@@ -612,7 +612,7 @@ export default class Johto extends Component {
         </div>
 
         <div className='national-park' data-tip="National Park" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '131px',
           left: '145px',
@@ -630,7 +630,7 @@ export default class Johto extends Component {
         }}></div>
 
         <div className="route-39" data-tip="Route 39" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '107px',
           left: '90px',
@@ -648,7 +648,7 @@ export default class Johto extends Component {
         </div>
 
         <div className='olivine-city' data-tip="Olivine City" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '125px',
           left: '81px',
@@ -666,7 +666,7 @@ export default class Johto extends Component {
         }}></div>
 
         <div className="route-40" data-tip="Route 40" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '149px',
           left: '50px',
@@ -683,7 +683,7 @@ export default class Johto extends Component {
         }}>
         </div>
         <div className="route-40" data-tip="Route 40" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '135px',
           left: '64px',
@@ -701,7 +701,7 @@ export default class Johto extends Component {
         </div>
 
         <div className="route-41" data-tip="Route 41" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '202px',
           left: '50px',
@@ -718,7 +718,7 @@ export default class Johto extends Component {
         }}>
         </div>
         <div className="route-41" data-tip="Route 41" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '224px',
           left: '43px',
@@ -736,7 +736,7 @@ export default class Johto extends Component {
         </div>
 
         <div className='cianwood-city' data-tip="Cianwood City" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '215px',
           left: '16px',
@@ -754,7 +754,7 @@ export default class Johto extends Component {
         }}></div>
 
         <div className="route-48" data-tip="Route 48" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '209px',
           left: '14px',
@@ -772,7 +772,7 @@ export default class Johto extends Component {
         </div>
 
         <div className='johto-safari' data-tip="Johto Safari Zone" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '190px',
           left: '8px',
@@ -823,7 +823,7 @@ export default class Johto extends Component {
         }}></div>
 
         <div className="lost-meadows" data-tip="Lost Meadows" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '182px',
           left: '26px',
@@ -845,7 +845,7 @@ export default class Johto extends Component {
         </div>
 
         <div className='toto-cave' data-tip="Toto Cave" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '158px',
           left: '8px',
@@ -863,7 +863,7 @@ export default class Johto extends Component {
         }}></div>
 
         <div className='ember-cave' data-tip="Ember Cave" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '168px',
           left: '28px',

@@ -28,7 +28,7 @@ export default class Kanto extends Component {
       <div key={this.state.key}>
         <ReactTooltip />
         <div className='pallet-town' data-tip="Pallet Town" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '218px',
           left: '80px',
@@ -46,7 +46,7 @@ export default class Kanto extends Component {
         }}></div>
 
         <div className='viridian-city' data-tip="Viridian City" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '155px',
           left: '80px',
@@ -64,7 +64,7 @@ export default class Kanto extends Component {
         }}></div>
 
 				<div className='viridian-forest' data-tip="Viridian Forest" style={{
-					cursor: 'pointer',
+					cursor: mode === 0 ? 'pointer' : 'default',
 					position: 'absolute',
 					top: '118px',
 					left: '85px',
@@ -84,7 +84,7 @@ export default class Kanto extends Component {
 				}}></div>
 
 				<div className='cerulean-city' data-tip="Cerulean City" style={{
-					cursor: 'pointer',
+					cursor: mode === 0 ? 'pointer' : 'default',
 					position: 'absolute',
 					top: '45px',
 					left: '298px',
@@ -102,7 +102,7 @@ export default class Kanto extends Component {
 				}}></div>
 
 				<div className='vermillion-city' data-tip="Vermillion City" style={{
-					cursor: 'pointer',
+					cursor: mode === 0 ? 'pointer' : 'default',
 					position: 'absolute',
 					top: '177px',
 					left: '298px',
@@ -120,7 +120,7 @@ export default class Kanto extends Component {
 				}}></div>
 
 				<div className='celadon-city' data-tip="Celadon City" style={{
-					cursor: 'pointer',
+					cursor: mode === 0 ? 'pointer' : 'default',
 					position: 'absolute',
 					top: '110px',
 					left: '232px',
@@ -138,7 +138,7 @@ export default class Kanto extends Component {
 				}}></div>
 
 				<div className='fuchsia-city' data-tip="Fuchsia City" style={{
-					cursor: 'pointer',
+					cursor: mode === 0 ? 'pointer' : 'default',
 					position: 'absolute',
 					top: '243px',
 					left: '255px',
@@ -156,7 +156,7 @@ export default class Kanto extends Component {
 				}}></div>
 
 				<div className='cinnabar-island' data-tip="Cinnabar Island" style={{
-					cursor: 'pointer',
+					cursor: mode === 0 ? 'pointer' : 'default',
 					position: 'absolute',
 					top: '285px',
 					left: '80px',
@@ -174,7 +174,7 @@ export default class Kanto extends Component {
 				}}></div>
 
 				<div className='mt-moon' data-tip="Mt. Moon" style={{
-					cursor: 'pointer',
+					cursor: mode === 0 ? 'pointer' : 'default',
 					position: 'absolute',
 					top: '50px',
 					left: '193px',
@@ -192,7 +192,7 @@ export default class Kanto extends Component {
 				}}></div>
 
 				<div className='diglett-cave' data-tip="Digletts Cave" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '94px',
           left: '85px',
@@ -210,7 +210,7 @@ export default class Kanto extends Component {
         }}></div>
 
 				<div className="route-1" data-tip="Route 1" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '184px',
           left: '89px',
@@ -228,7 +228,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className="route-2" data-tip="Route 2" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '137px',
           left: '89px',
@@ -246,7 +246,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className="route-3" data-tip="Route 3" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '79px',
           left: '110px',
@@ -263,7 +263,7 @@ export default class Kanto extends Component {
         }}>
 				</div>
 				<div className="route-3" data-tip="Route 3" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '56px',
           left: '175px',
@@ -280,7 +280,7 @@ export default class Kanto extends Component {
         }}>
 				</div>
 				<div className="route-3" data-tip="Route 3" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '56px',
           left: '184px',
@@ -298,7 +298,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className="route-4" data-tip="Route 4" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '55px',
           left: '213px',
@@ -316,7 +316,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className="route-22" data-tip="Route 22" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '164px',
           left: '46px',
@@ -334,7 +334,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className="route-23" data-tip="Route 23" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '94px',
           left: '46px',
@@ -352,7 +352,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className='victory-road' data-tip="Victory Road" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '75px',
           left: '41px',
@@ -370,7 +370,7 @@ export default class Kanto extends Component {
         }}></div>
 
 				<div className='cerulean-cave' data-tip="Cerulean Cave" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '34px',
           left: '286px',
@@ -398,7 +398,7 @@ export default class Kanto extends Component {
         }}></div>
 
 				<div className="route-24" data-tip="Route 24" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '14px',
           left: '307px',
@@ -416,7 +416,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className="route-25" data-tip="Route 25" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '13px',
           left: '316px',
@@ -434,7 +434,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className="route-9" data-tip="Route 9" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '55px',
           left: '327px',
@@ -452,7 +452,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className='rock-tunnel' data-tip="Rock Tunnel" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '50px',
           left: '390px',
@@ -470,7 +470,7 @@ export default class Kanto extends Component {
         }}></div>
 
 				<div className='power-plant' data-tip="Power Plant" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '74px',
           left: '390px',
@@ -488,7 +488,7 @@ export default class Kanto extends Component {
         }}></div>
 
 				<div className='lavender-tower' data-tip="Lavender Tower" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '135px',
           left: '390px',
@@ -506,7 +506,7 @@ export default class Kanto extends Component {
         }}></div>
 
 				<div className="route-8" data-tip="Route 8" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '119px',
           left: '327px',
@@ -524,7 +524,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className="route-7" data-tip="Route 7" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '119px',
           left: '261px',
@@ -542,7 +542,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className="route-16" data-tip="Route 16" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '119px',
           left: '163px',
@@ -560,7 +560,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className="route-17" data-tip="Route 17" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '121px',
           left: '155px',
@@ -578,7 +578,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className="route-18" data-tip="Route 18" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '252px',
           left: '157px',
@@ -596,7 +596,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className="route-5" data-tip="Route 5" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '75px',
           left: '307px',
@@ -614,7 +614,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className="route-6" data-tip="Route 6" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '139px',
           left: '307px',
@@ -632,7 +632,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className='diglett-cave' data-tip="Digletts Cave" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '182px',
           left: '323px',
@@ -650,7 +650,7 @@ export default class Kanto extends Component {
         }}></div>
 
 				<div className="route-6" data-tip="Route 6" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '139px',
           left: '307px',
@@ -668,7 +668,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className="route-11" data-tip="Route 11" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '186px',
           left: '343px',
@@ -686,7 +686,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className="route-12" data-tip="Route 12" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '155px',
           left: '395px',
@@ -704,7 +704,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className="route-13" data-tip="Route 13" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '227px',
           left: '337px',
@@ -722,7 +722,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className="route-14" data-tip="Route 14" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '229px',
           left: '330px',
@@ -740,7 +740,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className="route-15" data-tip="Route 15" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '252px',
           left: '284px',
@@ -758,7 +758,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className='kanto-safari' data-tip="Kanto Safari Zone" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '227px',
           left: '270px',
@@ -776,7 +776,7 @@ export default class Kanto extends Component {
         }}></div>
 
 				<div className="route-19" data-tip="Route 19" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '272px',
           left: '265px',
@@ -794,7 +794,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className="route-20" data-tip="Route 20" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '294px',
           left: '192px',
@@ -811,7 +811,7 @@ export default class Kanto extends Component {
         }}>
 				</div>
 				<div className="route-20" data-tip="Route 20" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '294px',
           left: '110px',
@@ -829,7 +829,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className="route-21" data-tip="Route 21" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '248px',
           left: '89px',
@@ -847,7 +847,7 @@ export default class Kanto extends Component {
 				</div>
 
 				<div className='pokemon-mansion' data-tip="Pokemon Mansion" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '273px',
           left: '67px',
@@ -867,7 +867,7 @@ export default class Kanto extends Component {
         }}></div>
 
 				<div className='seafoam-islands' data-tip="Seafoam Islands" style={{
-          cursor: 'pointer',
+          cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
           top: '289px',
           left: '172px',

@@ -52,7 +52,7 @@ export default class App extends Component {
 
     return (
       <div id="container">
-        <h1>PPO Townmap XTREME XDDD</h1>
+        <h1>PPO Townmap</h1>
         <div className="flex justify-center" style={{marginBottom: '20px'}}>
           <button className="btn btn-sm btn-secondary"
                   style={mode === 0 ? selectedButtonStyle : {}}
@@ -79,7 +79,7 @@ export default class App extends Component {
           right: '0',
           minWidth: '930px'
 				}}>
-          <p style={{ marginBottom: '5px', textAlign: 'center' }}>made with ♥ by Gouldie</p>
+          <p style={{ marginBottom: '5px', textAlign: 'center', color: 'azure' }}>made with ♥ by Gouldie</p>
         </div>
       </div>
     )
