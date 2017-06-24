@@ -260,7 +260,7 @@
   "route-43": {
     "name": "Route 43",
     "roam": {
-      "common": ["Pidgetto"],
+      "common": ["Pidgeotto"],
       "rare": ["Venonat"],
       "veryrare": ["Mareep", "Flaaffy", "Girafarig"]
     },
