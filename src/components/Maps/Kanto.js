@@ -761,7 +761,7 @@ export default class Kanto extends Component {
           cursor: 'pointer',
           position: 'absolute',
           top: '227px',
-          left: '269px',
+          left: '270px',
           width: '18px',
           height: '18px',
           borderRadius: '50%',

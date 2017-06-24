@@ -71,9 +71,16 @@ export default class App extends Component {
           <Info mode={mode} selectedMap={selectedMap} selectedArea={selectedArea} selectedPokemon={selectedPokemon}
                 setSelectedPokemon={this.setSelectedPokemon} setSelectedMap={this.setSelectedMap} />
         </div>
-        <h6 style={{ textAlign: 'center', marginTop: '10px' }}>
-          Credit to <a target="_blank" href="http://pokemon-planet.com/forums/index.php?action=profile;u=217500">DracoCaeser</a> for the idea and design!
-        </h6>
+
+        <div className='footer' style={{
+					position: 'absolute',
+          bottom: '30px',
+					left: '0',
+          right: '0',
+          minWidth: '930px'
+				}}>
+          <p style={{ marginBottom: '5px', textAlign: 'center' }}>made with ♥ by Gouldie</p>
+        </div>
       </div>
     )
   }
