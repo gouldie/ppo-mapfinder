@@ -345,7 +345,7 @@
     "name": "Route 129",
     "fish": {
       "common": ["Luvdisc", "Magikarp"],
-      "veryrare": ["Carvanha", "Wailmer", "Clameperl", "Chinchou", "Relicanth"]
+      "veryrare": ["Carvanha", "Wailmer", "Clamperl", "Chinchou", "Relicanth"]
     },
     "surf": {
       "common": ["Tentacool"],
@@ -357,7 +357,7 @@
     "fish": {
       "common": ["Magikarp"],
       "rare": ["Horsea"],
-      "veryrare": ["Carvanha", "Seadra", "Wailmer", "Clampert", "Chinchou", "Relicanth"]
+      "veryrare": ["Carvanha", "Seadra", "Wailmer", "Clamperl", "Chinchou", "Relicanth"]
     },
     "surf": {
       "common": ["Tentacool"],
@@ -813,7 +813,7 @@
     "roam": {
       "common": ["Zigzagoon"],
       "uncommon": ["Oddish", "Marill", "Surskit"],
-      "rare": ["Poochyena", "Seedot", "Volbeat", "Illumuse"]
+      "rare": ["Poochyena", "Seedot", "Volbeat", "Illumise"]
     },
     "fish": {
       "common": ["Magikarp"],

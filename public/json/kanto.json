@@ -56,7 +56,7 @@
     "surf": {
       "common": ["Tentacool"],
       "rare": ["Koffing"],
-      "veryrare": ["Slowpoke, Psyduck"]
+      "veryrare": ["Slowpoke", "Psyduck"]
     }
   },
   "fuchsia-city": {
@@ -68,7 +68,7 @@
     },
     "surf": {
       "common": ["Tentacool"],
-      "veryrare": ["Slowpoke, Psyduck"]
+      "veryrare": ["Slowpoke", "Psyduck"]
     }
   },
   "cinnabar-island": {

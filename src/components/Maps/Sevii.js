@@ -152,6 +152,129 @@ export default class Kanto extends Component {
 					setSelectedArea(['mt-ember'])
 				}}></div>
 
+				<div className='cape-brink' data-tip="Cape Brink" style={{
+					cursor: 'pointer',
+					position: 'absolute',
+					top: '65px',
+					left: '211px',
+					width: '8px',
+					height: '33px',
+					backgroundColor: mode === 0 ? selectedArea.indexOf('cape-brink') >= 0 ? 'indianred' : ''
+						: matchedAreas && matchedAreas.indexOf('cape-brink') >= 0 ? 'indianred' : '' ,
+					animation: mode === 0 ? selectedArea.indexOf('cape-brink') >= 0 ? 'pulse 2s infinite' : ''
+						: matchedAreas && matchedAreas.indexOf('cape-brink') >= 0 ? 'pulse 2s infinite' : ''
+				}} onClick={(e) => {
+					if (mode === 1) return
+					if (e.stopPropagation) e.stopPropagation()
+					setSelectedArea(['cape-brink'])
+				}}></div>
+
+				<div className='berry-forest' data-tip="Berry Forest" style={{
+					cursor: 'pointer',
+					position: 'absolute',
+					top: '192px',
+					left: '248px',
+					width: '20px',
+					height: '20px',
+					borderRadius: '50%',
+					backgroundColor: mode === 0 ? selectedArea.indexOf('berry-forest') >= 0 ? 'indianred' : ''
+						: matchedAreas && matchedAreas.indexOf('berry-forest') >= 0 ? 'indianred' : '' ,
+					animation: mode === 0 ? selectedArea.indexOf('berry-forest') >= 0 ? 'pulse 2s infinite' : ''
+						: matchedAreas && matchedAreas.indexOf('berry-forest') >= 0 ? 'pulse 2s infinite' : ''
+				}} onClick={(e) => {
+					if (mode === 1) return
+					if (e.stopPropagation) e.stopPropagation()
+					setSelectedArea(['berry-forest'])
+				}}></div>
+
+				<div className='turtle-cove' data-tip="Turtle Cove" style={{
+					cursor: 'pointer',
+					position: 'absolute',
+					top: '143px',
+					left: '312px',
+					width: '20px',
+					height: '20px',
+					borderRadius: '50%',
+					backgroundColor: mode === 0 ? selectedArea.indexOf('turtle-cove') >= 0 ? 'indianred' : ''
+						: matchedAreas && matchedAreas.indexOf('turtle-cove') >= 0 ? 'indianred' : '' ,
+					animation: mode === 0 ? selectedArea.indexOf('turtle-cove') >= 0 ? 'pulse 2s infinite' : ''
+						: matchedAreas && matchedAreas.indexOf('turtle-cove') >= 0 ? 'pulse 2s infinite' : ''
+				}} onClick={(e) => {
+					if (mode === 1) return
+					if (e.stopPropagation) e.stopPropagation()
+					setSelectedArea(['turtle-cove'])
+				}}></div>
+
+				<div className='bond-bridge' data-tip="Bond Bridge" style={{
+					cursor: 'pointer',
+					position: 'absolute',
+					top: '199px',
+					left: '269px',
+					width: '109px',
+					height: '8px',
+					backgroundColor: mode === 0 ? selectedArea.indexOf('bond-bridge') >= 0 ? 'indianred' : ''
+						: matchedAreas && matchedAreas.indexOf('bond-bridge') >= 0 ? 'indianred' : '' ,
+					animation: mode === 0 ? selectedArea.indexOf('bond-bridge') >= 0 ? 'pulse 2s infinite' : ''
+						: matchedAreas && matchedAreas.indexOf('bond-bridge') >= 0 ? 'pulse 2s infinite' : ''
+				}} onClick={(e) => {
+					if (mode === 1) return
+					if (e.stopPropagation) e.stopPropagation()
+					setSelectedArea(['bond-bridge'])
+				}}></div>
+
+				<div className='distant-isles' data-tip="Distant Isles" style={{
+					cursor: 'pointer',
+					position: 'absolute',
+					top: '164px',
+					left: '318px',
+					width: '8px',
+					height: '36px',
+					backgroundColor: mode === 0 ? selectedArea.indexOf('distant-isles') >= 0 ? 'indianred' : ''
+						: matchedAreas && matchedAreas.indexOf('distant-isles') >= 0 ? 'indianred' : '' ,
+					animation: mode === 0 ? selectedArea.indexOf('distant-isles') >= 0 ? 'pulse 2s infinite' : ''
+						: matchedAreas && matchedAreas.indexOf('distant-isles') >= 0 ? 'pulse 2s infinite' : ''
+				}} onClick={(e) => {
+					if (mode === 1) return
+					if (e.stopPropagation) e.stopPropagation()
+					setSelectedArea(['distant-isles'])
+				}}></div>
+
+				<div className='three-island' data-tip="Three Island" style={{
+					cursor: 'pointer',
+					position: 'absolute',
+					top: '217px',
+					left: '362px',
+					width: '28px',
+					height: '28px',
+					borderRadius: '50%',
+					backgroundColor: mode === 0 ? selectedArea.indexOf('three-island') >= 0 ? 'indianred' : ''
+						: matchedAreas && matchedAreas.indexOf('three-island') >= 0 ? 'indianred' : '' ,
+					animation: mode === 0 ? selectedArea.indexOf('three-island') >= 0 ? 'pulse 2s infinite' : ''
+						: matchedAreas && matchedAreas.indexOf('three-island') >= 0 ? 'pulse 2s infinite' : ''
+				}} onClick={(e) => {
+					if (mode === 1) return
+					if (e.stopPropagation) e.stopPropagation()
+					setSelectedArea(['three-island'])
+				}}></div>
+
+				<div className='two-island' data-tip="Two Island" style={{
+					cursor: 'pointer',
+					position: 'absolute',
+					top: '98px',
+					left: '202px',
+					width: '28px',
+					height: '28px',
+					borderRadius: '50%',
+					backgroundColor: mode === 0 ? selectedArea.indexOf('two-island') >= 0 ? 'indianred' : ''
+						: matchedAreas && matchedAreas.indexOf('two-island') >= 0 ? 'indianred' : '' ,
+					animation: mode === 0 ? selectedArea.indexOf('two-island') >= 0 ? 'pulse 2s infinite' : ''
+						: matchedAreas && matchedAreas.indexOf('two-island') >= 0 ? 'pulse 2s infinite' : ''
+				}} onClick={(e) => {
+					if (mode === 1) return
+					if (e.stopPropagation) e.stopPropagation()
+					setSelectedArea(['two-island'])
+				}}></div>
+
 			</div>
 		)
 	}

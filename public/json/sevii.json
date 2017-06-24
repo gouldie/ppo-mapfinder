@@ -91,5 +91,98 @@
       "extremelyrare": ["Numel", "Machop"],
       "legendary": ["Moltres"]
     }
+  },
+  "cape-brink": {
+    "name": "Cape Brink",
+    "roam": {
+      "common": ["Spearow"],
+      "uncommon": ["Oddish", "Bellsprout", "Meowth"],
+      "rare": ["Weepinbell", "Fearow", "Persian", "Gloom"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Horsea", "Shellder", "Kingler"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "berry-forest": {
+    "name": "Berry Forest",
+    "roam": {
+      "common": ["Pidgey"],
+      "uncommon": ["Oddish", "Bellsprout", "Pidgeotto", "Weepinbell", "Meowth"],
+      "rare": ["Gloom", "Venonat", "Persian", "Drowzee"],
+      "veryrare": ["Hypno", "Exeggcute", "Venomoth"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Horsea", "Shellder", "Kingler"],
+      "veryrare": ["Gyarados", "Slowpoke", "Staryu", "Psyduck"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "turtle-cove": {
+    "name": "Turtle Cove",
+    "roam": {
+      "common": ["Geodude", "Zubat"],
+      "uncommon": ["Sandshrew"],
+      "extremelyrare": ["Squirtle"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Goldeen"],
+      "rare": ["Horsea", "Shellder"],
+      "veryrare": ["Staryu"],
+      "extremelyrare": ["Squirtle"]
+    },
+    "surf": {
+      "common": ["Tentacool"],
+      "extremelyrare": ["Squirtle"]
+    }
+  },
+  "bond-bridge": {
+    "name": "Bond Bridge",
+    "roam": {
+      "common": ["Pidgey"],
+      "uncommon": ["Oddish", "Bellsprout", "Pidgeotto", "Weepinbell", "Meowth"],
+      "rare": ["Gloom", "Venonat", "Persian"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby"],
+      "rare": ["Horsea", "Shellder", "Kingler"],
+      "veryrare": ["Gyarados", "Slowpoke", "Staryu", "Psyduck"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "distant-isles": {
+    "name": "Distant Isles",
+    "roam": {
+      "common": ["Pidgey"],
+      "uncommon": ["Oddish", "Bellsprout", "Pidgeotto", "Weepinbell", "Meowth"],
+      "rare": ["Gloom", "Venonat", "Persian"]
+    },
+    "fish": {
+      "common": ["Magikarp"],
+      "uncommon": ["Krabby", "Goldeen"],
+      "rare": ["Horsea", "Shellder", "Kingler"],
+      "veryrare": ["Staryu"]
+    },
+    "surf": {
+      "common": ["Tentacool"]
+    }
+  },
+  "three-island": {
+    "name": "Three Island"
+  },
+  "two-island": {
+    "name": "Two Island"
   }
 }

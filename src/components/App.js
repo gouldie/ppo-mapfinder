@@ -9,7 +9,7 @@ export default class App extends Component {
 
     this.state = {
       mode: 0, // 0: by map, 1: by pokemon
-      selectedMap: 'Sevii Islands',
+      selectedMap: 'Kanto',
       selectedArea: [],
       selectedPokemon: null,
     }
@@ -71,6 +71,9 @@ export default class App extends Component {
           <Info mode={mode} selectedMap={selectedMap} selectedArea={selectedArea} selectedPokemon={selectedPokemon}
                 setSelectedPokemon={this.setSelectedPokemon} setSelectedMap={this.setSelectedMap} />
         </div>
+        <h6 style={{ textAlign: 'center', marginTop: '10px' }}>
+          Credit to <a target="_blank" href="http://pokemon-planet.com/forums/index.php?action=profile;u=217500">DracoCaeser</a> for the idea and design!
+        </h6>
       </div>
     )
   }
