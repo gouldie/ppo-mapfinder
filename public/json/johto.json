@@ -686,14 +686,14 @@
     "roam": {
       "common": ["Zubat"],
       "uncommon": ["Krabby"],
-      "veryrare": ["Doduo", "Aron", "Mareep", "Manectric"]
+      "veryrare": ["Doduo", "Aron", "Mareep", "Manectric"],
+      "extremelyrare": ["Kangaskhan", "Snorlax"]   
     },
     "fish": {
       "common": ["Magikarp"],
       "uncommon": ["Krabby", "Goldeen"],
       "rare": ["Poliwag", "Corphish"],
-      "veryrare": ["Poliwhirl", "Slowpoke", "Seaking"],
-      "extremelyrare": ["Kangaskhan", "Snorlax"]      
+      "veryrare": ["Poliwhirl", "Slowpoke", "Seaking"]
     },
     "surf": {
       "common": ["Tentacool"]
