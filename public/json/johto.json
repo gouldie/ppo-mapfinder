@@ -639,7 +639,8 @@
       "common": ["Raticate"],
       "uncommon": ["Surskit"],
       "rare": ["Smeargle", "Zigzagoon", "Lotad"],
-      "veryrare": ["Abra", "Girafarig", "Ponyta", "Houndoom", "Zangoose", "Manectric", "Shinx"]
+      "veryrare": ["Abra", "Girafarig", "Ponyta", "Houndoom", "Zangoose", "Manectric", "Shinx"],
+      "extremelyrare": ["Kangaskhan", "Snorlax"]
     }
   },
   "johto-safari-meadow": {
@@ -648,7 +649,8 @@
       "common": ["Raticate", "Geodude"],
       "uncommon": ["Marill"],
       "rare": ["Hoppip", "Sunkern", "Wooper", "Masquerain", "Seedot"],
-      "veryrare": ["Clefairy", "Jigglypuff", "Chansey", "Nosepass"]
+      "veryrare": ["Clefairy", "Jigglypuff", "Chansey", "Nosepass"],
+      "extremelyrare": ["Kangaskhan", "Snorlax"]      
     },
     "fish": {
       "common": ["Magikarp"],
@@ -690,7 +692,8 @@
       "common": ["Magikarp"],
       "uncommon": ["Krabby", "Goldeen"],
       "rare": ["Poliwag", "Corphish"],
-      "veryrare": ["Poliwhirl", "Slowpoke", "Seaking"]
+      "veryrare": ["Poliwhirl", "Slowpoke", "Seaking"],
+      "extremelyrare": ["Kangaskhan", "Snorlax"]      
     },
     "surf": {
       "common": ["Tentacool"]

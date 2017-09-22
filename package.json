@@ -1,5 +1,5 @@
 {
-  "name": "ppo-mapfinder",
+  "name": "ppo-townmap",
   "version": "1.0.0",
   "description": "Map finder for the online game Pokemon Planet.",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gouldie/ppo-mapfinder.git"
+    "url": "git+https://github.com/gouldie/ppo-townmap.git"
   },
   "author": "M.G.",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gouldie/ppo-mapfinder/issues"
+    "url": "https://github.com/gouldie/ppo-townmap/issues"
   },
-  "homepage": "https://github.com/gouldie/ppo-mapfinder#readme",
+  "homepage": "https://github.com/gouldie/ppo-townmap#readme",
   "devDependencies": {
     "babel-preset-es2015": "6.1.18",
     "babel-preset-react": "6.1.18"
@@ -27,8 +27,8 @@
     "babel-loader": "6.2.0",
     "react": "15.5.4",
     "react-dom": "15.5.4",
-    "react-select": "^1.0.0-rc.5",
-    "react-tooltip": "^3.3.0",
+    "react-select": "1.0.0-rc.5",
+    "react-tooltip": "3.3.0",
     "webpack": "2.6.1",
     "webpack-dev-server": "2.4.5"
   }
