@@ -49,7 +49,7 @@ export default class Map extends Component {
               clearable={false}
             />
           </div>
-          <img src={`../../public/imgs/${mapRegionToImage[selectedMap]}.png`} alt=""
+          <img src={`../../ppo-townmap/public/imgs/${mapRegionToImage[selectedMap]}.png`} alt=""
                style={{width: '450px', height: '327px', padding: '5px', border: '1px solid gray'}}/>
 
           <div onClick={() => setSelectedArea([])}
@@ -80,7 +80,7 @@ export default class Map extends Component {
             clearable={false}
           />
         </div>
-        <img src={`../../public/imgs/${mapRegionToImage[selectedMap]}.png`} alt=""
+        <img src={`../../ppo-townmap/public/imgs/${mapRegionToImage[selectedMap]}.png`} alt=""
              style={{width: '450px', height: '327px', padding: '5px', border: '1px solid gray'}}/>
 
         <div onClick={() => setSelectedArea([])}
