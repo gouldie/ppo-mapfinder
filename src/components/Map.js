@@ -36,8 +36,6 @@ export default class Map extends Component {
       selectedMap, setSelectedMap, setSelectedArea, selectedArea, selectedPokemon, mode
     } = this.props
 
-    console.log('test', window.location.hostname)
-
     const matchedAreasStr = mode === 1 ? Object.keys(matchedAreas(selectedPokemon && selectedPokemon.value, regionJSON)) : undefined
 
     return mode === 0 ? (
