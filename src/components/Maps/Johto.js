@@ -243,32 +243,6 @@ export default class Johto extends Component {
           setSelectedArea(['blackthorn-city'])
         }}></div>
 
-        <div className='dragons-den' data-tip="Dragons Den" style={{
-          cursor: mode === 0 ? 'pointer' : 'default',
-          position: 'absolute',
-          top: '81px',
-          left: '381px',
-          width: '18px',
-          height: '18px',
-          borderRadius: '50%',
-          backgroundColor: mode === 0 ? selectedArea.indexOf('dragons-den') >= 0 ? 'indianred' : ''
-            : matchedAreas && matchedAreas.indexOf('dragons-den') >= 0
-            || matchedAreas && matchedAreas.indexOf('mossy-cave-entrance') >= 0
-						|| matchedAreas && matchedAreas.indexOf('mossy-cave-fire') >= 0
-						|| matchedAreas && matchedAreas.indexOf('mossy-cave-water') >= 0
-						|| matchedAreas && matchedAreas.indexOf('mossy-cave-thunder') >= 0 ? 'indianred' : '' ,
-          animation: mode === 0 ? selectedArea.indexOf('dragons-den') >= 0 ? 'pulse 2s infinite' : ''
-            : matchedAreas && matchedAreas.indexOf('dragons-den') >= 0
-						|| matchedAreas && matchedAreas.indexOf('mossy-cave-entrance') >= 0
-						|| matchedAreas && matchedAreas.indexOf('mossy-cave-fire') >= 0
-						|| matchedAreas && matchedAreas.indexOf('mossy-cave-water') >= 0
-						|| matchedAreas && matchedAreas.indexOf('mossy-cave-thunder') >= 0 ? 'pulse 2s infinite' : ''
-        }} onClick={(e) => {
-          if (mode === 1) return
-          if (e.stopPropagation) e.stopPropagation()
-          setSelectedArea(['dragons-den', 'mossy-cave-entrance', 'mossy-cave-fire', 'mossy-cave-water', 'mossy-cave-thunder'])
-        }}></div>
-
         <div className='ice-path' data-tip="Ice Path" style={{
           cursor: mode === 0 ? 'pointer' : 'default',
           position: 'absolute',
@@ -880,6 +854,51 @@ export default class Johto extends Component {
           if (mode === 1) return
           if (e.stopPropagation) e.stopPropagation()
           setSelectedArea(['ember-cave-1', 'ember-cave-2'])
+        }}></div>
+
+        <div className='dragons-den' data-tip="Dragons Den" style={{
+          cursor: mode === 0 ? 'pointer' : 'default',
+          position: 'absolute',
+          top: '81px',
+          left: '381px',
+          width: '18px',
+          height: '18px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('dragons-den') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('dragons-den') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('dragons-den') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('dragons-den') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['dragons-den'])
+        }}></div>
+
+        <div className='mossy-cave' data-tip="Mossy Cave" style={{
+          cursor: mode === 0 ? 'pointer' : 'default',
+          position: 'absolute',
+          top: '66px',
+          left: '380px',
+          width: '16px',
+          height: '16px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('mossy-cave-entrance') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('mossy-cave-entrance') >= 0
+            || matchedAreas.indexOf('mossy-cave-water') >= 0
+            || matchedAreas.indexOf('mossy-cave-fire') >= 0
+            || matchedAreas.indexOf('mossy-cave-thunder') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('mossy-cave-entrance') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('mossy-cave-entrance') >= 0
+            || matchedAreas.indexOf('mossy-cave-water') >= 0
+            || matchedAreas.indexOf('mossy-cave-fire') >= 0
+            || matchedAreas.indexOf('mossy-cave-thunder') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['mossy-cave-entrance',
+            'mossy-cave-water',
+            'mossy-cave-fire',
+            'mossy-cave-thunder'])
         }}></div>
 
       </div>
