@@ -36,6 +36,8 @@ export default class Map extends Component {
       selectedMap, setSelectedMap, setSelectedArea, selectedArea, selectedPokemon, mode
     } = this.props
 
+    console.log('test', window.location.hostname)
+
     const matchedAreasStr = mode === 1 ? Object.keys(matchedAreas(selectedPokemon && selectedPokemon.value, regionJSON)) : undefined
 
     return mode === 0 ? (
@@ -49,7 +51,7 @@ export default class Map extends Component {
               clearable={false}
             />
           </div>
-          <img src={`../../ppo-townmap/public/imgs/${mapRegionToImage[selectedMap]}.png`} alt=""
+          <img src={`../../${window.location.hostname === "localhost" ? "" : "ppo-townmap/"}public/imgs/${mapRegionToImage[selectedMap]}.png`} alt=""
                style={{width: '450px', height: '327px', padding: '5px', border: '1px solid gray'}}/>
 
           <div onClick={() => setSelectedArea([])}
@@ -80,7 +82,7 @@ export default class Map extends Component {
             clearable={false}
           />
         </div>
-        <img src={`../../ppo-townmap/public/imgs/${mapRegionToImage[selectedMap]}.png`} alt=""
+        <img src={`../../${window.location.hostname === "localhost" ? "" : "ppo-townmap/"}public/imgs/${mapRegionToImage[selectedMap]}.png`} alt=""
              style={{width: '450px', height: '327px', padding: '5px', border: '1px solid gray'}}/>
 
         <div onClick={() => setSelectedArea([])}
