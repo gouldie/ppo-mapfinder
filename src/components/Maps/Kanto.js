@@ -128,13 +128,15 @@ export default class Kanto extends Component {
 					height: '29px',
 					borderRadius: '50%',
 					backgroundColor: mode === 0 ? selectedArea.indexOf('celadon-city') >= 0 ? 'indianred' : ''
-						: matchedAreas && matchedAreas.indexOf('celadon-city') >= 0 ? 'indianred' : '' ,
+            : matchedAreas && matchedAreas.indexOf('celadon-city') >= 0 
+            || matchedAreas && matchedAreas.indexOf('rocket-hideout') >= 0 ? 'indianred' : '' ,
 					animation: mode === 0 ? selectedArea.indexOf('celadon-city') >= 0 ? 'pulse 2s infinite' : ''
-						: matchedAreas && matchedAreas.indexOf('celadon-city') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('celadon-city') >= 0 
+            || matchedAreas && matchedAreas.indexOf('rocket-hideout') >= 0 ? 'pulse 2s infinite' : ''
 				}} onClick={(e) => {
 					if (mode === 1) return
 					if (e.stopPropagation) e.stopPropagation()
-					setSelectedArea(['celadon-city'])
+					setSelectedArea(['celadon-city', 'rocket-hideout'])
 				}}></div>
 
 				<div className='fuchsia-city' data-tip="Fuchsia City" style={{

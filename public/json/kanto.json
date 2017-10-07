@@ -59,6 +59,15 @@
       "veryrare": ["Slowpoke", "Psyduck"]
     }
   },
+  "rocket-hideout": {
+    "name": "Rocket Hideout",
+    "roam": {
+      "common": ["Zubat", "Geodude", "Raticate", "Ekans"],
+      "rare": ["Mankey", "Magnemite", "Grimer", "Koffing", "Meowth"],
+      "veryrare": ["Ditto", "Wobbuffet", "Jigglypuff"],
+      "extremelyrare": ["Machop", "Sneasel", "Skorupi"]
+    }
+  },
   "fuchsia-city": {
     "name": "Fuchsia City",
     "fish": {

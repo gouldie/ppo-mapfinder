@@ -10,7 +10,10 @@ export const listAreaDetails = (details, i) => {
 				color: 'black',
 				textAlign: 'center'
 			}}>{details && details['name']}</p>
-			<hr style={{ marginTop: '5px' }} />
+			<div style={{ textAlign: 'center', marginBottom: '5px' }} >
+			---------------------------------------------------
+			</div>
+			
 			{
 				details['roam'] &&
 				<div style={{marginBottom: '10px'}}>
