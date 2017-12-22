@@ -571,8 +571,7 @@
     "fish": {
       "common": ["Magikarp"],
       "rare": ["Poliwag", "Corphish"],
-      "veryrare": ["Psyduck", "Poliwhirl", "Gyarados"],
-      "extremelyrare": ["Rhyhorn"]
+      "veryrare": ["Psyduck", "Poliwhirl", "Gyarados"]
     },
     "surf": {
       "common": ["Tentacool"]
