@@ -200,7 +200,7 @@
       "common": ["Gyarados", "Golem", "Exploud"],
       "uncommon": ["Kingler", "Ducklett"],
       "rare": ["Poliwhirl", "Lombre"],
-      "veryrare": ["Dewgong", "Clauncher"],
+      "veryrare": ["Dewgong", "Clauncher", "Mantyke"],
       "extremelyrare": ["Milotic", "Spheal", "Snover"],
       "legendary": ["Suicune"]
     }
@@ -649,7 +649,7 @@
       "uncommon": ["Marill"],
       "rare": ["Hoppip", "Sunkern", "Wooper", "Masquerain", "Seedot"],
       "veryrare": ["Clefairy", "Jigglypuff", "Chansey", "Nosepass"],
-      "extremelyrare": ["Kangaskhan", "Snorlax"]      
+      "extremelyrare": ["Kangaskhan", "Snorlax"]
     },
     "fish": {
       "common": ["Magikarp"],
@@ -686,7 +686,7 @@
       "common": ["Zubat"],
       "uncommon": ["Krabby"],
       "veryrare": ["Doduo", "Aron", "Mareep", "Manectric"],
-      "extremelyrare": ["Kangaskhan", "Snorlax"]   
+      "extremelyrare": ["Kangaskhan", "Snorlax"]
     },
     "fish": {
       "common": ["Magikarp"],
