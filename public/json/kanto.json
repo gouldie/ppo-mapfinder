@@ -65,7 +65,7 @@
       "common": ["Zubat", "Geodude", "Raticate", "Ekans"],
       "rare": ["Mankey", "Magnemite", "Grimer", "Koffing", "Meowth"],
       "veryrare": ["Ditto", "Wobbuffet", "Jigglypuff"],
-      "extremelyrare": ["Machop", "Sneasel", "Skorupi"]
+      "extremelyrare": ["Machop", "Sneasel"]
     }
   },
   "fuchsia-city": {
@@ -603,7 +603,8 @@
       "common": ["Rattata"],
       "uncommon": ["Raticate"],
       "rare": ["Grimer", "Koffing"],
-      "veryrare": ["Muk", "Weezing", "Ditto", "Vulpix", "Growlithe"]
+      "veryrare": ["Weezing", "Ditto", "Vulpix", "Growlithe"],
+      "extremelyrare": ["Skorupi"]
     }
   },
   "pokemon-mansion-2": {
@@ -612,7 +613,8 @@
       "common": ["Rattata"],
       "uncommon": ["Raticate"],
       "rare": ["Grimer", "Koffing"],
-      "veryrare": ["Muk", "Weezing", "Vulpix", "Growlithe"]
+      "veryrare": ["Weezing", "Vulpix", "Growlithe"],
+      "extremelyrare": ["Skorupi"]
     }
   },
   "seafoam-islands-1": {
