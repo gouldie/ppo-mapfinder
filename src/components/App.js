@@ -71,6 +71,9 @@ export default class App extends Component {
           <Info mode={mode} selectedMap={selectedMap} selectedArea={selectedArea} selectedPokemon={selectedPokemon}
                 setSelectedPokemon={this.setSelectedPokemon} setSelectedMap={this.setSelectedMap} />
         </div>
+        <p style={{ marginTop: "10px", textAlign: "center" }}>
+          Something wrong? Let me know <a target="_blank" href="http://pokemon-planet.com/forums/index.php?topic=25445.0"> here</a>.
+        </p>
 
         <div className='footer' style={{
 					position: 'absolute',
