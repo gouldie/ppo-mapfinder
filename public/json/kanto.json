@@ -273,22 +273,6 @@
   "cerulean-cave-4": {
     "name": "Cerulean Cave F4",
     "roam": {
-      "common": ["Golbat", "Parasect", "Electrode"],
-      "veryrare": ["Magneton", "Ditto"],
-      "extremelyrare": ["Machoke", "Kadabra"]
-    }
-  },
-  "cerulean-cave-5": {
-    "name": "Cerulean Cave F5",
-    "roam": {
-      "common": ["Golbat", "Parasect", "Electrode"],
-      "veryrare": ["Magneton", "Ditto"],
-      "extremelyrare": ["Machoke", "Kadabra"]
-    }
-  },
-  "cerulean-cave-6": {
-    "name": "Cerulean Cave F6",
-    "roam": {
       "common": ["Ekans"],
       "rare": ["Dunsparce"],
       "veryrare": ["Seviper", "Arbok"]

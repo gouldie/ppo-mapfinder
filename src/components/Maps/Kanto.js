@@ -383,20 +383,16 @@ export default class Kanto extends Component {
             : matchedAreas && matchedAreas.indexOf('cerulean-cave-1') >= 0
 						|| matchedAreas.indexOf('cerulean-cave-2') >= 0
             || matchedAreas.indexOf('cerulean-cave-3') >= 0
-            || matchedAreas.indexOf('cerulean-cave-4') >= 0
-            || matchedAreas.indexOf('cerulean-cave-5') >= 0
-            || matchedAreas.indexOf('cerulean-cave-6') >= 0 ? 'indianred' : '' ,
+            || matchedAreas.indexOf('cerulean-cave-4') >= 0 ? 'indianred' : '' ,
           animation: mode === 0 ? selectedArea.indexOf('cerulean-cave-1') >= 0 ? 'pulse 2s infinite' : ''
             : matchedAreas && matchedAreas.indexOf('cerulean-cave-1') >= 0
             || matchedAreas.indexOf('cerulean-cave-2') >= 0
             || matchedAreas.indexOf('cerulean-cave-3') >= 0
-            || matchedAreas.indexOf('cerulean-cave-4') >= 0
-            || matchedAreas.indexOf('cerulean-cave-5') >= 0
-            || matchedAreas.indexOf('cerulean-cave-6') >= 0 ? 'pulse 2s infinite' : ''
+            || matchedAreas.indexOf('cerulean-cave-4') >= 0 ? 'pulse 2s infinite' : ''
         }} onClick={(e) => {
           if (mode === 1) return
           if (e.stopPropagation) e.stopPropagation()
-          setSelectedArea(['cerulean-cave-1', 'cerulean-cave-2', 'cerulean-cave-3', 'cerulean-cave-4', 'cerulean-cave-5', 'cerulean-cave-6'])
+          setSelectedArea(['cerulean-cave-1', 'cerulean-cave-2', 'cerulean-cave-3', 'cerulean-cave-4'])
         }}></div>
 
 				<div className="route-24" data-tip="Route 24" style={{
