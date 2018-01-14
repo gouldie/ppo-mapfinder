@@ -127,8 +127,8 @@
       "veryrare": ["Abra", "Makuhita", "Aron", "Nosepass"]
     }
   },
-  "ancient-cavern-1": {
-    "name": "Ancient Cavern R1 (Light Purple)",
+  "ancient-cave-1": {
+    "name": "Ancient Cave R1 (Light Purple)",
     "roam": {
       "common": ["Butterfree", "Arbok", "Golbat"],
       "uncommon": ["Oddish"],
@@ -137,8 +137,8 @@
       "extremelyrare": ["Tropius", "Mawile", "Onix", "Skarmory", "Snover", "Numel"]
     }
   },
-  "ancient-cavern-2": {
-    "name": "Ancient Cavern R2 (Green)",
+  "ancient-cave-2": {
+    "name": "Ancient Cave R2 (Green)",
     "roam": {
       "common": ["Butterfree", "Beedrill"],
       "uncommon": ["Oddish"],
@@ -147,8 +147,8 @@
       "extremelyrare": ["Tropius", "Mawile", "Snover"]
     }
   },
-  "ancient-cavern-3": {
-    "name": "Ancient Cavern R3 (Blue)",
+  "ancient-cave-3": {
+    "name": "Ancient Cave R3 (Blue)",
     "roam": {
       "common": ["Butterfree"],
       "uncommon": ["Oddish"],
@@ -175,7 +175,7 @@
       "rare": ["Shellder"]
     }
   },
-  "ancient-cavern-5": {
+  "ancient-cavern-1": {
     "name": "Ancient Cavern R1 (Brown)",
     "roam": {
       "common": ["Arbok", "Graveler"],
@@ -184,8 +184,8 @@
       "extremelyrare": ["Onix"]
     }
   },
-  "ancient-cavern-6": {
-    "name": "Ancient Cavern R4 (Purple)",
+  "ancient-cave-4": {
+    "name": "Ancient Cave R4 (Purple)",
     "roam": {
       "common": ["Arbok", "Golbat"],
       "uncommon": ["Oddish"],
@@ -194,7 +194,7 @@
       "extremelyrare": ["Skorupi", "Mawile", "Foongus"]
     }
   },
-  "ancient-cavern-7": {
+  "ancient-cavern-2": {
     "name": "Ancient Cavern R2 (Purple)",
     "roam": {
       "common": ["Arbok", "Golbat"],
@@ -213,8 +213,8 @@
       "rare": ["Qwilfish"]
     }
   },
-  "ancient-cavern-8": {
-    "name": "Ancient Cavern R5 (Red)",
+  "ancient-cave-5": {
+    "name": "Ancient Cave R5 (Red)",
     "roam": {
       "common": ["Magcargo"],
       "rare": ["Drifloon", "Kecleon", "Primeape"],
@@ -222,8 +222,17 @@
       "extremelyrare": ["Numel", "Mawile", "Onix", "Fletchling"]
     }
   },
-  "ancient-cavern-9": {
-    "name": "Ancient Cavern R7",
+  "ancient-cave-6": {
+    "name": "Ancient Cave R6",
+    "roam": {
+      "common": ["Magcargo"],
+      "rare": ["Drifloon", "Kecleon", "Primeape"],
+      "veryrare": ["Vulpix", "Growlithe", "Magmar"],
+      "extremelyrare": ["Numel", "Mawile", "Onix", "Fletchling"]
+    }
+  },
+  "ancient-cave-7": {
+    "name": "Ancient Cave R7",
     "roam": {
       "common": ["Butterfree", "Beedrill"],
       "uncommon": ["Oddish"],
@@ -232,32 +241,23 @@
       "extremelyrare": ["Tropius", "Mawile", "Snover"]
     }
   },
-  "ancient-cavern-10": {
+  "ancient-cavern-5": {
     "name": "Ancient Cavern R5 (Green)",
     "roam": {
       "common": ["Arbok", "Butterfree", "Beedrill"],
       "uncommon": ["Oddish"],
       "rare": ["Kecleon", "Carnivine"],
       "veryrare": ["Abra", "Cubone", "Tangela", "Natu", "Aron", "Vulpix", "Growlithe", "Magmar"],
-      "extremelyrare": ["Numel", "Onix"]
+      "extremelyrare": ["Goomy"]
     }
   },
-  "ancient-cavern-11": {
+  "ancient-cavern-3": {
     "name": "Ancient Cavern R3 (Red)",
     "roam": {
       "common": ["Magcargo", "Arbok"],
       "rare": ["Drifloon", "Kecleon", "Primeape"],
       "veryrare": ["Abra", "Cubone", "Tangela", "Natu", "Aron", "Vulpix", "Growlithe", "Magmar"],
       "extremelyrare": ["Numel", "Onix"]
-    }
-  },
-  "ancient-cavern-12": {
-    "name": "Ancient Cavern R6",
-    "roam": {
-      "common": ["Magcargo"],
-      "rare": ["Drifloon", "Kecleon", "Primeape"],
-      "veryrare": ["Vulpix", "Growlithe", "Magmar"],
-      "extremelyrare": ["Numel", "Mawile", "Onix", "Fletchling"]
     }
   },
   "ancient-dungeon": {

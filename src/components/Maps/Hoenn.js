@@ -172,13 +172,13 @@ export default class Hoenn extends Component {
             || matchedAreas && matchedAreas.indexOf('ancient-cavern-3') >= 0
             || matchedAreas && matchedAreas.indexOf('ancient-cavern-4') >= 0
             || matchedAreas && matchedAreas.indexOf('ancient-cavern-5') >= 0
-            || matchedAreas && matchedAreas.indexOf('ancient-cavern-6') >= 0
-            || matchedAreas && matchedAreas.indexOf('ancient-cavern-7') >= 0
-            || matchedAreas && matchedAreas.indexOf('ancient-cavern-8') >= 0
-            || matchedAreas && matchedAreas.indexOf('ancient-cavern-9') >= 0
-            || matchedAreas && matchedAreas.indexOf('ancient-cavern-10') >= 0
-            || matchedAreas && matchedAreas.indexOf('ancient-cavern-11') >= 0
-            || matchedAreas && matchedAreas.indexOf('ancient-cavern-12') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cave-1') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cave-2') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cave-3') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cave-4') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cave-5') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cave-6') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cave-7') >= 0
             || matchedAreas && matchedAreas.indexOf('ancient-dungeon') >= 0 ? 'indianred' : '' ,
           animation: mode === 0 ? selectedArea.indexOf('granite-cave-1') >= 0 ? 'pulse 2s infinite' : ''
             : matchedAreas && matchedAreas.indexOf('granite-cave-1') >= 0
@@ -189,13 +189,13 @@ export default class Hoenn extends Component {
             || matchedAreas && matchedAreas.indexOf('ancient-cavern-3') >= 0
             || matchedAreas && matchedAreas.indexOf('ancient-cavern-4') >= 0
             || matchedAreas && matchedAreas.indexOf('ancient-cavern-5') >= 0
-            || matchedAreas && matchedAreas.indexOf('ancient-cavern-6') >= 0
-            || matchedAreas && matchedAreas.indexOf('ancient-cavern-7') >= 0
-            || matchedAreas && matchedAreas.indexOf('ancient-cavern-8') >= 0
-            || matchedAreas && matchedAreas.indexOf('ancient-cavern-9') >= 0
-            || matchedAreas && matchedAreas.indexOf('ancient-cavern-10') >= 0
-            || matchedAreas && matchedAreas.indexOf('ancient-cavern-11') >= 0
-            || matchedAreas && matchedAreas.indexOf('ancient-cavern-12') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cave-1') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cave-2') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cave-3') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cave-4') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cave-5') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cave-6') >= 0
+            || matchedAreas && matchedAreas.indexOf('ancient-cave-7') >= 0
             || matchedAreas && matchedAreas.indexOf('ancient-dungeon') >= 0? 'pulse 2s infinite' : ''
         }} onClick={(e) => {
           if (mode === 1) return
@@ -209,13 +209,13 @@ export default class Hoenn extends Component {
             'ancient-cavern-3',
             'ancient-cavern-4',
             'ancient-cavern-5',
-            'ancient-cavern-6',
-            'ancient-cavern-7',
-            'ancient-cavern-8',
-            'ancient-cavern-9',
-            'ancient-cavern-10',
-            'ancient-cavern-11',
-            'ancient-cavern-12',
+            'ancient-cave-1',
+            'ancient-cave-2',
+            'ancient-cave-3',
+            'ancient-cave-4',
+            'ancient-cave-5',
+            'ancient-cave-6',
+            'ancient-cave-7',
             'ancient-dungeon'
           ])
         }}></div>
