@@ -854,14 +854,16 @@ export default class Kanto extends Component {
           borderRadius: '50%',
           backgroundColor: mode === 0 ? selectedArea.indexOf('pokemon-mansion-1') >= 0 ? 'indianred' : ''
             : matchedAreas && matchedAreas.indexOf('pokemon-mansion-1') >= 0
-						|| matchedAreas && matchedAreas.indexOf('pokemon-mansion-2') >= 0 ? 'indianred' : '' ,
+            || matchedAreas && matchedAreas.indexOf('pokemon-mansion-2') >= 0
+            || matchedAreas && matchedAreas.indexOf('pokemon-mansion-3') >= 0 ? 'indianred' : '' ,
           animation: mode === 0 ? selectedArea.indexOf('pokemon-mansion-1') >= 0 ? 'pulse 2s infinite' : ''
             : matchedAreas && matchedAreas.indexOf('pokemon-mansion-1') >= 0
-            || matchedAreas && matchedAreas.indexOf('pokemon-mansion-2') >= 0 ? 'pulse 2s infinite' : ''
+            || matchedAreas && matchedAreas.indexOf('pokemon-mansion-2')
+            || matchedAreas && matchedAreas.indexOf('pokemon-mansion-3') >= 0 ? 'pulse 2s infinite' : ''
         }} onClick={(e) => {
           if (mode === 1) return
           if (e.stopPropagation) e.stopPropagation()
-          setSelectedArea(['pokemon-mansion-1', 'pokemon-mansion-2'])
+          setSelectedArea(['pokemon-mansion-1', 'pokemon-mansion-2', 'pokemon-mansion-3'])
         }}></div>
 
 				<div className='seafoam-islands' data-tip="Seafoam Islands" style={{

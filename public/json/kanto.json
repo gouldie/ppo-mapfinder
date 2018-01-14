@@ -587,17 +587,27 @@
       "common": ["Rattata"],
       "uncommon": ["Raticate"],
       "rare": ["Grimer", "Koffing"],
-      "veryrare": ["Weezing", "Ditto", "Vulpix", "Growlithe"],
+      "veryrare": ["Ditto", "Vulpix", "Growlithe"],
       "extremelyrare": ["Skorupi"]
     }
   },
   "pokemon-mansion-2": {
-    "name": "Pokemon Mansion F1, F2, F3",
+    "name": "Pokemon Mansion F1, F2",
     "roam": {
       "common": ["Rattata"],
       "uncommon": ["Raticate"],
       "rare": ["Grimer", "Koffing"],
-      "veryrare": ["Weezing", "Vulpix", "Growlithe"],
+      "veryrare": ["Vulpix", "Growlithe"],
+      "extremelyrare": ["Skorupi"]
+    }
+  },
+  "pokemon-mansion-3": {
+    "name": "Pokemon Mansion F3",
+    "roam": {
+      "common": ["Rattata"],
+      "uncommon": ["Raticate"],
+      "rare": ["Grimer", "Koffing"],
+      "veryrare": ["Muk", "Vulpix", "Growlithe"],
       "extremelyrare": ["Skorupi"]
     }
   },
