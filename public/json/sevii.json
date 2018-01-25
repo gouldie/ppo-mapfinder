@@ -114,7 +114,8 @@
       "common": ["Pidgey"],
       "uncommon": ["Oddish", "Bellsprout", "Pidgeotto", "Weepinbell", "Meowth"],
       "rare": ["Gloom", "Venonat", "Persian", "Drowzee"],
-      "veryrare": ["Hypno", "Exeggcute", "Venomoth"]
+      "veryrare": ["Hypno", "Exeggcute", "Venomoth"],
+      "extremelyrare": ["Farfetch'd"]
     },
     "fish": {
       "common": ["Magikarp"],
