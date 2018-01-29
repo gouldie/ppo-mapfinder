@@ -402,7 +402,7 @@
   "solaceon-ruins": {
     "name": "Solaceon Ruins",
     "roam": {
-      "common": "Unown"
+      "common": ["Unown"]
     }
   },
   "route-209": {
