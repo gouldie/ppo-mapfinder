@@ -1,0 +1,868 @@
+{
+  "twinleaf-town": {
+    "name": "Twinleaf Town",
+    "fish": {
+      "common": ["Gyarados"],
+      "uncommon": ["Kingler"],
+      "veryrare": ["Seaking", "Psyduck"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "uncommon": ["Kingler"],
+      "veryrare": ["Psyduck"]
+    }
+  },
+  "route-201": {
+    "name": "Route 201",
+    "roam": {
+      "common": ["Nidorina", "Nidorino"],
+      "uncommon": ["Kricketot"],
+      "rare": ["Bidoof"],
+      "veryrare": ["Starly", "Doduo", "Growlithe"]
+    }
+  },
+  "verity-lake": {
+    "name": "Verity Lake",
+    "roam": {
+      "common": ["Nidorina", "Nidorino"],
+      "uncommon": ["Surskit"],
+      "rare": ["Bidoof"],
+      "veryrare": ["Starly", "Wobbuffet"]
+    },
+    "fish": {
+      "common": ["Gyarados"],
+      "uncommon": ["Goldeen"],
+      "veryrare": ["Seaking", "Psyduck", "Wobbuffet"],
+      "extremelyrare": ["Dratini", "Feebas"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "uncommon": ["Kingler"],
+      "veryrare": ["Psyduck", "Wobbuffet"]
+    }
+  },
+  "verity-cave": {
+    "name": "Verity Cave",
+    "roam": {
+      "common": ["Golem", "Golbat"],
+      "veryrare": ["Lunatone", "Solrock", "Wobbuffet"],
+      "extremelyrare": ["Onix", "Machoke", "Mawile"]
+    }
+  },
+  "route-219": {
+    "name": "Route 219",
+    "fish": {
+      "common": ["Gyarados"],
+      "uncommon": ["Goldeen"],
+      "rare": ["Finneon"],
+      "veryrare": ["Clamperl"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "uncommon": ["Wingull", "Pelipper"]
+    }
+  },
+  "route-220": {
+    "name": "Route 220",
+    "fish": {
+      "common": ["Gyarados"],
+      "uncommon": ["Goldeen"],
+      "rare": ["Finneon"],
+      "veryrare": ["Chinchou"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "uncommon": ["Wingull", "Pelipper"]
+    }
+  },
+  "route-221": {
+    "name": "Route 221",
+    "roam": {
+      "common": ["Nidorina", "Nidorino"],
+      "uncommon": ["Wingull", "Shellos", "Gastrodon"],
+      "rare": ["Stunky", "Skuntank"],
+      "veryrare": ["Floatzel", "Girafarig"],
+      "extremelyrare": ["Sudowoodo"]
+    },
+    "fish": {
+      "common": ["Gyarados"],
+      "uncommon": ["Goldeen"],
+      "rare": ["Finneon"],
+      "veryrare": ["Clamperl"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "uncommon": ["Wingull", "Pelipper"]
+    }
+  },
+  "route-202": {
+    "name": "Route 202",
+    "roam": {
+      "common": ["Nidorina", "Nidorino", "Linoone"],
+      "uncommon": ["Kricketot", "Sentret"],
+      "rare": ["Bidoof"],
+      "veryrare": ["Starly", "Growlithe", "Shinx"]
+    }
+  },
+  "route-203": {
+    "name": "Route 203",
+    "roam": {
+      "common": ["Golbat"],
+      "uncommon": ["Kricketot"],
+      "rare": ["Bidoof", "Pineco", "Lotad", "Seedot"],
+      "veryrare": ["Starly", "Shinx", "Abra", "Cubone"],
+      "extremelyrare": ["Scyther"]
+    }
+  },
+  "oreburgh-gate": {
+    "name": "Oreburgh Gate",
+    "roam": {
+      "common": ["Golbat", "Golem"],
+      "veryrare": ["Psyduck"],
+      "extremelyrare": ["Onix", "Machoke"]
+    }
+  },
+  "deep-oreburgh-mine": {
+    "name": "Deep Oreburgh Mine",
+    "roam": {
+      "common": ["Golbat", "Golem"],
+      "extremelyrare": ["Onix", "Mawile"]
+    }
+  },
+  "route-207": {
+    "name": "Route 207",
+    "roam": {
+      "common": ["Golbat", "Golem", "Nidorina", "Nidorino"],
+      "uncommon": ["Kricketot", "Kricketune"],
+      "rare": ["Stunky"],
+      "veryrare": ["Ponyta", "Phanpy", "Nosepass", "Baltoy"],
+      "extremelyrare": ["Gligar", "Machop", "Bronzor"]
+    }
+  },
+  "route-204": {
+    "name": "Route 204",
+    "roam": {
+      "common": ["Silcoon", "Cascoon", "Golbat", "Linoone", "Butterfree", "Beedrill"],
+      "uncommon": ["Kricketot"],
+      "rare": ["Bidoof", "Sunkern", "Pineco", "Lotad", "Seedot"],
+      "veryrare": ["Starly", "Shinx"],
+      "extremelyrare": ["Scyther"]
+    },
+    "fish": {
+      "common": ["Gyarados"],
+      "uncommon": ["Goldeen"],
+      "veryrare": ["Seaking"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "veryrare": ["Psyduck"]
+    }
+  },
+  "ravaged-path": {
+    "name": "Ravaged Path",
+    "roam": {
+      "common": ["Golbat", "Golem"],
+      "veryrare": ["Psyduck"],
+      "extremelyrare": ["Onix", "Machoke"]
+    }
+  },
+  "route-205": {
+    "name": "Route 205",
+    "roam": {
+      "common": ["Butterfree", "Beedrill", "Nidorina", "Nidorino"],
+      "uncommon": ["Shellos"],
+      "rare": ["Bidoof", "Pachirisu", "Hoppip"],
+      "veryrare": ["Buizel"],
+      "extremelyrare": ["Elekid"]
+    },
+    "fish": {
+      "common": ["Gyarados"],
+      "uncommon": ["Goldeen"],
+      "rare": ["Finneon", "Shellder"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "uncommon": ["Wingull", "Pelipper", "Shellos", "Gastrodon"]
+    }
+  },
+  "fuego-ironworks": {
+    "name": "Fuego Ironworks",
+    "roam": {
+      "common": ["Butterfree", "Beedrill", "Nidorina", "Nidorino"],
+      "uncommon": ["Shellos", "Wingull", "Gastrodon"],
+      "rare": ["Magnemite", "Pachirisu", "Hoppip"],
+      "veryrare": ["Magmar", "Floatzel", "Shinx", "Luxio", "Aron"],
+      "extremelyrare": ["Elekid"]
+    },
+    "fish": {
+      "common": ["Gyarados"],
+      "uncommon": ["Goldeen"],
+      "rare": ["Finneon", "Shellder"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "uncommon": ["Wingull", "Pelipper", "Shellos", "Gastrodon"]
+    }
+  },
+  "fuego-ironworks-factory": {
+    "name": "Fuego Ironworks Factory",
+    "roam": {
+      "common": ["Voltorb", "Nidorina", "Nidorino"],
+      "rare": ["Magnemite"],
+      "veryrare": ["Magmar", "Aron"],
+      "extremelyrare": ["Elekid"]
+    }
+  },
+  "eterna-forest": {
+    "name": "Eterna Forest",
+    "roam": {
+      "common": ["Gastly", "Haunter", "Gengar", "Silcoon", "Cascoon", "Beautifly", "Dustox", "Kakuna", "Metapod", "Butterfree", "Beedrill"],
+      "uncommon": ["Hoothoot", "Kricketot"],
+      "rare": ["Misdreavus", "Bidoof", "Seedot", "Pineco"],
+      "veryrare": ["Murkrow"],
+      "extremelyrare": ["Scyther", "Pinsir", "Heracross"]
+    }
+  },
+  "deep-eterna-forest": {
+    "name": "Deep Eterna Forest",
+    "roam": {
+      "common": ["Gastly", "Haunter", "Gengar", "Silcoon", "Cascoon", "Beautifly", "Dustox", "Kakuna", "Metapod", "Butterfree", "Beedrill"],
+      "uncommon": ["Hoothoot", "Kricketot"],
+      "rare": ["Misdreavus", "Bidoof", "Seedot", "Pineco"],
+      "veryrare": ["Murkrow"],
+      "extremelyrare": ["Scyther", "Pinsir", "Heracross"]
+    }
+  },
+  "old-chateau": {
+    "name": "Old Chateau",
+    "roam": {
+      "common": ["Gastly", "Haunter", "Gengar"],
+      "uncommon": ["Hoothoot", "Kricketot"],
+      "rare": ["Misdreavus"],
+      "veryrare": ["Rotom"],
+      "extremelyrare": ["Duskull", "Spiritomb"]
+    }
+  },
+  "route-211": {
+    "name": "Route 211",
+    "roam": {
+      "common": ["Golbat", "Golem"],
+      "uncommon": ["Noctowl"],
+      "rare": ["Meditite", "Bidoof", "Chingling"],
+      "veryrare": ["Teddiursa", "Ponyta"],
+      "extremelyrare": ["Machop", "Bronzor", "Swablu"]
+    }
+  },
+  "route-206": {
+    "name": "Route 206",
+    "roam": {
+      "common": ["Golbat", "Golem", "Nidorina", "Nidorino"],
+      "uncommon": ["Kricketot"],
+      "rare": ["Ponyta", "Phanpy"],
+      "extremelyrare": ["Machop", "Gligar"]
+    }
+  },
+  "wayward-cave": {
+    "name": "Wayward Cave",
+    "roam": {
+      "common": ["Golbat", "Golem"],
+      "uncommon": ["Sandslash"],
+      "extremelyrare": ["Bronzor"]
+    }
+  },
+  "deep-wayward-cave": {
+    "name": "Deep Wayward Cave",
+    "roam": {
+      "common": ["Golbat", "Golem"],
+      "uncommon": ["Sandslash"],
+      "extremelyrare": ["Bronzor"]
+    }
+  },
+  "mt-coronet-south": {
+    "name": "Mt. Coronet South",
+    "roam": {
+      "common": ["Golbat", "Golem"],
+      "rare": ["Meditite", "Chingling"],
+      "veryrare": ["Clefairy", "Cleffa", "Nosepass"],
+      "extremelyrare": ["Bronzor", "Machop"]
+    },
+    "fish": {
+      "common": ["Gyarados"],
+      "veryrare": ["Barboach", "Whiscash"]
+    },
+    "surf": {
+      "common": ["Golbat", "Tentacruel"]
+    }
+  },
+  "mt-coronet-2f": {
+    "name": "Mt. Coronet 2F",
+    "roam": {
+      "common": ["Golbat", "Golem"],
+      "rare": ["Meditite", "Chingling"],
+      "veryrare": ["Clefairy", "Nosepass", "Lunatone", "Solrock"],
+      "extremelyrare": ["Bronzor", "Bronzong", "Machop"]
+    }
+  },
+  "mt-coronet-3f": {
+    "name": "Mt. Coronet 3F",
+    "roam": {
+      "common": ["Golbat", "Golem"],
+      "rare": ["Meditite", "Chingling"],
+      "veryrare": ["Clefairy", "Nosepass", "Lunatone", "Solrock"],
+      "extremelyrare": ["Bronzor", "Bronzong", "Machop"]
+    }
+  },
+  "mt-coronet-summit": {
+    "name": "Mt. Coronet Summit",
+    "roam": {
+      "common": ["Golbat", "Golem", "Exploud", "Loudred"],
+      "uncommon": ["Noctowl"],
+      "rare": ["Meditite", "Chingling"],
+      "veryrare": ["Clefairy", "Absol", "Nosepass", "Lunatone", "Solrock"],
+      "extremelyrare": ["Bronzor", "Bronzong", "Machoke", "Snover", "Abomasnow"]
+    }
+  },
+  "mt-coronet-4f": {
+    "name": "Mt. Coronet 4F",
+    "roam": {
+      "common": ["Golbat", "Golem"],
+      "rare": ["Meditite", "Chingling"],
+      "veryrare": ["Clefairy", "Nosepass"],
+      "extremelyrare": ["Bronzor", "Bronzong", "Machoke"]
+    },
+    "fish": {
+      "common": ["Gyarados"],
+      "veryrare": ["Barboach", "Whiscash"],
+      "extremelyrare": ["Dratini", "Dragonair"]
+    },
+    "surf": {
+      "common": ["Golbat", "Tentacruel"]
+    }
+  },
+  "mt-coronet-tunnel": {
+    "name": "Mt. Coronet Tunnel",
+    "roam": {
+      "common": ["Golbat", "Golem"],
+      "rare": ["Meditite", "Chingling"],
+      "veryrare": ["Clefairy", "Nosepass"],
+      "extremelyrare": ["Bronzor", "Bronzong", "Machoke"]
+    }
+  },
+  "mt-coronet-center": {
+    "name": "Mt. Coronet Center",
+    "roam": {
+      "common": ["Golbat", "Golem"],
+      "rare": ["Meditite", "Chingling"],
+      "veryrare": ["Clefairy", "Cleffa", "Nosepass"],
+      "extremelyrare": ["Bronzor", "Machop"]
+    }
+  },
+  "celestic-town": {
+    "name": "Celestic Town",
+    "fish": {
+      "common": ["Magikarp", "Gyarados"],
+      "uncommon": ["Goldeen"],
+      "rare": ["Corphish"],
+      "veryrare": ["Psyduck", "Barboach", "Seaking"]
+    },
+    "surf": {
+      "common": ["Magikarp", "Gyarados"],
+      "veryrare": ["Psyduck"]
+    }
+  },
+  "route-210-b": {
+    "name": "Route 210 B",
+    "roam": {
+      "common": ["Golbat", "Golem", "Nidorina", "Nidorino"],
+      "uncommon": ["Noctowl"],
+      "rare": ["Meditite", "Bibarel", "Kecleon"],
+      "veryrare": ["Psyduck", "Zangoose"],
+      "extremelyrare": ["Machoke", "Swablu", "Scyther", "Bagon"]
+    },
+    "fish": {
+      "common": ["Magikarp", "Gyarados"],
+      "veryrare": ["Barboach"],
+      "extremelyrare": ["Dratini", "Dragonair"]
+    },
+    "surf": {
+      "common": ["Gyarados", "Tentacruel"],
+      "veryrare": ["Psyduck"]
+    }
+  },
+  "route-210-a": {
+    "name": "Route 210 A",
+    "roam": {
+      "common": ["Golbat", "Golem", "Nidorina", "Nidorino"],
+      "uncommon": ["Noctowl", "Kricketune"],
+      "rare": ["Pineco", "Seedot", "Nuzleaf"],
+      "veryrare": ["Ponyta", "Chansey", "Starly", "Tauros", "Miltank"],
+      "extremelyrare": ["Bonsly", "Scyther"]
+    }
+  },
+  "solaceon-ruins": {
+    "name": "Solaceon Ruins",
+    "roam": {
+      "common": "Unown"
+    }
+  },
+  "route-209": {
+    "name": "Route 209",
+    "roam": {
+      "common": ["Golbat", "Haunter"],
+      "rare": ["Bibarel", "Snubbull"],
+      "veryrare": ["Vulpix", "Chansey", "Starly", "Tauros", "Miltank"],
+      "extremelyrare": ["Bonsly", "Duskull", "Spiritomb"]
+    }
+  },
+  "lost-tower": {
+    "name": "Lost Tower",
+    "roam": {
+      "common": ["Zubat", "Golbat", "Gastly", "Haunter"],
+      "rare": ["Misdreavus"],
+      "veryrare": ["Murkrow"],
+      "extremelyrare": ["Duskull"]
+    }
+  },
+  "route-215": {
+    "name": "Route 215",
+    "roam": {
+      "common": ["Golem", "Nidorina", "Nidorino"],
+      "uncommon": ["Kricketune", "Marill"],
+      "rare": ["Drowzee", "Mightyena"],
+      "veryrare": ["Ponyta", "Abra", "Kadabra", "Starly", "Houndoom"],
+      "extremelyrare": ["Scyther", "Gligar"]
+    }
+  },
+  "route-214": {
+    "name": "Route 214",
+    "roam": {
+      "common": ["Golbat", "Golem", "Nidorina", "Nidorino"],
+      "uncommon": ["Kricketune"],
+      "rare": ["Mightyena", "Stunky"],
+      "veryrare": ["Ponyta", "Girafarig", "Houndoom", "Spoink", "Vulpix"],
+      "extremelyrare": ["Rhyhorn", "Sudowoodo", "Gligar"]
+    },
+    "fish": {
+      "common": ["Magikarp", "Gyarados"],
+      "uncommon": ["Goldeen"],
+      "veryrare": ["Seaking"]
+    },
+    "surf": {
+      "common": ["Gyarados", "Tentacruel"],
+      "veryrare": ["Psyduck"]
+    }
+  },
+  "valor-lake": {
+    "name": "Valor Lake",
+    "fish": {
+      "common": ["Magikarp", "Gyarados"],
+      "uncommon": ["Goldeen"],
+      "veryrare": ["Seaking"]
+    },
+    "surf": {
+      "common": ["Gyarados", "Tentacruel"],
+      "veryrare": ["Psyduck"]
+    }
+  },
+  "route-213": {
+    "name": "Route 213",
+    "roam": {
+      "common": ["Nidorina", "Nidorino"],
+      "uncommon": ["Pelipper", "Shellos", "Swellow"],
+      "rare": ["Chatot"],
+      "veryrare": ["Buizel", "Floatzel", "Absol"]
+    },
+    "fish": {
+      "common": ["Gyarados"],
+      "uncommon": ["Kingler"],
+      "rare": ["Remoraid"],
+      "veryrare": ["Staryu"],
+      "extremelyrare": ["Dratini", "Dragonair"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "uncommon": ["Pelipper", "Gastrodon"]
+    }
+  },
+  "pastoria-city": {
+    "name": "Pastoria City",
+    "fish": {
+      "common": ["Gyarados"],
+      "rare": ["Remoraid"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "uncommon": ["Pelipper", "Gastrodon"]
+    }
+  },
+  "sinnoh-safari-zone-1": {
+    "name": "Sinnoh Safari Zone Area 1",
+    "roam": {
+      "common": ["Nidorina", "Nidorino"],
+      "uncommon": ["Cherubi", "Scatterbug"],
+      "rare": ["Deerling", "Burmy", "Carnivine", "Shroomish"],
+      "veryrare": ["Binacle", "Ferroseed"],
+      "extremelyrare": ["Skorupi", "Snover"]
+    }
+  },
+  "sinnoh-safari-zone-2": {
+    "name": "Sinnoh Safari Zone Area 2",
+    "roam": {
+      "common": ["Nidorina", "Nidorino"],
+      "uncommon": ["Combee", "Scatterbug"],
+      "rare": ["Karrablast", "Deerling", "Skiddo"],
+      "veryrare": ["Maractus", "Ferroseed"],
+      "extremelyrare": ["Skorupi", "Bulbasaur"]
+    },
+    "fish": {
+      "common": ["Gyarados", "Tentacruel"],
+      "rare": ["Qwilfish", "Alomomola", "Corphish"],
+      "veryrare": ["Staryu", "Skrelp", "Binacle", "Inkay"],
+      "extremelyrare": ["Totodile"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "uncommon": ["Pelipper", "Gastrodon"]
+    }
+  },
+  "sinnoh-safari-zone-3": {
+    "name": "Sinnoh Safari Zone Area 3",
+    "roam": {
+      "common": ["Nidorina", "Nidorino"],
+      "uncommon": ["Combee", "Scatterbug"],
+      "rare": ["Shelmet", "Deerling", "Skiddo"],
+      "veryrare": ["Trubbish", "Ferroseed"],
+      "extremelyrare": ["Skorupi", "Heracross"]
+    },
+    "fish": {
+      "common": ["Gyarados", "Tentacruel"],
+      "rare": ["Qwilfish", "Alomomola", "Corphish"],
+      "veryrare": ["Staryu", "Skrelp", "Binacle", "Inkay"],
+      "extremelyrare": ["Dratini"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "uncommon": ["Pelipper", "Gastrodon"]
+    }
+  },
+  "route-212-b": {
+    "name": "Route 212 B",
+    "roam": {
+      "common": ["Arbok", "Nidorina", "Nidorino"],
+      "uncommon": ["Kricketune", "Shellos"],
+      "rare": ["Wooper", "Bibarel", "Muk", "Lotad"],
+      "veryrare": ["Buizel", "Toxicroak"]
+    },
+    "fish": {
+      "common": ["Gyarados"],
+      "rare": ["Remoraid", "Wooper"],
+      "veryrare": ["Staryu", "Barboach"]
+    }
+  },
+  "route-212-a": {
+    "name": "Route 212 A",
+    "roam": {
+      "common": ["Nidorina", "Nidorino"],
+      "uncommon": ["Kricketune", "Marill"],
+      "rare": ["Wooper", "Bibarel", "Smeargle"],
+      "veryrare": ["Starly"]
+    },
+    "fish": {
+      "common": ["Gyarados"],
+      "rare": ["Wooper"],
+      "veryrare": ["Psyduck", "Seaking"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "uncommon": ["Pelipper", "Goldeen"],
+      "rare": ["Wooper"],
+      "veryrare": ["Psyduck"]
+    }
+  },
+  "pokemon-mansion-backyard": {
+    "name": "Pokemon Mansion Backyard",
+    "roam": {
+      "common": ["Nidorina", "Nidorino"],
+      "uncommon": ["Kricketot", "Marill", "Meowth", "Azurill"],
+      "rare": ["Plusle", "Minun", "Castform"],
+      "veryrare": ["Pichu", "Pikachu", "Starly", "Clefairy", "Jigglypuff", "Chansey", "Ditto", "Cleffa", "Igglybuff"],
+      "extremelyrare": ["Bonsly"]
+    }
+  },
+  "route-208": {
+    "name": "Route 208",
+    "roam": {
+      "common": ["Golbat", "Nidorina", "Nidorino"],
+      "uncommon": ["Kricketune", "Combee"],
+      "rare": ["Meditite", "Bidoof", "Smeargle", "Dunsparce"],
+      "veryrare": ["Psyduck", "Zangoose", "Seviper"],
+      "extremelyrare": ["Machop"]
+    },
+    "fish": {
+      "common": ["Gyarados"],
+      "rare": ["Remoraid", "Wooper"],
+      "veryrare": ["Barboach", "Seaking"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "uncommon": ["Pelipper", "Gastrodon"],
+      "rare": ["Wooper"],
+      "veryrare": ["Psyduck"]
+    }
+  },
+  "route-218": {
+    "name": "Route 218",
+    "roam": {
+      "common": ["Electrode", "Nidorina", "Nidorino"],
+      "uncommon": ["Pelipper", "Gastrodon"],
+      "rare": ["Glameow", "Chatot"],
+      "veryrare": ["Floatzel", "Ditto"]
+    },
+    "fish": {
+      "common": ["Gyarados"],
+      "rare": ["Remoraid", "Finneon"],
+      "veryrare": ["Barboach", "Seaking"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "uncommon": ["Pelipper", "Gastrodon"],
+      "rare": ["Wooper"],
+      "veryrare": ["Psyduck"]
+    }
+  },
+  "canalave-city": {
+    "name": "Canalave City",
+    "fish": {
+      "common": ["Gyarados"],
+      "rare": ["Remoraid"],
+      "veryrare": ["Staryu"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "uncommon": ["Pelipper", "Gastrodon"]
+    }
+  },
+  "route-225": {
+    "name": "Route 225",
+    "fish": {
+      "common": ["Gyarados"],
+      "uncommon": ["Goldeen"],
+      "rare": ["Finneon", "Shellder"],
+      "veryrare": ["Staryu"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "uncommon": ["Wingull", "Pelipper", "Shellos", "Gastrodon"]
+    }
+  },
+  "iron-island": {
+    "name": "Iron Island",
+    "fish": {
+      "common": ["Gyarados"],
+      "uncommon": ["Goldeen"],
+      "rare": ["Finneon", "Shellder", "Qwilfish"],
+      "veryrare": ["Staryu"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "uncommon": ["Wingull", "Pelipper", "Shellos", "Gastrodon"]
+    }
+  },
+  "iron-cave": {
+    "name": "Iron Cave",
+    "roam": {
+      "common": ["Golem", "Golbat"],
+      "uncommon": ["Klink", "Magnemite", "Forretress"],
+      "rare": ["Finneon", "Shellder", "Qwilfish"],
+      "veryrare": ["Aggron"],
+      "extremelyrare": ["Mawile", "Bronzor", "Pawniard"]
+    }
+  },
+  "mt-coronet-b1f": {
+    "name": "Mt. Coronet B1F",
+    "roam": {
+      "common": ["Golbat", "Golem"],
+      "rare": ["Meditite", "Chingling"],
+      "veryrare": ["Clefairy", "Cleffa", "Nosepass"],
+      "extremelyrare": ["Bronzor", "Machop"]
+    },
+    "fish": {
+      "common": ["Gyarados"],
+      "veryrare": ["Barboach", "Whiscash"],
+      "extremelyrare": ["Feebas"]
+    },
+    "surf": {
+      "common": ["Golbat", "Tentacruel"]
+    }
+  },
+  "mt-coronet-north": {
+    "name": "Mt. Coronet North",
+    "roam": {
+      "common": ["Golem", "Golbat"],
+      "rare": ["Meditite", "Chingling"],
+      "veryrare": ["Clefairy", "Cleffa", "Nosepass"],
+      "extremelyrare": ["Bronzor", "Machop"]
+    }
+  },
+  "route-216": {
+    "name": "Route 216",
+    "roam": {
+      "common": ["Golem", "Golbat"],
+      "uncommon": ["Noctowl"],
+      "rare": ["Meditite"],
+      "veryrare": ["Ursaring"],
+      "extremelyrare": ["Machoke", "Sneasel", "Snorunt", "Snover", "Swinub"]
+    }
+  },
+  "route-217": {
+    "name": "Route 217",
+    "roam": {
+      "common": ["Golem", "Golbat"],
+      "uncommon": ["Noctowl"],
+      "rare": ["Meditite"],
+      "veryrare": ["Ursaring"],
+      "extremelyrare": ["Machoke", "Sneasel", "Snorunt", "Snover", "Swinub"]
+    }
+  },
+  "acuity-lakefront": {
+    "name": "Acuity Lakefront",
+    "roam": {
+      "common": ["Golem", "Golbat"],
+      "uncommon": ["Noctowl"],
+      "rare": ["Meditite"],
+      "veryrare": ["Ursaring"],
+      "extremelyrare": ["Machoke", "Sneasel", "Snorunt", "Snover", "Swinub"]
+    }
+  },
+  "acuity-lake": {
+    "name": "Acuity Lake",
+    "fish": {
+      "common": ["Gyarados"],
+      "uncommon": ["Goldeen"],
+      "veryrare": ["Psyduck", "Seaking"],
+      "extremelyrare": ["Swinub"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "veryrare": ["Psyduck", "Wobbuffet"],
+      "extremelyrare": ["Swinub"]
+    }
+  },
+  "snowpoint-city": {
+    "name": "Snowpoint City",
+    "fish": {
+      "common": ["Gyarados"],
+      "uncommon": ["Goldeen"],
+      "veryrare": ["Staryu"],
+      "extremelyrare": ["Swinub"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "veryrare": ["Psyduck", "Wobbuffet"]
+    }
+  },
+  "snowpoint-temple-5f": {
+    "name": "Snowpoint Temple 5F",
+    "roam": {
+      "common": ["Golem", "Golbat"],
+      "uncommon": ["Noctowl"],
+      "rare": ["Meditite"],
+      "veryrare": ["Ursaring"],
+      "extremelyrare": ["Sneasel"]
+    }
+  },
+  "route-222": {
+    "name": "Route 222",
+    "roam": {
+      "common": ["Nidorina", "Nidorino"],
+      "uncommon": ["Pelipper", "Gastrodon"],
+      "rare": ["Magnemite", "Glameow", "Chatot", "Skitty"],
+      "veryrare": ["Floatzel", "Flaaffy"],
+      "extremelyrare": ["Electabuzz"]
+    },
+    "fish": {
+      "common": ["Gyarados"],
+      "rare": ["Remoraid"],
+      "veryrare": ["Staryu"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "uncommon": ["Pelipper", "Gastrodon"]
+    }
+  },
+  "sunnyshore-city": {
+    "name": "Sunnyshore City",
+    "fish": {
+      "common": ["Gyarados"],
+      "uncommon": ["Goldeen"],
+      "veryrare": ["Staryu"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "veryrare": ["Psyduck", "Wobbuffet"]
+    }
+  },
+  "route-223": {
+    "name": "Route 223",
+    "fish": {
+      "common": ["Gyarados"],
+      "uncommon": ["Goldeen"],
+      "rare": ["Remoraid"],
+      "veryrare": ["Staryu", "Wailord"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "uncommon": ["Pelipper"],
+      "veryrare": ["Psyduck", "Wobbuffet"]
+    }
+  },
+  "sinnoh-victory-road": {
+    "name": "Sinnoh Victory Road",
+    "fish": {
+      "common": ["Gyarados"],
+      "uncommon": ["Goldeen"],
+      "rare": ["Remoraid"],
+      "veryrare": ["Staryu", "Wailord"]
+    },
+    "surf": {
+      "common": ["Tentacruel"],
+      "uncommon": ["Pelipper"],
+      "rare": ["Luvdisc"],
+      "veryrare": ["Psyduck", "Wobbuffet"]
+    }
+  },
+  "sinnoh-victory-road-f": {
+    "name": "Sinnoh Victory Road F1/F2",
+    "roam": {
+      "common": ["Golem", "Golbat"],
+      "uncommon": ["Dwebble", "Sandslash"],
+      "rare": ["Medicham", "Magneton", "Azumarill"],
+      "veryrare": ["Alakazam", "Aggron", "Trapinch", "Drilbur"],
+      "extremelyrare": ["Gligar", "Golett", "Onix", "Rhyhorn", "Steelix"]
+    }
+  },
+  "sinnoh-victory-road-b": {
+    "name": "Sinnoh Victory Road B1",
+    "roam": {
+      "common": ["Golem", "Golbat"],
+      "uncommon": ["Dwebble", "Sandslash"],
+      "rare": ["Medicham", "Magneton", "Azumarill"],
+      "veryrare": ["Alakazam", "Aggron", "Trapinch", "Drilbur"],
+      "extremelyrare": ["Gligar", "Golett", "Onix", "Rhyhorn", "Steelix"]
+    },
+    "fish": {
+      "common": ["Gyarados"],
+      "uncommon": ["Stunfisk"],
+      "rare": ["Remoraid"],
+      "veryrare": ["Staryu"],
+      "extremelyrare": ["Dratini"]
+    },
+    "surf": {
+      "common": ["Tentacruel", "Golbat"],
+      "uncommon": ["Kingler"],
+      "rare": ["Shellder"],
+      "veryrare": ["Floatzel"],
+      "extremelyrare": ["Milotic"]
+    }
+  }
+}
