@@ -501,7 +501,7 @@
       "uncommon": ["Gloom"],
       "rare": ["Pachirisu", "Meditite"],
       "veryrare": ["Timburr", "Ferroseed", "Drilbur", "Starly", "Pikachu", "Girafarig", "Xatu", "Donphan"],
-      "extremelyrare": ["Treecko", "Torchic", "Litwick", "Larvesta", "Fletchling", "Pawniard", "Rhyhorn"]
+      "extremelyrare": ["Treecko", "Torchic", "Litwick", "Larvesta", "Fletchling", "Pawniard"]
     },
     "fish": {
       "common": ["Gyarados"],
