@@ -381,8 +381,7 @@
     },
     "fish": {
       "common": ["Magikarp", "Gyarados"],
-      "veryrare": ["Barboach"],
-      "extremelyrare": ["Dratini", "Dragonair"]
+      "veryrare": ["Barboach"]
     },
     "surf": {
       "common": ["Gyarados", "Tentacruel"],
