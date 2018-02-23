@@ -671,8 +671,7 @@
     "name": "Iron Cave",
     "roam": {
       "common": ["Golem", "Golbat"],
-      "uncommon": ["Klink", "Magnemite", "Forretress"],
-      "rare": ["Finneon", "Shellder", "Qwilfish"],
+      "rare": ["Klink", "Magnemite", "Forretress"],
       "veryrare": ["Aggron"],
       "extremelyrare": ["Mawile", "Bronzor", "Pawniard"]
     }
