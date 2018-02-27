@@ -725,13 +725,15 @@ export default class Johto extends Component {
           width: '8px',
           height: '40px',
           backgroundColor: mode === 0 ? selectedArea.indexOf('route-212-a') >= 0 ? 'indianred' : ''
-            : matchedAreas && matchedAreas.indexOf('route-212-a') >= 0 ? 'indianred' : '' ,
+            : matchedAreas && matchedAreas.indexOf('route-212-a') >= 0 
+            || matchedAreas && matchedAreas.indexOf('pokemon-mansion-backyard') >= 0 ? 'indianred' : '' ,
           animation: mode === 0 ? selectedArea.indexOf('route-212-a') >= 0 ? 'pulse 2s infinite' : ''
-            : matchedAreas && matchedAreas.indexOf('route-212-a') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('route-212-a') >= 0 
+            || matchedAreas && matchedAreas.indexOf('pokemon-mansion-backyard') >= 0 ? 'pulse 2s infinite' : ''
         }} onClick={(e) => {
           if (mode === 1) return
           if (e.stopPropagation) e.stopPropagation()
-          setSelectedArea(['route-212-a'])
+          setSelectedArea(['route-212-a', 'pokemon-mansion-backyard'])
         }}>
         </div>
 
