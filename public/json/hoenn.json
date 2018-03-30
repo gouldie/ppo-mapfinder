@@ -266,7 +266,7 @@
       "common": ["Magneton", "Gengar", "Arbok", "Exploud", "Electrode", "Golem", "Fearow"],
       "rare": ["Shroomish"],
       "veryrare": ["Clefairy", "Chansey", "Aggron", "Growlithe", "Alakazam", "Dewgong"],
-      "extremelyrare": ["Salamence", "Goodra", "Deino"]
+      "extremelyrare": ["Salamence", "Deino"]
     },
     "fish": {
       "common": ["Gyarados", "Tentacruel"],

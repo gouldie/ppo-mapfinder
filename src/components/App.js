@@ -82,7 +82,7 @@ export default class App extends Component {
           right: '0',
           minWidth: '930px'
 				}}>
-          <p style={{ marginBottom: '5px', textAlign: 'center', color: 'azure' }}>made with ♥ by Gouldie</p>
+          <p style={{ marginBottom: '5px', textAlign: 'center', color: 'black' }}>idea and design by DracoCaeser, made with ♥ by Gouldie</p>
         </div>
       </div>
     )
