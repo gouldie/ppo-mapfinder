@@ -425,7 +425,7 @@
     }
   },
   "route-5": {
-    "name": "Route 18",
+    "name": "Route 5",
     "roam": {
       "common": ["Pidgey"],
       "uncommon": ["Oddish", "Bellsprout"],

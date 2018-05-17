@@ -453,7 +453,8 @@
     },
     "surf": {
       "common": ["Tentacool"],
-      "rare": ["Psyduck", "Tentacruel"]
+      "rare": ["Tentacruel"],
+      "veryrare": ["Psyduck"]
     }
   },
   "national-park": {
