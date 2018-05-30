@@ -501,7 +501,7 @@
       "uncommon": ["Cherubi", "Scatterbug"],
       "rare": ["Deerling", "Burmy", "Carnivine", "Shroomish"],
       "veryrare": ["Binacle", "Ferroseed"],
-      "extremelyrare": ["Skorupi", "Snover"]
+      "extremelyrare": ["Turtwig"]
     }
   },
   "sinnoh-safari-zone-2": {
@@ -511,7 +511,7 @@
       "uncommon": ["Combee", "Scatterbug"],
       "rare": ["Karrablast", "Deerling", "Skiddo"],
       "veryrare": ["Maractus", "Ferroseed"],
-      "extremelyrare": ["Skorupi", "Bulbasaur"]
+      "extremelyrare": ["Chimchar"]
     },
     "fish": {
       "common": ["Gyarados", "Tentacruel"],
@@ -531,13 +531,13 @@
       "uncommon": ["Combee", "Scatterbug"],
       "rare": ["Shelmet", "Deerling", "Skiddo"],
       "veryrare": ["Trubbish", "Ferroseed"],
-      "extremelyrare": ["Skorupi", "Heracross"]
+      "extremelyrare": ["Solosis"]
     },
     "fish": {
       "common": ["Gyarados", "Tentacruel"],
       "rare": ["Qwilfish", "Alomomola", "Corphish"],
       "veryrare": ["Staryu", "Skrelp", "Binacle", "Inkay"],
-      "extremelyrare": ["Dratini"]
+      "extremelyrare": ["Piplup"]
     },
     "surf": {
       "common": ["Tentacruel"],
