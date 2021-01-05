@@ -20,10 +20,12 @@ export default class Info extends Component {
       selectedMap, selectedArea, selectedPokemon, setSelectedMap, setSelectedPokemon, mode
     } = this.props
 
+
     const details = selectedArea && selectedArea.length > 0 ? selectedArea.map(area => {
     	return JSONtoObj[area]
-    }) : undefined
+    }).filter(e => e) : undefined
 
+    console.log('t', details)
     return mode === 0 ?
       (
       <div id="info-container" style={{width: '450px'}}>
@@ -34,11 +36,12 @@ export default class Info extends Component {
 
           {
             details && details.length > 0 ? details.map((detail, i) => {
+              console.log('test', details)
             	return listAreaDetails(detail, i)
             })
               :
               <p style={{textAlign: 'center', marginTop: '20px', fontSize: '26px'}}>
-                Select an area on the map : ^)
+                {details ? 'No pokemon found here : ^(' : 'Select an area on the map : ^)'}
               </p>
           }
         </div>

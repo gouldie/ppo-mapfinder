@@ -83,6 +83,24 @@ export default class Kanto extends Component {
 					setSelectedArea(['viridian-forest-1', 'viridian-forest-2'])
 				}}></div>
 
+        <div className='pewter-city' data-tip="Pewter City" style={{
+          cursor: mode === 0 ? 'pointer' : 'default',
+          position: 'absolute',
+          top: '68px',
+          left: '80px',
+          width: '28px',
+          height: '29px',
+          borderRadius: '50%',
+          backgroundColor: mode === 0 ? selectedArea.indexOf('pewter-city') >= 0 ? 'indianred' : ''
+            : matchedAreas && matchedAreas.indexOf('pewter-city') >= 0 ? 'indianred' : '' ,
+          animation: mode === 0 ? selectedArea.indexOf('pewter-city') >= 0 ? 'pulse 2s infinite' : ''
+            : matchedAreas && matchedAreas.indexOf('pewter-city') >= 0 ? 'pulse 2s infinite' : ''
+        }} onClick={(e) => {
+          if (mode === 1) return
+          if (e.stopPropagation) e.stopPropagation()
+          setSelectedArea(['pewter-city'])
+        }}></div>
+
 				<div className='cerulean-city' data-tip="Cerulean City" style={{
 					cursor: mode === 0 ? 'pointer' : 'default',
 					position: 'absolute',
