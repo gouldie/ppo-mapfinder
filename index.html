@@ -1,18 +1,59 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>PPO Townmap</title>
 
-    <link rel="shortcut icon" href="public/imgs/favicon.png" type="image/png">
-    <link href="/ppo-townmap/public/style/style.css" rel="stylesheet">
-    <link href="/ppo-townmap/public/style/bootstrap.css" rel="stylesheet">
-    <link href="/ppo-townmap/public/style/react-select.css" rel="stylesheet">
-    <link href="/ppo-townmap/public/style/flex.css" rel="stylesheet">
+    <!-- <link rel="shortcut icon" href="public/imgs/favicon.png" type="image/png">
+    <link href="/public/style/style.css" rel="stylesheet">
+    <link href="/public/style/bootstrap.css" rel="stylesheet">
+    <link href="/public/style/react-select.css" rel="stylesheet">
+    <link href="/public/style/flex.css" rel="stylesheet"> -->
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-</head>
-<body>
-<div class="container"></div>
-</body>
-<script src="/ppo-townmap/bundle.js"></script>
+  </head>
+  <body>
+    <div class="container"></div>
+  </body>
+  <!-- <script src="/bundle.js"></script> -->
+
+  <script>
+    var prepend = window.location.hostname === 'localhost' ? '' : '/ppo-townmap'
+
+    // Bundle
+    var bundle = document.createElement("script")
+    bundle.setAttribute("src", prepend + "/bundle.js")
+    bundle.setAttribute("type", "text/javascript")
+    document.getElementsByTagName("head")[0].appendChild(bundle)
+
+    // Favicon
+    var favicon = document.createElement("link")
+    favicon.setAttribute("href", prepend + "/public/imgs/favicon.png")
+    favicon.setAttribute("type", "image/png")
+    favicon.setAttribute("rel", "shortcut icon")
+    document.getElementsByTagName("head")[0].appendChild(favicon)
+
+    // Style
+    var style = document.createElement("link")
+    style.setAttribute("href", prepend + "/public/style/style.css")
+    style.setAttribute("rel", "stylesheet")
+    document.getElementsByTagName("head")[0].appendChild(style)
+
+    // Bootstrap
+    var bootstrap = document.createElement("link")
+    bootstrap.setAttribute("href", prepend + "/public/style/bootstrap.css")
+    bootstrap.setAttribute("rel", "stylesheet")
+    document.getElementsByTagName("head")[0].appendChild(bootstrap)
+
+    // react-select
+    var reactSelect = document.createElement("link")
+    reactSelect.setAttribute("href", prepend + "/public/style/react-select.css")
+    reactSelect.setAttribute("rel", "stylesheet")
+    document.getElementsByTagName("head")[0].appendChild(reactSelect)
+
+     // Flex
+    var flex = document.createElement("link")
+    flex.setAttribute("href", prepend + "/public/style/flex.css")
+    flex.setAttribute("rel", "stylesheet")
+    document.getElementsByTagName("head")[0].appendChild(flex)
+  </script>
 </html>
