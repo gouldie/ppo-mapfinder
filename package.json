@@ -1,12 +1,11 @@
 {
   "name": "ppo-townmap",
   "version": "1.0.0",
-  "description": "Map finder for the online game Pokemon Planet.",
+  "description": "Map finder for the online game Pokemon Planet",
   "main": "index.js",
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "prod": "NODE_ENV=production node server.js",
-    "postinstall": "webpack -p"
+    "start": "webpack serve",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -19,17 +18,18 @@
   },
   "homepage": "https://github.com/gouldie/ppo-townmap#readme",
   "devDependencies": {
-    "babel-preset-es2015": "6.1.18",
-    "babel-preset-react": "6.1.18"
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
   },
   "dependencies": {
-    "babel-core": "6.2.1",
-    "babel-loader": "6.2.0",
-    "react": "15.5.4",
-    "react-dom": "15.5.4",
-    "react-select": "1.0.0-rc.5",
-    "react-tooltip": "3.3.0",
-    "webpack": "2.6.1",
-    "webpack-dev-server": "2.4.5"
+    "@babel/core": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-select": "^3.1.1",
+    "react-tooltip": "^4.2.11",
+    "webpack": "^5.13.0"
   }
 }

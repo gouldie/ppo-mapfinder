@@ -53,19 +53,19 @@ export default class Map extends Component {
               clearable={false}
             />
           </div>
-          <img src={`../../${window.location.hostname === "localhost" ? "" : "ppo-townmap/"}public/imgs/${mapRegionToImage[selectedMap]}.png`} alt=""
+          <img src={`../../${window.location.hostname === "localhost" ? "" : "ppo-townmap/"}public/imgs/${mapRegionToImage[selectedMap.value]}.png`} alt=""
                style={{width: '450px', height: '327px', padding: '5px', border: '1px solid gray'}}/>
 
           <div onClick={() => setSelectedArea([])}
                style={{position: 'absolute', width: '450px', height: '327px', top: '155px', padding: '5px'}}>
             {
-              selectedMap === 'Kanto' ?
+              selectedMap.value === 'Kanto' ?
                 <Kanto selectedArea={selectedArea} setSelectedArea={setSelectedArea} mode={mode} />
-                  : selectedMap === 'Johto' ?
+                  : selectedMap.value === 'Johto' ?
                   <Johto selectedArea={selectedArea} setSelectedArea={setSelectedArea} mode={mode} />
-									: selectedMap === 'Hoenn' ?
+									: selectedMap.value === 'Hoenn' ?
 										<Hoenn selectedArea={selectedArea} setSelectedArea={setSelectedArea} mode={mode} />
-										: selectedMap === 'Sinnoh' ?
+										: selectedMap.value === 'Sinnoh' ?
                       <Sinnoh selectedArea={selectedArea} setSelectedArea={setSelectedArea} mode={mode} />
                       : <Sevii selectedArea={selectedArea} setSelectedArea={setSelectedArea} mode={mode} />
 						}
@@ -83,22 +83,22 @@ export default class Map extends Component {
             clearable={false}
           />
         </div>
-        <img src={`../../${window.location.hostname === "localhost" ? "" : "ppo-townmap/"}public/imgs/${mapRegionToImage[selectedMap]}.png`} alt=""
+        <img src={`../../${window.location.hostname === "localhost" ? "" : "ppo-townmap/"}public/imgs/${mapRegionToImage[selectedMap.value]}.png`} alt=""
              style={{width: '450px', height: '327px', padding: '5px', border: '1px solid gray'}}/>
 
         <div onClick={() => setSelectedArea([])}
              style={{position: 'absolute', width: '450px', height: '327px', top: '155px', padding: '5px'}}>
           {
-            selectedMap === 'Kanto' ?
+            selectedMap.value === 'Kanto' ?
               <Kanto selectedArea={selectedArea} setSelectedArea={setSelectedArea} mode={mode}
                      selectedPokemon={selectedPokemon} matchedAreas={matchedAreasStr} />
-              : selectedMap === 'Johto' ?
+              : selectedMap.value === 'Johto' ?
                 <Johto selectedArea={selectedArea} setSelectedArea={setSelectedArea} mode={mode}
                      selectedPokemon={selectedPokemon} matchedAreas={matchedAreasStr} />
-                : selectedMap === 'Hoenn' ?
+                : selectedMap.value === 'Hoenn' ?
 									<Hoenn selectedArea={selectedArea} setSelectedArea={setSelectedArea} mode={mode}
                        selectedPokemon={selectedPokemon} matchedAreas={matchedAreasStr} />
-									: selectedMap === 'Sinnoh' ?
+									: selectedMap.value === 'Sinnoh' ?
                   <Sinnoh selectedArea={selectedArea} setSelectedArea={setSelectedArea} mode={mode}
                        selectedPokemon={selectedPokemon} matchedAreas={matchedAreasStr} />
 									: <Sevii selectedArea={selectedArea} setSelectedArea={setSelectedArea} mode={mode}

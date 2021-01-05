@@ -54,7 +54,13 @@ export default class Info extends Component {
             options={JSONtoPokemonList(regionJSON)}
             onChange={(e) => {
               setSelectedPokemon(e)
-              setSelectedMap({value: pokemonToRegionsFound(e.value, regionJSON)[0]})
+
+              const map = pokemonToRegionsFound(e.value, regionJSON)[0]
+
+              setSelectedMap({
+                value: map,
+                label: map
+              })
             }}
             clearable={false}
           />

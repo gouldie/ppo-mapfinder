@@ -9,7 +9,10 @@ export default class App extends Component {
 
     this.state = {
       mode: 0, // 0: by map, 1: by pokemon
-      selectedMap: 'Kanto',
+      selectedMap: {
+        value: 'Kanto',
+        label: 'Kanto'
+      },
       selectedArea: [],
       selectedPokemon: null,
     }
@@ -25,7 +28,7 @@ export default class App extends Component {
   }
 
   setSelectedMap(map) {
-    this.setState({ selectedMap: map.value })
+    this.setState({ selectedMap: map })
   }
 
   setSelectedArea(area) {
@@ -72,7 +75,7 @@ export default class App extends Component {
                 setSelectedPokemon={this.setSelectedPokemon} setSelectedMap={this.setSelectedMap} />
         </div>
         <p style={{ marginTop: "10px", textAlign: "center" }}>
-          Something wrong? Let me know <a target="_blank" href="http://pokemon-planet.com/forums/index.php?topic=25445.0"> here</a>.
+          Something wrong? Let me know <a target="_blank" href="http://pokemon-planet.com/forums/index.php?topic=25445.0">here</a>.
         </p>
 
         <div className='footer' style={{
